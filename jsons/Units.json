@@ -1,379 +1,175 @@
 [
-    /* CAMPIONI DELLE CIVILTA' Romolo, Cesare, Federico Puer Apulia, Dante (cavaliere), Leonardo, Machiavelli, Garibaldi, Partigiano, Giustizia */
+	/* DA GREEK SPLIT */
 	{
-		"name": "Romolo", /* Immagine DA IMPOSTARE */
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 11,
-		"cost": 500,
-		"uniques": [
-			"[+15]% Strength <vs [Barbarian] units>",
-			"[+10]% Strength bonus for [Military] units within [2] tiles",
-			"[-5]% Strength for enemy [Military] units in adjacent [All] tiles",
-			"Uncapturable",
-			"Limited to [1] per Civilization",
-			"Only available <in cities with a [Lupa capitolina]>",
-			"[+100]% XP gained from combat",
-			"Heals [25] damage if it kills a unit",
-			"[+50]% Strength <for every [Era number]>",
-			"[+25]% Strength <starting from the [Modern era]>",
-			"[+25]% Strength <starting from the [Atomic era]>",
-			"[+25]% Strength <starting from the [Information era]>",
-			"[+25]% Strength <starting from the [Future era]>",
-			"[+1] Movement <starting from the [Renaissance era]>",
-			"[+1] Movement <starting from the [Modern era]>",
-			"[+1] Movement <starting from the [Information era]>",
-			"Cost increases by [50] when built",
-			"[-10]% Strength <for [All] units> <for [10] turns> <upon being defeated>",
-			"Gain [-50] [Science] <(modified by game speed)> <upon being defeated> <hidden from users>",
-			"Gain [-50] [Culture] <(modified by game speed)> <upon being defeated> <hidden from users>",
-			"Gain [-100] [Gold] <(modified by game speed)> <upon being defeated> <hidden from users>",
-			"Comment [Lose [-50 Culture, -50 Science, -100 Gold] upon being defeated]"
-		],
-		"promotions": ["Mystic Blade"],
-		"attackSound": "metalhit"
-	},	
-	{
-		"name": "Cesare", /* Immagine DA IMPOSTARE */
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 20,
-		"cost": 500,
-		"uniques": [
-			"[+15]% Strength <vs [Barbarian] units>",
-			"[+10]% Strength bonus for [Military] units within [2] tiles",
-			"[-5]% Strength for enemy [Military] units in adjacent [All] tiles",
-			"Uncapturable",
-			"Limited to [1] per Civilization",
-			"Only available <in cities with a [Foro di Cesare]>",
-			"[+100]% XP gained from combat",
-			"Heals [25] damage if it kills a unit",
-			"[+50]% Strength <for every [Era number]>",
-			"[+25]% Strength <starting from the [Modern era]>",
-			"[+25]% Strength <starting from the [Atomic era]>",
-			"[+25]% Strength <starting from the [Information era]>",
-			"[+25]% Strength <starting from the [Future era]>",
-			"[+1] Movement <starting from the [Renaissance era]>",
-			"[+1] Movement <starting from the [Modern era]>",
-			"[+1] Movement <starting from the [Information era]>",
-			"Cost increases by [50] when built",
-			"[-10]% Strength <for [All] units> <for [10] turns> <upon being defeated>",
-			"Gain [-50] [Science] <(modified by game speed)> <upon being defeated> <hidden from users>",
-			"Gain [-50] [Culture] <(modified by game speed)> <upon being defeated> <hidden from users>",
-			"Gain [-100] [Gold] <(modified by game speed)> <upon being defeated> <hidden from users>",
-			"Comment [Lose [-50 Culture, -50 Science, -100 Gold] upon being defeated]"
-		],
-		"promotions": ["Mystic Blade"],
-		"attackSound": "metalhit"
-	    },	
-	    {
-		"name": "Federico Puer Apulia", /* Immagine DA IMPOSTARE */
-		"unitType": "Civilian",
-		"uniques": [
-			 "Limited to [1] per Civilization",
-			 "Only available <in cities with a [Castel del Monte]>",
-             "[+15]% Strength bonus for [Military] units within [2] tiles",
-			 "[-5]% Strength for enemy [Military] units in adjacent [All] tiles",
-			 "[+1] Movement <starting from the [Renaissance era]>",
-			 "[+1] Movement <starting from the [Modern era]>",
-			 "[+1] Movement <starting from the [Information era]>",
-             "Can instantly construct a [Citadel] improvement <[7] times> <after which this unit is consumed>",
-			"Is part of Great Person group [General]",
-			"Great Person - [War]", "Unbuildable", "Uncapturable"],
-		"movement": 2
-	    },
-	    {
-		"name": "Dante", /* Immagine DA IMPOSTARE */
-		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 22,
-		"cost": 500,
-		"uniques": [
-			"[+15]% Strength <vs [Barbarian] units>",
-			"[+10]% Strength bonus for [Military] units within [2] tiles",
-			"[-5]% Strength for enemy [Military] units in adjacent [All] tiles",
-			"Uncapturable",
-			"Limited to [1] per Civilization",
-			"Only available <in cities with a [Comedia]>",
-			"[+100]% XP gained from combat",
-			"Heals [25] damage if it kills a unit",
-			"[+50]% Strength <for every [Era number]>",
-			"[+25]% Strength <starting from the [Modern era]>",
-			"[+25]% Strength <starting from the [Atomic era]>",
-			"[+25]% Strength <starting from the [Information era]>",
-			"[+25]% Strength <starting from the [Future era]>",
-			"[+1] Movement <starting from the [Renaissance era]>",
-			"[+1] Movement <starting from the [Modern era]>",
-			"[+1] Movement <starting from the [Information era]>",
-			"Cost increases by [50] when built",
-			"[-10]% Strength <for [All] units> <for [10] turns> <upon being defeated>",
-			"Gain [-50] [Science] <(modified by game speed)> <upon being defeated> <hidden from users>",
-			"Gain [-50] [Culture] <(modified by game speed)> <upon being defeated> <hidden from users>",
-			"Gain [-100] [Gold] <(modified by game speed)> <upon being defeated> <hidden from users>",
-			"Comment [Lose [-50 Culture, -50 Science, -100 Gold] upon being defeated]",
-			"Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
-		],
-		"promotions": ["Mystic Blade"],
-		"attackSound": "horse"
-	    },	
-	    {
-		"name": "Leonardo", /* Immagine DA IMPOSTARE */
-		"unitType": "Civilian",
-		"uniques": [
-			 "Limited to [1] per Civilization",
-			 "Only available <in cities with a [Cupola del Brunelleschi]>",
-             "[+1] Movement <starting from the [Renaissance era]>",
-			 "[+1] Movement <starting from the [Modern era]>",
-			 "[+1] Movement <starting from the [Information era]>",
-             "Can instantly construct a [Landmark] improvement <[7] times> <after which this unit is consumed>",
-			 "Can instantly construct a [Manufactory] improvement <[7] times> <after which this unit is consumed>",
-			"Is part of Great Person group [Great Person]",
-			"Great Person - [Production]", "Unbuildable", "Uncapturable"],
-		"movement": 2
-	    },
-	     {
-		"name": "Machiavelli", /* Immagine DA IMPOSTARE */
-		"unitType": "Civilian",
-		"uniques": [
-			 "Limited to [1] per Civilization",
-			 "Only available <in cities with a [Il Principe]>",
-             "[+1] Movement <starting from the [Renaissance era]>",
-			 "[+1] Movement <starting from the [Modern era]>",
-			 "[+1] Movement <starting from the [Information era]>",
-             "Can instantly construct a [Landmark] improvement <[7] times> <after which this unit is consumed>",
-			 "Can instantly construct a [Manufactory] improvement <[7] times> <after which this unit is consumed>",
-			"Is part of Great Person group [Great Person]",
-			"Great Person - [Production]", "Unbuildable", "Uncapturable"],
-		"movement": 2
-	    },
-		{
-		"name": "Garibaldi", /* Immagine DA IMPOSTARE */
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 38,
-		"cost": 500,
-		"uniques": [
-			"[+10]% Strength bonus for [Military] units within [2] tiles",
-			"[-5]% Strength for enemy [Military] units in adjacent [All] tiles",
-			"Uncapturable",
-			"Limited to [1] per Civilization",
-			"Only available <in cities with a [Altare 17 Marzo]>",
-			"[+100]% XP gained from combat",
-			"Heals [25] damage if it kills a unit",
-			"[+50]% Strength <for every [Era number]>",
-			"[+25]% Strength <starting from the [Modern era]>",
-			"[+25]% Strength <starting from the [Atomic era]>",
-			"[+25]% Strength <starting from the [Information era]>",
-			"[+25]% Strength <starting from the [Future era]>",
-			"[+1] Movement <starting from the [Modern era]>",
-			"[+1] Movement <starting from the [Information era]>",
-			"Cost increases by [50] when built",
-			"[-10]% Strength <for [All] units> <for [10] turns> <upon being defeated>",
-			"Gain [-50] [Science] <(modified by game speed)> <upon being defeated> <hidden from users>",
-			"Gain [-50] [Culture] <(modified by game speed)> <upon being defeated> <hidden from users>",
-			"Gain [-100] [Gold] <(modified by game speed)> <upon being defeated> <hidden from users>",
-			"Comment [Lose [-50 Culture, -50 Science, -100 Gold] upon being defeated]"
-		],
-		"promotions": ["Mystic Blade", "Stringiamci a coorte"],
-		"attackSound": "shot"
-	    },	
-		{
-		"name": "Partigiano", /* Immagine DA IMPOSTARE */
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 66,
-		"cost": 500,
-		"uniques": [
-			"[+10]% Strength bonus for [Military] units within [2] tiles",
-			"[-5]% Strength for enemy [Military] units in adjacent [All] tiles",
-			"Uncapturable",
-			"Limited to [1] per Civilization",
-			"Only available <in cities with a [Costituzione Italiana]>",
-			"[+100]% XP gained from combat",
-			"Heals [25] damage if it kills a unit",
-			"[+50]% Strength <for every [Era number]>",
-			"[+25]% Strength <starting from the [Modern era]>",
-			"[+25]% Strength <starting from the [Atomic era]>",
-			"[+25]% Strength <starting from the [Information era]>",
-			"[+25]% Strength <starting from the [Future era]>",
-			"[+1] Movement <starting from the [Modern era]>",
-			"[+1] Movement <starting from the [Information era]>",
-			"Cost increases by [50] when built",
-			"[-10]% Strength <for [All] units> <for [10] turns> <upon being defeated>",
-			"Gain [-50] [Science] <(modified by game speed)> <upon being defeated> <hidden from users>",
-			"Gain [-50] [Culture] <(modified by game speed)> <upon being defeated> <hidden from users>",
-			"Gain [-100] [Gold] <(modified by game speed)> <upon being defeated> <hidden from users>",
-			"Comment [Lose [-50 Culture, -50 Science, -100 Gold] upon being defeated]"
-		],
-		"promotions": ["Mystic Blade", "Stringiamci a coorte", "Resilienza italiana"],
-		"attackSound": "shot"
-	    },	
-		{
-		"name": "Giustizia", /* Immagine DA IMPOSTARE */
-		"unitType": "Civilian",
-		"uniques": [
-			 "Limited to [1] per Civilization",
-			 "Only available <in cities with a [Palazzo di Giustizia Falcone e Borsellino]>",
-             "[+15]% Strength bonus for [Military] units within [2] tiles",
-			 "[-5]% Strength for enemy [Military] units in adjacent [All] tiles",
-			 "[+1] Movement <starting from the [Modern era]>",
-			 "[+1] Movement <starting from the [Information era]>",
-             "Can instantly construct a [Citadel] improvement <[7] times> <after which this unit is consumed>",
-			"Is part of Great Person group [General]",
-			"Great Person - [War]", "Unbuildable", "Uncapturable",
-		    "[-10]% Strength <for [All] units> <for [10] turns> <upon being defeated>",
-			"Gain [-50] [Science] <(modified by game speed)> <upon being defeated> <hidden from users>",
-			"Gain [-50] [Culture] <(modified by game speed)> <upon being defeated> <hidden from users>",
-			"Gain [-100] [Gold] <(modified by game speed)> <upon being defeated> <hidden from users>",
-			"Comment [Lose [-50 Culture, -50 Science, -100 Gold] upon being defeated]"
-		],
-		"movement": 2
-	    },
-	    /* Great people */
-	 
-	    /* UNITA' UNICHE STANDARD*/
-	    /* Ancient Era */
-	   {
-		"name": "Civis",
-		"unitType": "Civilian",
-		"uniqueTo": "Italia",
-		"replaces": "Worker",
-		"movement": 3,
-		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
-		"cost": 80
-	   },
-	   {
-		"name": "Guerriero italico", //IMMAGINE DA VALUTARE
-		"unitType": "Sword",
-		"uniqueTo": "Italia",
-		"replaces": "Warrior",
-		"movement": 2,
-		"strength": 8,
-		"cost": 40,
-		"obsoleteTech": "Metal Casting",
-		"promotions": ["Resilienza italiana"],
-		"upgradesTo": "Swordsman",
-		"uniques": ["May upgrade to [Spearman] through ruins-like effects"],
-		"attackSound": "nonmetalhit",
-        "civilopediaText": [
-			{"text": "This is your basic, club-swinging fighter."}
-		]
-	   },
-	   {
-		"name": "Oplite Magna Grecia",
+		"name": "Hoplite",
 		"unitType": "Sword",
 		"replaces": "Spearman",
-		"uniqueTo": "Italia",
+		"uniqueTo": "Macedonia",
 		"movement": 2,
 		"strength": 13,
+		"cost": 63,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Steel",
+		"upgradesTo": "Longswordsman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+15]% Strength <when adjacent to a [Hoplite] unit>"],
+		"attackSound": "metalhit"
+	},
+	  {
+		"name": "Sacred Band",
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"uniqueTo": "Thebes",
+		"movement": 2,
+		"strength": 11,
+		"cost": 75,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Steel",
+		"upgradesTo": "Longswordsman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+100]% to Flank Attack bonuses", "Gain [10] [Culture] <upon being defeated>", "No damage penalty for wounded units", "[+33]% Strength <when defending> <when above [66] HP>", "[+100]% XP gained from combat <when above [25] HP> <when below [75] HP>", "[+33]% Strength <when below [34] HP> <when attacking>"],
+		"attackSound": "metalhit",
+"civilopediaText": [ 
+                         { 
+                                 "extraImage": "TileSets/FantasyHex/Units/Sacred Band", 
+                                 "imageSize": 128 
+                         }, 
+                         { 
+                                 "Separator": true 
+                         }, 
+                         { 
+                                 "text": "These guys were dope. \nSuck it Snyder" 
+                         } 
+                 ]
+	},
+{
+		"name": "Sarissa Phalanx",
+		"unitType": "Sword",
+		"replaces": "Pikeman",
+		"uniqueTo": "Macedonia",
+		"movement": 2,
+		"strength": 15,
+		"cost": 80,
+		"requiredTech": "Philosophy",
+		"obsoleteTech": "Metallurgy",
+		"upgradesTo": "Lancer",
+                "promotions": ["Great Generals I"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+10]% Strength <when adjacent to a [Sarissa Phalanx] unit>", "[+25]% Strength <vs [Spearman] units>", "[+25]% Strength <vs [Pikeman] units>", "[+20]% Strength <vs [Melee] units> <when defending>"],
+		"attackSound": "metalhit",
+"civilopediaText": [ 
+                         { 
+                                 "extraImage": "TileSets/FantasyHex/Units/Sarissa Phalanx", 
+                                 "imageSize": 128 
+                         }, 
+                         { 
+                                 "Separator": true 
+                         }, 
+                         { 
+                                 "text": "Do not leave out in areas exposed to halberds" 
+                         } 
+                 ]
+	},
+  	{
+		"name": "Companion Cavalry",
+		"unitType": "Mounted",
+		"uniqueTo": "Macedonia",
+		"replaces": "Horseman",
+		"movement": 5,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"promotions": ["Great Generals I"],
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+  {
+		"name": "Rammed Trireme",
+		"unitType": "Melee Water",
+		"uniqueTo": "Athens",
+		"replaces": "Trireme",
+		"movement": 4,
+		"strength": 10,
+		"cost": 45,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles", "Transfer Movement to [Epibatai]", "[+50]% Strength when stacked with [Epibatai]"],
+                "promotions": ["Boarding Party I", "Boarding Party II"],
+		"upgradesTo": "Caravel",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "nonmetalhit"
+	},
+    {
+		"name": "Epibatai",
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"uniqueTo": "Athens",
+		"movement": 2,
+		"strength": 10,
 		"cost": 56,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
+                "promotions": ["Marine Training"],
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
-	   },
-       /* Classical Era */
-       {
-		"name": "Ballista",
-		"unitType": "Siege",
-		"replaces": "Catapult",
-		"uniqueTo": "Italia",
+	},
+	{
+		"name": "Peltast",
+		"replaces": "Composite Bowman",
+		"uniqueTo": "Macedonia",
+		"unitType": "Archery",
 		"movement": 2,
 		"strength": 8,
-		"rangedStrength": 10,
-		"cost": 75,
-		"requiredTech": "Mathematics",
-		"obsoleteTech": "Physics",
-		"upgradesTo": "Trebuchet",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
-			"Must set up to ranged attack", "[-1] Sight"],
-		"hurryCostModifier": 20,
-		"attackSound": "throw"
-	    },
-	    {
-		"name": "Legionario",
+		"rangedStrength": 12,
+                "range": 1,
+		"cost": 56,
+		"hurryCostModifier": -25,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+                "promotions": ["Drill I", "Ignore terrain cost"],
+                "uniques": ["May withdraw before melee ([66]%)", "Can move immediately once bought", "[+100]% to Flank Attack bonuses"],
+		"attackSound": "arrow",
+"civilopediaText": [ 
+                         { 
+                                 "extraImage": "TileSets/FantasyHex/Units/Peltast", 
+                                 "imageSize": 128 
+                         }, 
+                         { 
+                                 "Separator": true 
+                         }, 
+                         { 
+                                 "text": "Imagine being arguably the strongest warriors in Europe and also making time to mog the Greeks w/music, fashion, and wine. Phenomenal" 
+                         } 
+                 ]
+	},
+        {
+		"name": "Elite Hoplites",
 		"unitType": "Sword",
-		"uniqueTo": "Italia",
-		"replaces": "Swordsman",
+		"replaces": "Spearman",
+		"uniqueTo": "Sparta",
 		"movement": 2,
-		"strength": 17,
-		"cost": 75,
-		"requiredTech": "Iron Working",
+		"strength": 13,
+		"cost": 72,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Steel",
 		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Gunpowder",
-		"requiredResource": "Iron",
-		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
-		"hurryCostModifier": 20,
+                "hurryCostModifier": 35,
+                "promotions": ["Legacy of the 300"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+"civilopediaText": [ 
+{ 
+                                 "extraImage": "TileSets/FantasyHex/Units/Elite Hoplites", 
+                                 "imageSize": 128 
+                         }, 
+                         { 
+                                 "Separator": true 
+                         }, 
+                         { 
+                                 "text": "Despite being the director's magnum opus, 300 and it's consequences have been a disaster for classical history in much of the Western public conscious." 
+                         } 
+                 ]
 		"attackSound": "metalhit"
-	    },
-	    // Medieval Era
-	    {
-		"name": "Galeazza veneziana",
-		"unitType": "Ranged Water",
-		"uniqueTo": "Italia",
-		"replaces": "Galleass",
-		"movement": 3,
-		"strength": 18,
-		"rangedStrength": 17,
-		"cost": 100,
-		"requiredTech": "Compass",
-		"obsoleteTech": "Navigation",
-		"upgradesTo": "Frigate",
-		"uniques": ["Cannot enter ocean tiles"],
-		"attackSound": "arrow"
-	    },
-	   {
-		"name": "Galea genovese",
-		"unitType": "Ranged Water",
-		"uniqueTo": "Italia",
-		"movement": 4,
-		"strength": 14,
-		"rangedStrength": 17,
-		"cost": 100,
-		"requiredTech": "Compass",
-		"obsoleteTech": "Navigation",
-		"upgradesTo": "Frigate",
-		"uniques": ["Cannot enter ocean tiles"],
-		"attackSound": "arrow"
-	    },
-	    {
-		"name": "Cavalleria comunale",
-		"unitType": "Mounted",
-		"replaces": "Knight",
-		"uniqueTo": "Songhai",
-		"movement": 4,
-		"strength": 22,
-		"cost": 120,
-		"requiredTech": "Chivalry",
-		"requiredResource": "Horses",
-		"upgradesTo": "Cavalry",
-		"obsoleteTech": "Military Science",
-		"uniques": ["Can move after attacking","No defensive terrain bonus"],
-		"attackSound": "horse"
-	    },
-	    {
-		"name": "Guerriero spada Ulfberht", /* Immagine uguale o simile a Longswordsman*/
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 25,
-		"cost": 142,
-		"requiredTech": "Steel",
-		"upgradesTo": "Musketman",
-		"obsoleteTech": "Gunpowder",
-		"requiredResource": "Spade Ulfberht",
-		"attackSound": "metalhit"
-	    },
-	    {
-		"name": "Guerriero spada Damasco", /* Immagine uguale o simile a Longswordsman*/
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 25,
-		"cost": 142,
-		"requiredTech": "Steel",
-		"upgradesTo": "Musketman",
-		"obsoleteTech": "Gunpowder",
-		"requiredResource": "Acciaio di Damasco",
-		"attackSound": "metalhit"
-	    },
+	},
 	  ]
