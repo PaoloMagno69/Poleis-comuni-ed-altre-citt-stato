@@ -1,0 +1,62 @@
+[
+  // Great Person improvements
+	{
+		"name": "Domu de Janas",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"faith": 6,
+		"uniques": ["Great Improvement", "Removes removable features when built", "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Nuraghe",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [100]%",
+			"Adjacent enemy units ending their turn take [30] damage",
+			"Can be built just outside your borders",
+			"Gain control over [all] tiles in a [1]-tile radius",
+			"Removes removable features when built",
+            "Will not be replaced by automated units"
+		]
+	},
+	{
+		"name": "Chateau",
+		"uniqueTo": "France",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 1,
+		"culture": 2,
+		"turnsToBuild":7,
+		"techRequired": "Chivalry",
+		"uniques": ["Can only be built on [Land] tiles <with [1] to [6] neighboring [Luxury resource] tiles>","Cannot be built on [Land] tiles <with [1] to [6] neighboring [Chateau] tiles>","Gives a defensive bonus of [50]%","[+2 Gold, +1 Culture] <after discovering [Flight]>"]
+	},
+	{
+		"name": "Brazilwood Camp",
+		"uniqueTo": "Brazil",
+		"terrainsCanBeBuiltOn": ["Jungle"],
+		"gold": 2,
+		"turnsToBuild": 7,
+		"techRequired": "Machinery",
+		"uniques": ["[+2 Culture] <after discovering [Acoustics]>"]
+	},
+		{
+		"name": "Feitoria",
+		"uniqueTo": "Portugal",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 7,
+		"gold": 1,
+		"happiness": 1,
+		"techRequired": "Navigation",
+		"uniques": ["Gives a defensive bonus of [50]%","Must be next to [City center]","Can only be built on [Coastal] tiles"]
+	},
+	{
+		"name": "Kasbah",
+		"uniqueTo": "Morocco",
+		"terrainsCanBeBuiltOn": ["Desert","Flood plains"],
+		"food": 1,
+		"production": 1,
+		"gold": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Chivalry",
+		"uniques": ["Gives a defensive bonus of [50]%"]
+	},
+]

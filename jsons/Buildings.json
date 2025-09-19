@@ -1,0 +1,152 @@
+[
+	/* Edifici o Meraviglie uniche Italia per epoca: Su Nuraxi di Barumini, Foro di Traiano, Castel del Monte, Cupola del Brunelleschi, 
+	Diciassette Marzo, Costituzione, Palazzo di Giustizia Falcone e Borsellino, Pizzeria, Università di Bologna */
+	    /* EPOCA ANTICA */   
+	    {
+        "name": "Lupa capitolina", // SEMBRA OK //
+        "uniqueTo": "Italia",
+        "isWonder": true,
+        "requiredTech": "Agriculture",
+        "cost": 1,
+        "science": 1,
+        "uniques": ["Free [Romolo] appears", "Automatically built in all cities where it is buildable"],
+		"quote": "Nutrita dalla lupa, Romolo muove i suoi primi passi, i primi passi di Roma e dell'Italia!"
+        },  
+	    {
+        "name": "Su Nuraxi di Barumini", // SEMBRA OK //
+        "uniqueTo": "Italia",
+        "isWonder": true,
+        "requiredTech": "Agriculture",
+        "cost": 269,
+        "science": 1,
+		"cityStrength": 7,
+        "uniques": ["[+25]% City Strength from defensive buildings"],
+		"quote": "Un imponente complesso megalitico della Sardegna antica, simbolo di forza e protezione."
+        },
+	    /* EPOCA CLASSICA */  
+	     {
+        "name": "Foro di Cesare", // SEMBRA OK //
+        "uniqueTo": "Italia",
+        "isWonder": true,
+        "requiredTech": "Iron Working",
+        "cost": 1,
+        "science": 1,
+        "uniques": ["Free [Cesare] appears", "Automatically built in all cities where it is buildable"],
+		"quote": "Veni, vidi, vici: il destino d'Italia sarà scritto con il sangue dei nemici e la gloria dei conquistatori!"
+        },  
+	    {
+        "name": "Foro di Traiano", // SEMBRA OK //
+	    "uniqueTo": "Italia",
+        "isWonder": true,
+        "requiredTech": "Bronze Working",
+        "cost": 200,
+		"happiness": 2,
+        "culture": 1,
+		"requiredTech": "Construction",
+        "uniques": ["Only available <if [Library] is constructed in all [non-[Puppeted]] cities>","Free Social Policy"],
+		"quote": "Ogni colonna del Foro di Traiano ricorda ai cittadini che la legge deve essere strumento di giustizia e libertà."
+        },
+	    /* EPOCA MEDIOEVO */  
+	    {
+        "name": "Castel del Monte", // SEMBRA OK //
+        "uniqueTo": "Italia",
+        "isWonder": true,
+        "requiredTech": "Civil Service",
+        "science": 1,
+        "uniques": ["Free [Federico Puer Apulia] appears"],
+		"quote": "Stupor mundi et immutator mirabilis: Federico Puer Apulia!"
+        },
+	    {
+        "name": "Comedia", // SEMBRA OK //
+        "uniqueTo": "Italia",
+        "isWonder": true,
+        "requiredTech": "Education",
+        "culture": 2,
+        "uniques": ["Free [Dante] appears"],
+		"quote": "Lasciò un segno eterno nella Storia con la sua Divina Commedia ma fu anche politico a Firenze e valoroso cavaliere a Campaldino: Dante Alighieri, eccellenza italiana!"
+        },
+	    {
+		"name": "Università di Bologna"
+		"replaces": "Oxford University",
+		"uniqueTo": "Italia",
+		"cost": 200,
+		"science": 4,
+		"culture": 2,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [University] is constructed in all [non-[Puppeted]] cities>", "Free Technology", "Cost increases by [30] per owned city"],
+		"requiredTech": "Education"
+	    },
+	    /* EPOCA RINASCIMENTALE */  
+	    {
+        "name": "Cupola del Brunelleschi", // SEMBRA  OK//
+        "uniqueTo": "Italia",
+        "isWonder": true,
+        "requiredTech": "Architecture",
+        "culture": 2,
+		"science": 2,
+        "uniques": ["Free [Leonardo] appears"],
+		"quote": "Il Rinascimento italiano, ineguagliabile fioritura di arti e saperi, aprì all’umanità le porte della modernità!"
+        },
+	    {
+		"name": "Il Principe",  // SEMBRA  OK//
+		"uniqueTo": "Italia",
+        "isWonder": true,
+        "requiredTech": "Printing Press",
+        "culture": 1,
+		"happiness": 2,
+        "uniques": ["Only available <if [University] is constructed in all [non-[Puppeted]] cities>", "Free [Machiavelli] appears"],
+		"quote": "Essendo l'intento mio scrivere cosa utile a chi l'intende, mi è parso più conveniente andare dietro alla verità effettuale della cosa, che all'immaginazione di essa. (Il Principe, cap. XV)"
+	    }, 
+	    /* EPOCA INDUSTRIALE */
+	    {
+        "name": "Altare 17 Marzo", // SEMBRA  OK//
+        "uniqueTo": "Italia",
+        "isWonder": true,
+        "requiredTech": "Rifling",
+        "culture": 1,
+		"happiness": 2,
+        "uniques": ["All newly-trained [relevant] units [in this city] receive the [Stringiamci a coorte] promotion", "Free [Garibaldi] appears"],
+		"quote": "Garibaldi. Cos'è questo Garibaldi? È un uomo, niente più. Ma un uomo in tutta l'estensione sublime della parola: l'uomo della libertà, l'uomo dell'umanità. «Vir», direbbe il suo compatriota Virgilio. (Victor Hugo)"
+        },
+	    {
+		"name": "Pizzeria",
+		"food": 5,
+		"requiredBuilding": "Granary",
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"requiredTech": "Fertilizer"
+	    },
+        /* EPOCA MODERNA */
+        {
+        "name": "Costituzione Italiana", // SEMBRA  OK//
+        "uniqueTo": "Italia",
+        "isWonder": true,
+        "requiredTech": "Ballistics",
+        "culture": 1,
+		"happiness": 3,
+        "uniques": ["All newly-trained [relevant] units [in this city] receive the [Resilienza italiana] promotion", "Free [Partigiano] appears"],
+		"quote": "Dietro ogni articolo della Costituzione, o giovani, voi dovete vedere giovani come voi che hanno dato la vita perché la libertà e la giustizia potessero essere scritte su questa Carta.(Calamandrei)"
+        },
+	    /* EPOCA ATOMICA */
+        {
+        "name": "Palazzo di Giustizia Falcone e Borsellino", // SEMBRA  OK//
+        "uniqueTo": "Italia",
+        "isWonder": true,
+        "requiredTech": "Computers",
+        "culture": 3,
+		"happiness": 3,
+        "uniques": ["Free [Giustizia] appears"],
+		"quote": "Tutti muoiono, ma tutti non muoiono nello stesso modo. (Borsellino)"
+        },
+	  
+	    // Religious buildings
+        {
+		"name": "Statua di Italia Turrita",
+		"cost": 0,
+		"culture": 2,
+		"faith": 3,
+		"happiness": 1,
+		"specialistSlots": {"Artist": 1},
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	     },
+	  ]

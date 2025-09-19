@@ -1,0 +1,85 @@
+[
+{
+		"name": "Stringiamci a coorte",
+		"uniques": ["[+15]% Strength <when defending>", 
+			"All adjacent units heal [+5] HP when healing", "[-50]% weight to this choice for AI decisions",
+			"[+15]% Strength <vs [Barbarian] units>"]
+},
+{
+		"name": "Resilienza italiana",
+		"uniques": ["[+5] HP when healing <in friendly territory>",
+			"[+50]% XP gained from combat"]
+},
+{
+		"name": "Imperator Mundi",
+		"uniques": ["Can see invisible [All] units"]
+},
+		{
+		"name": "Heavy Charge",
+		"uniques": ["[+25]% Strength <when attacking>"]
+	},
+	{
+		"name": "Buffalo Horns",
+		"uniques": ["[+1] Movement","[+10]% Strength <when defending> <vs [Ranged] units>","[+25]% to Flank Attack bonuses"],
+	},
+	{
+		"name": "Buffalo Chest",
+		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles>","[+10]% Strength <when defending> <vs [Ranged] units>","[+25]% to Flank Attack bonuses"],
+		"prerequisites": ["Buffalo Horns"],
+		"unitTypes": ["Sword","Gunpowder"]
+	},
+	{
+		"name": "Buffalo Loins",
+		"uniques": ["[+15]% Strength","[+10]% Strength <when defending> <vs [Ranged] units>","[+25]% to Flank Attack bonuses"],
+		"prerequisites": ["Buffalo Chest"],
+		"unitTypes": ["Sword","Gunpowder"]
+	},
+	{
+		"name": "Mystic Blade", // only for Kris Swordsman and subsequent upgrades
+		"uniques": ["Access to special promotions"]
+	},
+	{
+		"name": "Invulnerability",
+		"uniques": ["[+50]% Strength <when defending>", "[+20] HP when healing","Only available <for units without [Ambition]>","Only available <for units without [Restlessness]>","Only available <for units without [Heroism]>","Only available <for units without [Sneak Attack]>"],
+		"prerequisites": ["Mystic Blade"],
+		"unitTypes": ["Sword","Gunpowder"]
+	},
+	{
+		"name": "Sneak Attack",
+		"uniques": ["[+50]% to Flank Attack bonuses","Only available <for units without [Ambition]>","Only available <for units without [Restlessness]>","Only available <for units without [Heroism]>","Only available <for units without [Invulnerability]>"],
+		"prerequisites": ["Mystic Blade"],
+		"unitTypes": ["Sword","Gunpowder"]
+	},
+	{
+		"name": "Restlessness",
+		"uniques": ["[1] additional attacks per turn","[+1] Movement","Only available <for units without [Ambition]>","Only available <for units without [Heroism]>","Only available <for units without [Sneak Attack]>","Only available <for units without [Invulnerability]>"],
+		"prerequisites": ["Mystic Blade"],
+		"unitTypes": ["Sword","Gunpowder"]
+	},
+		{
+		"name": "Heroism",
+		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles","Only available <for units without [Ambition]>","Only available <for units without [Restlessness]>","Only available <for units without [Sneak Attack]>","Only available <for units without [Invulnerability]>"],
+		"prerequisites": ["Mystic Blade"],
+		"unitTypes": ["Sword","Gunpowder"]
+	},
+			{
+		"name": "Ambition",
+		"uniques": ["[+50]% Strength <when attacking>","[-20]% Strength <when defending>","Only available <for units without [Restlessness]>","Only available <for units without [Heroism]>","Only available <for units without [Sneak Attack]>","Only available <for units without [Invulnerability]>"],
+		"prerequisites": ["Mystic Blade"],
+		"unitTypes": ["Sword","Gunpowder"]
+	},
+	{
+		"name": "Homeland Guardian",
+		"uniques": ["[+25]% Strength <when fighting in [Friendly Land] tiles>"]
+	},
+	{
+		"name": "Desert Warrior",
+		"uniques": ["[+50]% Strength <when fighting in [Desert] tiles>"]
+	},
+	{
+		"name": "Altitude Training",
+		"uniques": ["Double movement in [Hill]","[+10]% Strength <when fighting in [Hill] tiles>"]
+	},
+]
+
+

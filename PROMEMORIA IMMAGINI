@@ -1,0 +1,50 @@
+/* EROI */
+TileSets/AbsoluteUnits/Units/Paolo Magno /* Immagine Legion-Rome*/
+
+/* TileSets */
+TileSets/FantasyHex/Tiles/Citadel
+
+
+/* All Eras */
+TileSets/AbsoluteUnits/Units/Sacerdotessa Lupa
+TileSets/AbsoluteUnits/Units/Nympho Worker (ORA NON UTILIZZATA)
+  rotate: false
+  xy: 1252, 1564
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+
+/* Ancient Era */
+TileSets/AbsoluteUnits/Units/Dacio /* Immagine Skirmisher */
+
+TileSets/AbsoluteUnits/Units/Germano /* Immagine Marauder*/
+
+TileSets/AbsoluteUnits/Units/Guerriero sardo /* Immagine Marauder*/
+
+TileSets/AbsoluteUnits/Units/Guerriero Taurino /* Immagine Pictish Warrior*/
+
+TileSets/AbsoluteUnits/Units/Lanciere Nubiano /* Immagine Persian Immortal*/
+
+TileSets/AbsoluteUnits/Units/Oplite siracusano /* Immagine Hoplite*/
+
+TileSets/AbsoluteUnits/Units/Tracio /* Immagine Brute */
+
+TileSets/AbsoluteUnits/Units/Trireme sarda /* Immagine Galley*/
+
+TileSets/AbsoluteUnits/Units/Unno /* Immagine Horse Archer */
+
+TileSets/AbsoluteUnits/Units/Arcere amazzone
+
+TileSets/AbsoluteUnits/Units/Amazzone a cavallo
+
+TileSets/AbsoluteUnits/Units/Guerriera amazzone
+
+/* Classical Era */
+
+TileSets/AbsoluteUnits/Units/Ballista nikelinese /* Immagine Ballista */
+
+TileSets/AbsoluteUnits/Units/Elefante africano /* Immagine African Forest Elephant*/
+ 
+TileSets/AbsoluteUnits/Units/Legionario di Paolo /* Immagine Legion */
+ 

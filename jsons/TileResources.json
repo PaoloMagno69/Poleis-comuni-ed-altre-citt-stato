@@ -1,0 +1,33 @@
+[
+	// RISORSE STANDARD //
+	// Cattle, Sheep, Deer, Bananas, Wheat, Stone, Fish, Bison, 
+	// Bovini, pecore, cervi, banane, grano, pietra, pesce, bisonte,
+		
+	
+ // RISORSE STRATEGICHE STANDARD //
+ // Horses, Iron, Coal, Oil, Aluminum, Uranium
+ // Cavalli, Ferro, Carbone, Petrolio, Alluminio, Uranio
+
+  // RISORSE DI LUSSO STANDARD //
+  // Furs, Cotton, Dyes, Gems, Gold Ore, Silver, Incense, Ivory, Spices, Wine, Sugar, Marble, Whales, Pearls, Citrus, Copper, Crab, Cocoa, Salt, Truffles
+  // Pellicce, cotone, tinture, gemme, minerale d'oro, argento, incenso, avorio, spezie, vino, zucchero, marmo, balene, perle, agrumi, rame, granchio, cacao, sale, tartufi
+
+  // RISORSE DI LUSSO STANDARD PRODOTTE SOLO DA CITTA' STATO //
+  // Jewelry, Porcelain,
+
+  // AGGIUNTE X QUESTO MOD
+  {
+		"name": "Spade Ulfberht",  // Città nord europa vikinga
+		"resourceType": "Luxury",
+		"gold": 1,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+   {
+		"name": "Acciaio di Damasco", 
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+
+	
+]
