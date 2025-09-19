@@ -12,20 +12,7 @@ TileSets/AbsoluteUnits/Units/Guerriero italico
   offset: 0, 0
   index: -1
 
-game2.png
-size: 1024,1024
-format: RGBA8888
-filter: Linear,Linear
-repeat: none
-TileSets/AbsoluteUnits/Units/Cesare
-  rotate: false
-  xy: 0,0
-  size: 96,96
-  orig: 96,96
-  offset: 0, 0
-  index: -1
-
-game11.png
+game11.png /* DA GREEK SPLIT
 size: 1024, 512
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
@@ -205,5 +192,33 @@ UnitPromotionIcons/Marine Training
   orig: 100, 100
   offset: 0, 0
   index: -1
+
+game12.png /* DA Brave-New-World
+size: 2048, 512
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+UnitIcons/Great Galleass
+  rotate: false
+  xy: 328, 62
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Merchant of Venice
+  rotate: false
+  xy: 760, 386
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Venice
+  rotate: false
+  xy: 976, 62
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+
 
     	
