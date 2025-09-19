@@ -174,7 +174,7 @@
 	},
 	/* DA Brave-New-World 
 	{
-		"name": "Great Galleass",
+		"name": "Great Galleass", /* Se l’unità speciale non ha un’immagine assegnata, come in questo caso, il gioco utilizzerà la sprite dell’unità che sostituisce.
 		"replaces": "Galleass",
 		"unitType": "Ranged Water",
 		"uniqueTo": "Venice",
