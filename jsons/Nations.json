@@ -238,7 +238,7 @@ Rapa Nui
     "innerColor": [175, 238, 238],
     "cities": ["Kilwa Kisiwani"]
   },
-   //* Mercantile 7
+   //* Mercantile 8
     {
     "name": "Samarkanda",
     "adjective": ["Samarkandese"],
@@ -315,7 +315,18 @@ Rapa Nui
     "outerColor": [34, 139, 34],
     "innerColor": [144, 238, 144],
     "cities": ["Zanzibar"]
-}
+},
+{
+    "name": "San Marino",
+    "adjective": ["Sammarinese"],
+    "cityStateType": "Mercantile",
+    "declaringWar": "La nostra libertà e i nostri commerci sono sacri, non tollereremo minacce.",
+    "attacked": "San Marino difenderà i suoi mercanti e le sue antiche mura.",
+    "defeated": "San Marino cade, ma la sua indipendenza e la sua storia non saranno dimenticate.",
+    "outerColor": [0, 102, 204],
+    "innerColor": [255, 255, 255],
+    "cities": ["San Marino"]
+},
 
  //* Militaristic 5
   {
