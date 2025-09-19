@@ -70,592 +70,354 @@ Rapa Nui
 */
 
 	
-	// City-States sorted by cityStateType, name
-	{
-		"name": "Brussels", // DA RIMUOVERE
-		"adjective": ["Bruxellois"],
-		"cityStateType": "Cultured",
+// City-States sorted by cityStateType
+//Cultured 8
+  {
+    "name": "Cuma",
+    "adjective": ["Cumani"],
+    "cityStateType": "Cultured",
+    "declaringWar": "Gli dei ci hanno guidato fino a qui. Non possiamo tollerare la tua arroganza.",
+    "attacked": "Il nostro oracolo e le nostre mura non saranno dimenticati!",
+    "defeated": "La città degli abitanti di Cuma è caduta, ma la leggenda dell'oracolo sopravvive.",
+    "outerColor": [255, 165, 0],
+    "innerColor": [255, 213, 128],
+    "cities": ["Cuma"]
+  },
+  {
+    "name": "Cnosso (Knossos)",
+    "adjective": ["Cretesi"],
+    "cityStateType": "Cultured",
+    "declaringWar": "Il palazzo di Minosse non può essere profanato senza punizione.",
+    "attacked": "Chi attacca Creta attacca la storia e la mitologia stessa.",
+    "defeated": "Knossos è caduta, ma i miti del Minotauro e del labirinto rimarranno immortali.",
+    "outerColor": [255, 215, 0],
+    "innerColor": [255, 255, 153],
+    "cities": ["Cnosso (Knossos)"]
+   },
+   {
+    "name": "Damasco",
+    "adjective": ["Damascena"],
+    "cityStateType": "Cultured",
+    "declaringWar": "Nessuno profani la città più antica del mondo senza pagare il prezzo.",
+    "attacked": "Le mura e i mercati resisteranno con ogni mezzo.",
+    "defeated": "Damasco è caduta, ma le cronache dei sultani sopravvivono.",
+    "outerColor": [139, 69, 19],
+    "innerColor": [222, 184, 135],
+    "cities": ["Damasco"]
+  },
+  {
+    "name": "Aleppo",
+    "adjective": ["Aleppina"],
+    "cityStateType": "Cultured",
+    "declaringWar": "I nostri bazar e mura non saranno violati impunemente.",
+    "attacked": "La città resisterà con il valore dei suoi cittadini.",
+    "defeated": "Aleppo è caduta, ma le cronache della Siria rimarranno.",
+    "outerColor": [205, 92, 92],
+    "innerColor": [250, 128, 114],
+    "cities": ["Aleppo"]
+  },
+    {
+    "name": "Meroe",
+    "adjective": ["Meroica"],
+    "cityStateType": "Cultured",
+    "declaringWar": "Il regno del Kush non può essere sfidato impunemente!",
+    "attacked": "Le piramidi e i guerrieri proteggono Meroe da ogni invasore.",
+    "defeated": "Meroe è caduta, ma la storia del regno Kush sopravvive.",
+    "outerColor": [139, 69, 19],
+    "innerColor": [210, 180, 140],
+    "cities": ["Meroe"]
+  },
+ {
+    "name": "Freetown",
+    "adjective": ["Freetownese"],
+    "cityStateType": "Cultured",
+    "declaringWar": "La nostra comunità di liberti non può essere minacciata impunemente.",
+    "attacked": "Le mura e i cittadini difenderanno Freetown fino all’ultimo respiro.",
+    "defeated": "Freetown è caduta, ma la memoria della città dei liberti rimarrà eterna.",
+    "outerColor": [0, 0, 139],
+    "innerColor": [173, 216, 230],
+    "cities": ["Freetown"]
+  },
+  {
+    "name": "Teotihuacán",
+    "adjective": ["Teotihuacana"],
+    "cityStateType": "Cultured",
+    "declaringWar": "Le piramidi e i templi di Teotihuacán non saranno violati impunemente!",
+    "attacked": "Le mura e le strutture sacre resisteranno all’invasore.",
+    "defeated": "Teotihuacán è caduta, ma la sua grandezza rimane eterna nella storia.",
+    "outerColor": [218, 165, 32],
+    "innerColor": [255, 215, 0],
+    "cities": ["Teotihuacán"]
+  },
+  {
+    "name": "Rapa Nui",
+    "adjective": ["Rapanui"],
+    "cityStateType": "Cultured",
+    "declaringWar": "Le statue e i moai non saranno profanati senza punizione!",
+    "attacked": "Gli abitanti difenderanno l’isola con coraggio e astuzia.",
+    "defeated": "Rapa Nui è caduta, ma la memoria dei moai e degli antenati sopravvive.",
+    "outerColor": [160, 82, 45],
+    "innerColor": [222, 184, 135],
+    "cities": ["Rapa Nui"]
+  },
+  //Marittime 7
+ {
+    "name": "Bruges",
+    "adjective": ["Brugese"],
+    "cityStateType": "Maritime",
+    "declaringWar": "Nessuno può violare i nostri canali e la ricchezza delle Fiandre impunemente.",
+    "attacked": "Le mura e le botteghe mercantili si difenderanno con ogni mezzo.",
+    "defeated": "Bruges è caduta, ma la memoria dei mercanti e delle fiere rimarrà eterna.",
+    "outerColor": [30, 144, 255],
+    "innerColor": [135, 206, 250],
+    "cities": ["Bruges"]
+  },
+  {
+    "name": "Tallinn",
+    "adjective": ["Tallinnese"],
+    "cityStateType": "Maritime",
+    "declaringWar": "Gli scambi della Lega Anseatica non saranno violati senza conseguenze.",
+    "attacked": "Le nostre mura difenderanno ogni mercante e ogni nave.",
+    "defeated": "Tallinn è caduta, ma la memoria dei commercianti della Lega sopravvive.",
+    "outerColor": [70, 130, 180],
+    "innerColor": [176, 196, 222],
+    "cities": ["Tallinn"]
+  },
+ {
+    "name": "Byblos",
+    "adjective": ["Byblita"],
+    "cityStateType": "Maritime",
+    "declaringWar": "Volete interrompere il commercio del papiro? Proverete l'ira fenicia!",
+    "attacked": "I nostri porti e mercanti si difenderanno con ogni mezzo.",
+    "defeated": "Byblos è caduta, ma il commercio antico e le scritture rimangono.",
+    "outerColor": [0, 128, 128],
+    "innerColor": [175, 238, 238],
+    "cities": ["Byblos"]
+  },
+  {
+    "name": "Lubecca",
+    "adjective": ["Lubechese"],
+    "cityStateType": "Maritime",
+    "declaringWar": "La Lega Anseatica deve essere rispettata, e noi la difenderemo.",
+    "attacked": "Le nostre flotte e mura proteggeranno ogni mercante e porto.",
+    "defeated": "Lubecca è caduta, ma il ricordo del commercio anseatico rimarrà.",
+    "outerColor": [0, 100, 0],
+    "innerColor": [144, 238, 144],
+    "cities": ["Lubecca"]
+  },
+  {
+    "name": "Sidone",
+    "adjective": ["Sidonese"],
+    "cityStateType": "Maritime",
+    "declaringWar": "Chi minaccia i nostri commerci e navi, minaccia la Fenicia intera.",
+    "attacked": "Le nostre flotte e mura proteggeranno la città.",
+    "defeated": "Sidone è caduta, ma la gloria dei mercanti fenici persiste.",
+    "outerColor": [255, 69, 0],
+    "innerColor": [255, 160, 122],
+    "cities": ["Sidone"]
+  },
+  {
+    "name": "Hong Kong",
+    "adjective": ["Hongkonghese"],
+    "cityStateType": "Maritime",
+    "declaringWar": "Il nostro porto e il commercio globale non saranno violati.",
+    "attacked": "Le nostre mura e navi resisteranno a ogni aggressore.",
+    "defeated": "Hong Kong è caduta, ma la memoria del porto libero e delle tradizioni sopravvive.",
+    "outerColor": [72, 61, 139],
+    "innerColor": [123, 104, 238],
+    "cities": ["Hong Kong"]
+  },
+  {
+    "name": "Kilwa Kisiwani",
+    "adjective": ["Kilwense"],
+    "cityStateType": "Maritime",
+    "declaringWar": "Le nostre rotte commerciali lungo la costa swahili non saranno violate!",
+    "attacked": "I mercanti e le mura difenderanno Kilwa con ogni mezzo.",
+    "defeated": "Kilwa è caduta, ma la memoria del commercio swahili rimane viva.",
+    "outerColor": [0, 128, 128],
+    "innerColor": [175, 238, 238],
+    "cities": ["Kilwa Kisiwani"]
+  },
+   //* Mercantile 7
+    {
+    "name": "Samarkanda",
+    "adjective": ["Samarkandese"],
+    "cityStateType": "Mercantile",
+    "declaringWar": "La Via della Seta non può essere violata senza conseguenze.",
+    "attacked": "Le mura e i mercanti proteggeranno ogni carovana.",
+    "defeated": "Samarkanda è caduta, ma il ricordo dei sovrani e dei mercanti sopravvive.",
+    "outerColor": [0, 191, 255],
+    "innerColor": [135, 206, 235],
+    "cities": ["Samarkanda"]
+    },
+    {
+    "name": "Panama",
+    "adjective": ["Panamense"],
+    "cityStateType": "Mercantile",
+    "declaringWar": "Le nostre rotte commerciali non saranno violate senza punizione.",
+    "attacked": "Le mura e le flotte proteggeranno il Canale e i mercanti.",
+    "defeated": "Panama è caduta, ma la memoria del commercio interoamericano rimane viva.",
+    "outerColor": [34, 139, 34],
+    "innerColor": [144, 238, 144],
+    "cities": ["Panama"]
+     },
+    {
+    "name": "Crotone",
+    "adjective": ["Crotonea"],
+    "cityStateType": "Mercantile",
+    "declaringWar": "Non permetteremo che le nostre scuole di atletica e filosofia siano violate.",
+    "attacked": "I nostri guerrieri e i nostri atleti resisteranno con onore.",
+    "defeated": "Crotone è caduta, ma la memoria dei suoi eroi sopravvive.",
+    "outerColor": [178, 34, 34],
+    "innerColor": [255, 140, 0],
+    "cities": ["Crotone"]
+  },
+   {
+    "name": "Kumasi",
+    "adjective": ["Kumasiana"],
+    "cityStateType": "Mercantile",
+    "declaringWar": "Il regno Ashanti non può essere sfidato senza conseguenze!",
+    "attacked": "Le mura e i guerrieri difenderanno la città e la sua gloria.",
+    "defeated": "Kumasi è caduta, ma lo spirito del popolo Ashanti sopravvive.",
+    "outerColor": [255, 140, 0],
+    "innerColor": [255, 215, 0],
+    "cities": ["Kumasi"]
+  },
+{
+    "name": "Rothenburg ob der Tauber",
+    "adjective": ["Rothenburgese"],
+    "cityStateType": "Mercantile",
+    "declaringWar": "I nostri mercati teutonici non saranno violati impunemente.",
+    "attacked": "Le mura e le botteghe dei nostri artigiani resisteranno a ogni aggressore.",
+    "defeated": "Rothenburg cade, ma la memoria dei mercanti e delle fiere rimarrà viva.",
+    "outerColor": [160, 82, 45],
+    "innerColor": [205, 133, 63],
+    "cities": ["Rothenburg ob der Tauber"]
+},
+{
+    "name": "Malacca",
+    "adjective": ["Malaccese"],
+    "cityStateType": "Mercantile",
+    "declaringWar": "Chi minaccia le nostre rotte tra Oceano Indiano e Pacifico sfida tutta Malacca!",
+    "attacked": "I nostri porti e mercanti resisteranno con ogni mezzo.",
+    "defeated": "Malacca cade, ma la memoria del commercio spezie persisterà.",
+    "outerColor": [255, 140, 0],
+    "innerColor": [255, 215, 0],
+    "cities": ["Malacca"]
+},
+{
+    "name": "Zanzibar",
+    "adjective": ["Zanzibari"],
+    "cityStateType": "Mercantile",
+    "declaringWar": "Il commercio lungo l'Oceano Indiano è sacro: chi osa violarlo affronterà la nostra ira.",
+    "attacked": "Le navi e i mercanti di Zanzibar si difenderanno con ogni risorsa.",
+    "defeated": "Zanzibar cade, ma la gloria del commercio swahili resterà immortale.",
+    "outerColor": [34, 139, 34],
+    "innerColor": [144, 238, 144],
+    "cities": ["Zanzibar"]
+}
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "I guess you weren't here for the sprouts after all...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [127, 177, 236],
-		"cities": ["Brussels"]
-	},
-	{
-		"name": "Bucharest", // DA RIMUOVERE
-		"adjective": ["Bucuresti"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "I guess you weren't here for the sprouts after all...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [113, 227, 114],
-		"cities": ["Bucharest"]
-	},
-	{
-		"name": "Florence", // DA RIMUOVERE
-		"adjective": ["Florentine"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "And so the flower of Florence falls to barbaric hands...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [18, 188, 221],
-		"cities": ["Florence"]
-	},
-	{
-		"name": "Kabul", // DA RIMUOVERE
-		"adjective": ["Kabuli"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Unacceptable!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [121, 226, 0],
-		"cities": ["Kabul"]
-	},
-	{
-		"name": "Kathmandu", // DA RIMUOVERE
-		"adjective": ["Kathmanduites"],
-		"cityStateType": "Cultured", // Changed from Cultured to Religious in BNW
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We... defeated? No... we had so much work to do!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [186, 18, 202],
-		"cities": ["Kathmandu"]
-	},
-	{
-		"name": "Kuala Lumpur", // DA RIMUOVERE
-		"adjective": ["KLite"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Today, the Malay people obey you, but do not think this is over...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [222, 237, 59],
-		"cities": ["Kuala Lumpur"]
-	},
-	{
-		"name": "Milan", // DA RIMUOVERE
-		"adjective": ["Milanese"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "You fiend! History shall remember this!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [225, 194, 129],
-		"cities": ["Milan"]
-	},
-	{
-		"name": "Monaco", // DA RIMUOVERE
-		"adjective": ["Monegasque"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "You fiend! History shall remember this!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [193, 84, 255],
-		"cities": ["Monaco"]
-	},
-	{
-		"name": "Prague", // DA RIMUOVERE
-		"adjective": ["Praguer", "Pragueite"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "You fiend! History shall remember this!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [51, 97, 242],
-		"cities": ["Prague"]
-	},
-	{
-		"name": "Yerevan", // DA RIMUOVERE
-		"adjective": ["Yerevantsi"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We were too weak to protect ourselves...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [225, 194, 129],
-		"cities": ["Yerevan"]
-	},
-
-	{
-		"name": "Cape Town", // DA RIMUOVERE
-		"adjective": ["Capetonian"],
-		"cityStateType": "Maritime",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "I have failed. May you, at least, know compassion towards our people.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [217, 158, 78],
-		"cities": ["Cape Town"]
-	},
-	{
-		"name": "Helsinki", // In GK, Helsinki becomes a Swedish city. // DA RIMUOVERE
-		"adjective": ["Helsinkian"],
-		"cityStateType": "Maritime",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,178,102],
-		"cities": ["Helsinki"],
-        "uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"]
-	},
-	{
-		"name": "Manila", // DA RIMUOVERE
-		"adjective": ["Manilan"],
-		"cityStateType": "Maritime",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Ah, Gods! Why have you forsaken us?",
-		"outerColor": [0, 0, 0],
-		"innerColor": [113, 227, 114],
-		"cities": ["Manila"]
-	},
-	{
-		"name": "Mogadishu", // Introduced in BNW // DA RIMUOVERE
-		"adjective": ["Maqdishawi"],
-		"cityStateType": "Maritime",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Congratulations, conqueror. This tribe serves you now.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [127, 177, 236],
-		"cities": ["Mogadishu"],
-        "uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"]
-	},
-	{
-		"name": "Mombasa", // DA RIMUOVERE
-		"adjective": ["Mombasaan"],
-		"cityStateType": "Maritime",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Congratulations, conqueror. This tribe serves you now.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [121, 226, 0],
-		"cities": ["Mombasa"]
-	},
-	{
-		"name": "Quebec City", // DA RIMUOVERE
-		"adjective": ["Québécois"],
-		"cityStateType": "Maritime",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We were too weak to protect ourselves...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [51, 97, 242],
-		"cities": ["Quebec City"]
-	},
-	{
-		"name": "Ragusa", // DA RIMUOVERE
-		"adjective": ["Ragusan"],
-		"cityStateType": "Maritime",
-		"startBias": ["Coast"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We were too weak to protect ourselves...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [0, 163, 181],
-		"cities": ["Ragusa"]
-	},
-	{
-		"name": "Rio de Janeiro", // DA RIMUOVERE
-		"adjective": ["Carioca"],
-		"cityStateType": "Maritime",
-		"startBias": ["Coast"],
-
-		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
-		"attacked": "You can see how fruitless this will be for you... right?",
-		"defeated": "May God grant me these last wishes - peace and prosperity for Brazil.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [211, 220, 103],
-		"cities": ["Rio de Janeiro"]
-	},
-	{
-		"name": "Sydney", // DA RIMUOVERE
-		"adjective": ["Sydneysider"],
-		"cityStateType": "Maritime",
-
-		"declaringWar": "After thorough deliberation, Australia finds itself at a crossroads. Prepare yourself, for war is upon us.",
-		"attacked": "We will mobilize every means of resistance to stop this transgression against our nation!",
-		"defeated": "The principles for which we have fought will survive longer than any nation you could ever build.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [51, 97, 242],
-		"cities": ["Sydney"]
-	},
-	{
-		"name": "Ur", // Introduced in BNW // DA RIMUOVERE
-		"adjective": ["Urian"],
-		"cityStateType": "Maritime",
-		"startBias": ["Coast"],
-
-		"declaringWar": "I will enjoy hearing your last breath as you witness the destruction of your realm!",
-		"attacked": "Why do we fight? Because Inanna demands it. Now, witness the power of the Sumerians!",
-		"defeated": "What treachery has struck us? No, what evil?",
-		"outerColor": [0, 0, 0],
-		"innerColor": [167, 16, 216],
-		"cities": ["Ur"],
-        "uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"]
-	},
-	{
-		"name": "Vancouver", // Introduced in BNW // DA RIMUOVERE
-		"adjective": ["Vancouverite"],
-		"cityStateType": "Maritime",
-
-		"declaringWar": "In responding to the unstinting malignancy that has heretofore defined your relationship with Canada, we can have no recourse but war!",
-		"attacked": "As we can reach no peaceful resolution with you, Canada must turn, with reluctance, to war.",
-		"defeated": "I regret not defending my country to the last, although it was not of use.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [193, 84, 255],
-		"cities": ["Vancouver"],
-        "uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"]
-	},
-	{
-		"name": "Venice", // DA RIMUOVERE
-		"adjective": ["Venetian"],
-		"cityStateType": "Maritime",
-		"startBias": ["Coast"],
-
-		"declaringWar": "You have revealed your purposes a bit too early, my friend...",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "A wrong calculation, on my part.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [153,204,255],
-		"cities": ["Venice"]
-	},
-
-	{
-		"name": "Antwerp", // DA RIMUOVERE
-		"adjective": ["Antwerpenaar", "Antwerpian"],
-		"cityStateType": "Mercantile",
-		"startBias": ["Coast"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "They will write songs of this.... pray that they shall be in your favor.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [193, 84, 255],
-		"cities": ["Antwerp"]
-	},
-	{
-		"name": "Cahokia", // DA RIMUOVERE
-		"adjective": ["Cahokian"],
-		"cityStateType": "Mercantile",
-
-		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
-		"attacked": "Very well, we will kick you back to the ancient era!",
-		"defeated": "This isn't how it is supposed to be!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255, 255, 255],
-		"cities": ["Cahokia"]
-	},
-	{
-		"name": "Colombo", // DA RIMUOVERE
-		"adjective": ["Colomboan"],
-		"cityStateType": "Mercantile",
-
-		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
-		"attacked": "Very well, we will kick you back to the ancient era!",
-		"defeated": "This isn't how it is supposed to be!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [167, 162, 216],
-		"cities": ["Colombo"]
-	},
-	{
-		"name": "Genoa", // DA RIMUOVERE
-		"adjective": ["Genoese"],
-		"cityStateType": "Mercantile", // Changed from Maritime to Mercantile in GK
-		"startBias": ["Coast"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "How barbaric. Those who live by the sword shall perish by the sword.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [0, 163, 181],
-		"cities": ["Genoa"]
-	},
-	{
-		"name": "Hong Kong", // DA RIMUOVERE
-		"adjective": ["Hongkonger", "Hongkongese"],
-		"cityStateType": "Mercantile",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "How barbaric. Those who live by the sword shall perish by the sword.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [52, 97, 242],
-		"cities": ["Hong Kong"]
-	},
-	{
-		"name": "Singapore", // DA RIMUOVERE
-		"adjective": ["Singaporean"],
-		"cityStateType": "Mercantile",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Perhaps, in another world, we could have been friends...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [246, 253, 160],
-		"cities": ["Singapore"]
-	},
-	{
-		"name": "Tyre", // DA RIMUOVERE
-		"adjective": ["Tyrian"],
-		"cityStateType": "Mercantile", // Changed from Militaristic to Mercantile in GK
-		"startBias": ["Coast"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [121, 226, 0],
-		"cities": ["Tyre"]
-	},
-	{
-		"name": "Zanzibar", // DA RIMUOVERE
-		"adjective": ["Zanzibari"],
-		"cityStateType": "Mercantile",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "May the Heavens forgive you for inflicting this humiliation to our people.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [127, 177, 236],
-		"cities": ["Zanzibar"]
-	},
-	{
-		"name": "Zurich", // DA RIMUOVERE
-		"adjective": ["Zuricher"],
-		"cityStateType": "Mercantile",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "May the Heavens forgive you for inflicting this humiliation to our people.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [172, 172, 172],
-		"cities": ["Zurich"]
-	},
-
-	{
-		"name": "Almaty", // DA RIMUOVERE
-		"adjective": ["Almatinian"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "How could we fall to the likes of you?!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [217, 158, 78],
-		"cities": ["Almaty"]
-	},
-	{
-		"name": "Belgrade", // DA RIMUOVERE
-		"adjective": ["Belgradian"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "Let's have a nice little War, shall we?",
-		"attacked": "If you need your nose bloodied, we'll happily serve.",
-		"defeated": "The serbian guerilla will never stop haunting you!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [121, 226, 0],
-		"cities": ["Belgrade"]
-	},
-	{
-		"name": "Budapest", // DA RIMUOVERE
-		"adjective": ["Budapester", "Budapesti"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "Let's have a nice little War, shall we?",
-		"attacked": "If you need your nose bloodied, we'll happily serve.",
-		"defeated": "The serbian guerilla will never stop haunting you!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [217, 158, 78],
-		"cities": ["Budapest"]
-	},
-	{
-		"name": "Dublin", // DA RIMUOVERE
-		"adjective": ["Dubliner"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "War lingers in our hearts. Why carry on with a false peace?",
-		"attacked": "You gormless radger! You'll dine on your own teeth before you set foot in Ireland!",
-		"defeated": "A lonely wind blows through the highlands today. A dirge for Ireland. Can you hear it?",
-		"outerColor": [0, 0, 0],
-		"innerColor": [211,180,113],
-		"cities": ["Dublin"],
-		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"]
-	},
-	{
-		"name": "Edinburgh", // DA RIMUOVERE
-		"adjective": ["Edinburghensian"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
-		"attacked": "Traitorous man! The Celtic peoples will not stand for such wanton abuse and slander - I shall have your head!",
-		"defeated": "Vile ruler, know that you 'won' this war in name only!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [0,102,102],
-		"cities": ["Edinburgh"],
-		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"]
-	},
-	{
-		"name": "Hanoi", // DA RIMUOVERE
-		"adjective": ["Hanoian"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "So this is how it feels to die...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [167, 162, 216],
-		"cities": ["Hanoi"]
-	},
-	{
-		"name": "M'Banza-Kongo", // Introduced in BNW // DA RIMUOVERE
-		"adjective": ["Angolan"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "Do you really think you can walk over us so easily? I will not let it happen. Not to Kongo - not to my people!",
-		"attacked": "We are no strangers to war. You have strayed from the right path, and now we will correct it.",
-		"defeated": "You are nothing but a glorified barbarian. Cruel, and ruthless.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [18, 188, 221],
-		"cities": ["M'Banza-Kongo"],
-		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"]
-	},
-	{
-		"name": "Sidon", // DA RIMUOVERE
-		"adjective": ["Sidonian"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "What a fine battle! Sidon is willing to serve you!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [186, 18, 202],
-		"cities": ["Sidon"]
-	},
-	{
-		"name": "Valletta", // DA RIMUOVERE
-		"adjective": ["Beltin"],
-		"cityStateType": "Militaristic",
-		"startBias": ["Coast"],
-
-		"declaringWar": "We don't like your face. To arms!",
-		"attacked": "You will see you have just bitten off more than you can chew.",
-		"defeated": "This ship may sink, but our spirits will linger.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [222, 237, 59],
-		"cities": ["Valletta"]
-	},
-
-	{
-		"name": "Bratislava", // DA RIMUOVERE
-		"adjective": ["Bratislavan"],
-		"cityStateType": "Religious",
-
-		"declaringWar": "I didn't want to do this. We declare war.",
-		"attacked": "I will fear no evil. For god is with me!",
-		"defeated": "Why have you forsaken us my lord?",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255, 255, 255],
-		"cities": ["Bratislava"]
-	},
-	{
-		"name": "Geneva", // DA RIMUOVERE
-		"adjective": ["Genevan", "Genevese"],
-		"cityStateType": "Religious", // Changed from Cultured to Religious in GK
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "I guess you weren't here for the sprouts after all...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [51, 97, 242],
-		"cities": ["Geneva"]
-	},
-	{
-		"name": "Jerusalem", // DA RIMUOVERE
-		"adjective": ["Jerusalemite"],
-		"cityStateType": "Religious",
-
-		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
-		"attacked": "May god have mercy on your evil soul.",
-		"defeated": "I for one welcome our new conquer overlord!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255, 255, 255],
-		"cities": ["Jerusalem"]
-	},
-	{
-		"name": "La Venta", // DA RIMUOVERE
-		"adjective": ["La Venta"],
-		"cityStateType": "Religious",
-
-		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
-		"attacked": "May god have mercy on your evil soul.",
-		"defeated": "I for one welcome our new conquer overlord!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [18, 188, 221],
-		"cities": ["La Venta"]
-	},
-	{
-		"name": "Lhasa",// DA RIMUOVERE
-		"adjective": ["Tibetano"],
-		"cityStateType": "Religious", // Changed from Cultured to Religious in GK
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Perhaps now we will find peace in death...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [113, 227, 114],
-		"cities": ["Lhasa"]
-	},
-	{
-		"name": "Vatican City", // DA RIMUOVERE
-		"adjective": ["Vaticano"],
-		"cityStateType": "Religious",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Perhaps now we will find peace in death...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [246, 253, 160],
-		"cities": ["Vatican City"]
-	},
-	{
-		"name": "Wittenberg", // DA RIMUOVERE
-		"adjective": ["Wittenberger"],
-		"cityStateType": "Religious",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Perhaps now we will find peace in death...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [167, 162, 216],
-		"cities": ["Wittenberg"]
-	},
-
-
+ //* Militaristic 5
+  {
+    "name": "Taranto",
+    "adjective": ["Tarentina"],
+    "cityStateType": "Militaristic",
+    "declaringWar": "Difenderemo la nostra colonia spartana fino all’ultimo soldato.",
+    "attacked": "Le nostre triremi affronteranno ogni invasore sul mare!",
+    "defeated": "Taranto è caduta, ma il ricordo dei valorosi guerrieri rimarrà per sempre.",
+    "outerColor": [255, 69, 0],
+    "innerColor": [255, 179, 128],
+    "cities": ["Taranto"]
+  },
+  {
+    "name": "Reggio (Rhegion)",
+    "adjective": ["Reggini"],
+    "cityStateType": "Militaristic",
+    "declaringWar": "Difenderemo la nostra Magna Grecia con ogni risorsa disponibile.",
+    "attacked": "Le nostre mura e i nostri campi resisteranno fino all’ultimo uomo.",
+    "defeated": "Reggio Calabria è caduta, ma le sue radici antiche non saranno mai dimenticate.",
+    "outerColor": [139, 0, 0],
+    "innerColor": [255, 99, 71],
+    "cities": ["Reggio Calabria"]
+  },
+  {
+    "name": "Mari",
+    "adjective": ["Marita"],
+    "cityStateType": "Militaristic",
+    "declaringWar": "Nessuno infranga il nostro dominio sulla riva dell'Eufrate!",
+    "attacked": "Le nostre mura e i soldati proteggeranno ogni tempio e palazzo.",
+    "defeated": "Mari è caduta, ma le cronache delle dinastie sopravvivono.",
+    "outerColor": [210, 180, 140],
+    "innerColor": [245, 222, 179],
+    "cities": ["Mari"]
+  },
+  {
+    "name": "Grande Zimbabwe",
+    "adjective": ["Zimbabweana"],
+    "cityStateType": "Militaristic",
+    "declaringWar": "Le nostre mura di pietra non saranno violate senza guerra!",
+    "attacked": "I guerrieri e le fortificazioni difenderanno la città.",
+    "defeated": "Grande Zimbabwe è caduta, ma la memoria della civiltà bantu sopravvive.",
+    "outerColor": [160, 82, 45],
+    "innerColor": [222, 184, 135],
+    "cities": ["Grande Zimbabwe"]
+  },
+  {
+    "name": "Monte Albán",
+    "adjective": ["Zapoteca"],
+    "cityStateType": "Militaristic",
+    "declaringWar": "Il centro zapoteca non può essere violato senza conseguenze!",
+    "attacked": "Le mura e i guerrieri difenderanno il tempio e il palazzo.",
+    "defeated": "Monte Albán è caduta, ma la cultura zapoteca sopravvive nelle cronache.",
+    "outerColor": [210, 105, 30],
+    "innerColor": [244, 164, 96],
+    "cities": ["Monte Albán"]
+  },
+//* Religious 4
+     {
+    "name": "Nippur",
+    "adjective": ["Nippurita"],
+    "cityStateType": "Religious",
+    "declaringWar": "I templi e i culti sumeri non saranno profanati senza conseguenze.",
+    "attacked": "Chi attacca Nippur sfida gli dei stessi.",
+    "defeated": "Nippur è caduta, ma i culti e le iscrizioni rimangono memoria eterna.",
+    "outerColor": [160, 82, 45],
+    "innerColor": [222, 184, 135],
+    "cities": ["Nippur"]
+  },
+ {
+    "name": "Delphi",
+    "adjective": ["Delfica"],
+    "cityStateType": "Religious",
+    "declaringWar": "L'oracolo di Apollo non può essere profanato senza conseguenze.",
+    "attacked": "Chi attacca Delphi attacca gli dei stessi.",
+    "defeated": "Delphi è caduta, ma le parole dell'oracolo vivranno per sempre.",
+    "outerColor": [148, 0, 211],
+    "innerColor": [218, 112, 214],
+    "cities": ["Delphi"]
+  },
+  {
+    "name": "Vaticano",
+    "adjective": ["Vaticano"],
+    "cityStateType": "Religious",
+    "declaringWar": "Non tollereremo alcuna minaccia alla nostra sede spirituale.",
+    "attacked": "Le mura del Vaticano difenderanno la fede e la storia.",
+    "defeated": "Il Vaticano è caduto, ma la fede dei secoli sopravvivrà.",
+    "outerColor": [255, 255, 255],
+    "innerColor": [255, 255, 0],
+    "cities": ["Vaticano"]
+  },
+  {
+    "name": "Gerusalemme",
+    "adjective": ["Gerusalemmita"],
+    "cityStateType": "Religious",
+    "declaringWar": "La città santa non può essere violata senza sfidare Dio stesso.",
+    "attacked": "Le mura e i templi proteggeranno il popolo e la storia.",
+    "defeated": "Gerusalemme è caduta, ma la memoria dei profeti e dei re rimane eterna.",
+    "outerColor": [178, 34, 34],
+    "innerColor": [255, 228, 225],
+    "cities": ["Gerusalemme"]
+  },
 
 	//Barbarian
 	{
