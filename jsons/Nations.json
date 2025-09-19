@@ -71,7 +71,7 @@ Rapa Nui
 
 	
 // City-States sorted by cityStateType
-//Cultured 8
+//Cultured 9
   {
     "name": "Cuma",
     "adjective": ["Cumani"],
@@ -160,6 +160,17 @@ Rapa Nui
     "innerColor": [222, 184, 135],
     "cities": ["Rapa Nui"]
   },
+{
+    "name": "Efeso (Ephesus)",
+    "adjective": ["Efesina"],
+    "cityStateType": "Cultured",
+    "declaringWar": "Il tempio di Artemide non sarà mai profanato senza conseguenze.",
+    "attacked": "Gli antichi teatri e mercati difenderanno Efeso dall’invasore.",
+    "defeated": "Efeso è caduta, ma il suo tempio e i miti sopravviveranno nei secoli.",
+    "outerColor": [138, 43, 226],
+    "innerColor": [216, 191, 216],
+    "cities": ["Efeso (Ephesus)"]
+},
   //Marittime 7
  {
     "name": "Bruges",
@@ -238,7 +249,51 @@ Rapa Nui
     "innerColor": [175, 238, 238],
     "cities": ["Kilwa Kisiwani"]
   },
-   //* Mercantile 8
+   //* Mercantile 12
+{
+    "name": "Harappa",
+    "adjective": ["Harappana"],
+    "cityStateType": "Mercantile",
+    "declaringWar": "La nostra antica civiltà non tollererà aggressioni.",
+    "attacked": "Le strade e i mercanti di Harappa difenderanno la città con ogni mezzo.",
+    "defeated": "Harappa è caduta, ma la memoria della Valle dell’Indo sopravvive.",
+    "outerColor": [205, 92, 92],
+    "innerColor": [244, 164, 96],
+    "cities": ["Harappa"]
+},
+{
+    "name": "Mohenjo-daro",
+    "adjective": ["Mohenjodarana"],
+    "cityStateType": "Mercantile",
+    "declaringWar": "Gli antichi mercanti dell’Indo non saranno mai ridotti al silenzio.",
+    "attacked": "Le mura e le acque sacre difenderanno Mohenjo-daro.",
+    "defeated": "Mohenjo-daro è caduta, ma la sua grandezza urbanistica rimane immortale.",
+    "outerColor": [160, 82, 45],
+    "innerColor": [210, 180, 140],
+    "cities": ["Mohenjo-daro"]
+},
+{
+    "name": "Macao",
+    "adjective": ["Macaense"],
+    "cityStateType": "Mercantile",
+    "declaringWar": "Il nostro porto e i nostri commerci non saranno violati!",
+    "attacked": "Le mura e le rotte oceaniche difenderanno Macao.",
+    "defeated": "Macao è caduta, ma la sua storia mercantile sino-portoghese rimane viva.",
+    "outerColor": [0, 128, 128],
+    "innerColor": [173, 216, 230],
+    "cities": ["Macao"]
+},
+{
+    "name": "Singapore",
+    "adjective": ["Singaporiana"],
+    "cityStateType": "Mercantile",
+    "declaringWar": "Il nostro porto e i commerci globali non saranno minacciati.",
+    "attacked": "Le navi e i mercanti di Singapore resisteranno con determinazione.",
+    "defeated": "Singapore è caduta, ma il suo ruolo di crocevia dei mari non sarà dimenticato.",
+    "outerColor": [220, 20, 60],
+    "innerColor": [255, 255, 255],
+    "cities": ["Singapore"]
+},
     {
     "name": "Samarkanda",
     "adjective": ["Samarkandese"],
