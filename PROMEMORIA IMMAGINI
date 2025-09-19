@@ -1,19 +1,13 @@
 /* EROI */
-TileSets/AbsoluteUnits/Units/Paolo Magno /* Immagine Legion-Rome*/
+TileSets/AbsoluteUnits/Units/
 
 /* TileSets */
 TileSets/FantasyHex/Tiles/Citadel
 
 
 /* All Eras */
-TileSets/AbsoluteUnits/Units/Sacerdotessa Lupa
-TileSets/AbsoluteUnits/Units/Nympho Worker (ORA NON UTILIZZATA)
-  rotate: false
-  xy: 1252, 1564
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
+TileSets/AbsoluteUnits/Units/S
+
 
 /* Ancient Era */
 TileSets/AbsoluteUnits/Units/Dacio /* Immagine Skirmisher */
