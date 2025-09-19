@@ -1,20 +1,73 @@
 [
 	/* "CITTà STATO GIOCABILI */
 	/* 
-* **Atene (Athēnai nella Grecia Classica)** 
-* **Sparta (Spártē nella Grecia Classica)** 
-* **Corinto (Korinthos nella Grecia Classica)** 
-* **Tebe (Thēbai nella Grecia Classica)** 
-* **Cuma (Kýmē nella Magna Grecia)** 
-* **Taranto (Taras nella Magna Grecia)** 
-* **Crotone (Kroton nella Magna Grecia)** 
-* **Siracusa (Syrákousai nella Magna Grecia)** 
-* **Agrigento (Akragas nella Magna Grecia)** 
-* **Reggio Calabria (Rhḗgion nella Magna Grecia)** 
+## 🇪🇺 Europa
+Atene (Athēnai nella Grecia Classica)
+Sparta (Spártē nella Grecia Classica)
+Corinto (Korinthos nella Grecia Classica)
+Tebe (Thēbai nella Grecia Classica)
+Siracusa (Syrákousai nella Magna Grecia)
+Agrigento (Akragas nella Magna Grecia)
+Venezia (Repubblica di Venezia)** – repubblica marinara, grande potenza medievale.
+Genova (Repubblica di Genova)** – rivale di Venezia, centro finanziario e marittimo.
+Firenze (Repubblica di Firenze)** – cuore del Rinascimento.
+## 🌍 Asia
+Gerico (Yeriḥo, Palestina storica) – una delle più antiche città-stato del mondo.
+Ur (Ur, Mesopotamia)** – città-stato sumera.
+Uruk (Uruk, Mesopotamia)** – città di Gilgamesh, leggendaria potenza sumerica.
+Tiro (Ṣūr, Fenicia)** – città marinara, fondatrice di Cartagine.
+## 🌍 Africa
+Axum (Axum, Etiopia/Eritrea)** – antica città-stato e regno commerciale nel Corno d’Africa.
+## 🌎 Americhe
+Teotihuacán (Teotihuacán, Valle del Messico)** – città-stato precolombiana, epoca classica mesoamericana.
+
 	*/
 	
 	
 	/* "CONFEDERAZIONI BARBARE GIOCABILI */ 
+
+	//* CITTà STATO NON GIOCABILI DA METTERE *//
+	/* 
+## 🇪🇺 Europa
+Cuma (Kýmē nella Magna Grecia)
+Taranto (Taras nella Magna Grecia)
+Crotone (Kroton nella Magna Grecia)
+Reggio Calabria (Rhḗgion nella Magna Grecia)
+Bruges (Brugge, Fiandre)** – Belgio medievale
+Tallinn (Reval, Estonia)** – città della Lega Anseatica
+Lubecca (Lübeck, Germania)** – centro della Lega Anseatica
+Knossos (Knōsos, Creta)** – Centro della civiltà minoica, famoso per il palazzo e i miti del Minotauro.
+Delphi (Delfi, Grecia)** – Centro religioso e oracolare, sede dell’oracolo di Apollo.
+Ragusa (Dubrovnik, Repubblica di Ragusa)** – Croazia
+Vaticano
+San Marino
+## 🌍 Asia
+Gerusalemme (Yerushalayim, Palestina)** – città-stato religiosa e politica.
+Mari (Mari, Mesopotamia, Siria)** – Città-stato sumera/accadica, centro commerciale e politico.
+Nippur (Nippur, Mesopotamia)** – centro religioso della civiltà sumera.
+Byblos (Gubla, Fenicia, Libano)** – città-stato antichissima, legata al commercio del papiro.
+Sidone (Ṣaydā, Fenicia)** – rivale e sorella di Tiro.
+Hong Kong (Heung Gong, città autonoma storica)** – città autonoma per secoli, oggi speciale regione della Cina.
+Damasco (Dimashq, Siria)** – Siria antica
+Aleppo (Ḥalab, Siria)** – Siria antica
+Samarkanda (Samarkand, Uzbekistan)** – città della Via della Seta
+Ephesus (Efesos, Asia Minore/Turchia)** – Importante città greca e romana, famosa per il Tempio di Artemide
+Harappa (Harappa, Pakistan)** – Città dell’antica civiltà della valle dell’Indo.
+Mohenjo-daro (Sindh, Pakistan)** – Città della valle dell’Indo, nota per urbanistica avanzata.
+Singapore
+Macao
+## 🌍 Africa
+Kumasi (Kumasi, Ghana)** – capitale storica del regno Ashanti, nata come città-stato.
+Kilwa Kisiwani (Kilwa, Tanzania)** – importante città-stato swahili sulla costa orientale africana.
+Meroe (Meroë, Sudan)** – Capitale del regno Kush, famosa per le piramidi nubiane.
+Grande Zimbabwe (Zimbabwe, Africa meridionale)** – Centro politico e commerciale, simbolo della civiltà bantu.
+Freetown
+## 🌎 Americhe
+Monte Albán (Messico)** – centro della civiltà zapoteca.
+Panama
+## 🌎 Oceania
+Rapa Nui
+*/
 
 	
 	// City-States sorted by cityStateType, name
