@@ -1,51 +1,13 @@
 [
-	{
-		"name": "Italia",
-		"leaderName": "Agnese Maria", 
-		"adjective": ["italiano"],
-		"startBias": ["Avoid [Tundra]","Avoid [Desert]", "Avoid [Snow]"],
-		"preferredVictoryType": "Cultural",
-		"favoredReligion": "Eywa",
-		
-		"startIntroPart1": "Dai primi villaggi delle antiche tribù italiche alla grandezza di Roma: l'inizio di una avventura millenaria, forgiata dalla volontà e sempre illuminata da cultura e scienza. La storia di Italia è una parte portante della Storia. ",
-        "startIntroPart2": "Guida il tuo popolo attraverso i secoli, accogli nuove popolazioni ad arricchire la tua stirpe, accompagna l'epopea dei comuni e delle repubbliche marinare, ammira la gloria del Rinascimento, combatti per il Risorgimento e l'Indipendenza. Garantisci Libertà, Democrazie e Giustizia al mondo!",
-		
-		"declaringWar": "Dov'è la Vittoria?! Le porga la chioma, ché schiava di Roma Iddio la creò.",
-		"attacked": "Vuoi davvero sfidare il Tricolore? Sarai sconfitto dall'Italia Turrita!",
-		"defeated": "Incredibile: siamo stati sconfitti. Quante generazioni dovranno passare affinchè torni la luce nel mondo?",
-		"introduction": "Oggi il fato vi ha offerto il regalo più grande: potete finalmente unirvi al nostro impero!",
-		
-		"neutralHello": "Salute viaggiatori, cosa vi porta fin qui?",
-		"neutralLetsHearIt": ["Salute viaggiatori.","Che novità portate?","Siete benvenuti."],
-		"neutralNo": ["Assolutamente no.","No!","Non se ne parla."],
-		"neutralYes": ["Molto bene.","Certamente.","E' un piacere fare affare con voi."],
+	/* "CITTà STATO GIOCABILI */
+	
+	
+	/* "CONFEDERAZIONI BARBARE GIOCABILI */ 
 
-		"hateHello": "Cosa vuoi ora?",
-		"hateLetsHearIt": ["Parla!","Cosa dici?","Dimmi."],
-		"hateNo": ["Non è possibile!","Non siamo d'accordo!","Come ti scusi?"],
-		"hateYes": ["Va bene.","Questo è sufficiente.","Ottimo..."],
-		
-		"afterPeace": "Molto bene, tutti quei combattimenti stavano diventando noiosi comunque.",
-		"tradeRequest": "Vi concediamo l'onore di questa offerta commerciale.",
-
-		"outerColor": [0,140,69],
-		"innerColor": [205,33,42],
-		"uniqueName": "Gloria d'Italia",
-		"uniqueText": "Una cultura millenaria, figlia di Roma, erede dei Comuni e delle Repubbliche Marinare che prospera con Cultura, Scienza e Resilieza.",
-		"uniques": ["[+10]% Production when constructing [All] wonders [in all cities]",
-			"[+15]% Production towards any buildings that already exist in the Capital", "[All] units gain the [Stringiamci a coorte] promotion", 
-			"[All] units gain the [Resilienza italiana] promotion",
-			"Enables embarkation for land units <starting from the [Ancient era]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
-            "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>","[+1] Sight <for [Embarked] units>"],
-		
-		"cities": ["Roma","Firenze","Torino","Venezia","Cagliari","Avellino","Napoli","Palermo","Bologna",
-            "Siracusa","Taranto","Genova", "Pisa","Amalfi", "Siena", "Parma", "Assisi", "Urbino", "Reggio"],
-		"spyNames": [
-            "Gasparo","Giosafat","Ambrogio","Niccolo","Marino","Cesare","Francesco","Giovanni","Bertolome","Filomena"]
-     },
-	  // City-States sorted by cityStateType, name
+	
+	// City-States sorted by cityStateType, name
 	{
-		"name": "Brussels",
+		"name": "Brussels", // DA RIMUOVERE
 		"adjective": ["Bruxellois"],
 		"cityStateType": "Cultured",
 
@@ -57,7 +19,7 @@
 		"cities": ["Brussels"]
 	},
 	{
-		"name": "Bucharest",
+		"name": "Bucharest", // DA RIMUOVERE
 		"adjective": ["Bucuresti"],
 		"cityStateType": "Cultured",
 
@@ -69,7 +31,7 @@
 		"cities": ["Bucharest"]
 	},
 	{
-		"name": "Florence",
+		"name": "Florence", // DA RIMUOVERE
 		"adjective": ["Florentine"],
 		"cityStateType": "Cultured",
 
@@ -81,7 +43,7 @@
 		"cities": ["Florence"]
 	},
 	{
-		"name": "Kabul",
+		"name": "Kabul", // DA RIMUOVERE
 		"adjective": ["Kabuli"],
 		"cityStateType": "Cultured",
 
@@ -93,7 +55,7 @@
 		"cities": ["Kabul"]
 	},
 	{
-		"name": "Kathmandu",
+		"name": "Kathmandu", // DA RIMUOVERE
 		"adjective": ["Kathmanduites"],
 		"cityStateType": "Cultured", // Changed from Cultured to Religious in BNW
 
@@ -105,7 +67,7 @@
 		"cities": ["Kathmandu"]
 	},
 	{
-		"name": "Kuala Lumpur",
+		"name": "Kuala Lumpur", // DA RIMUOVERE
 		"adjective": ["KLite"],
 		"cityStateType": "Cultured",
 
@@ -117,7 +79,7 @@
 		"cities": ["Kuala Lumpur"]
 	},
 	{
-		"name": "Milan",
+		"name": "Milan", // DA RIMUOVERE
 		"adjective": ["Milanese"],
 		"cityStateType": "Cultured",
 
@@ -129,7 +91,7 @@
 		"cities": ["Milan"]
 	},
 	{
-		"name": "Monaco",
+		"name": "Monaco", // DA RIMUOVERE
 		"adjective": ["Monegasque"],
 		"cityStateType": "Cultured",
 
@@ -141,7 +103,7 @@
 		"cities": ["Monaco"]
 	},
 	{
-		"name": "Prague",
+		"name": "Prague", // DA RIMUOVERE
 		"adjective": ["Praguer", "Pragueite"],
 		"cityStateType": "Cultured",
 
