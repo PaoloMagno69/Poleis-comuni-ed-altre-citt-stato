@@ -136,7 +136,6 @@
         "name": "Foro di Traiano", // SEMBRA OK //
 	    "uniqueTo": "Italia",
         "isWonder": true,
-        "requiredTech": "Bronze Working",
         "cost": 200,
 		"happiness": 2,
         "culture": 1,
@@ -164,7 +163,7 @@
 		"quote": "Lasciò un segno eterno nella Storia con la sua Divina Commedia ma fu anche politico a Firenze e valoroso cavaliere a Campaldino: Dante Alighieri, eccellenza italiana!"
         },
 	    {
-		"name": "Università di Bologna"
+		"name": "Università di Bologna",
 		"replaces": "Oxford University",
 		"uniqueTo": "Italia",
 		"cost": 200,
