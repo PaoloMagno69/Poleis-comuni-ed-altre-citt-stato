@@ -261,7 +261,7 @@ Teotihuacán (Teotihuacán, Valle del Messico)** – città-stato precolombiana,
 			"Free [Great General] appears <upon discovering [Steel] technology>"],
 		"startingTechs": ["Agriculture", "Pottery", "Animal Husbandry", "Archery", "Mining", "Sailing", "Bronze Working"],
 			"cities": ["Ambracia","Phoenike","Passaron"]
-	},
+	   },
 					{
 		"name": "Scythia", /* DA Ancient-Civilizations
 		"leaderName": "Ateas",
