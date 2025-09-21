@@ -187,7 +187,7 @@
 
 	/* "CONFEDERAZIONI BARBARE GIOCABILI */ 
 	{
-		"name": "Epirus", /* DA Ancient-Civilizations
+		"name": "Epirus",
 		"leaderName": "Pyrrhus",
 		"adjective": ["Epirote"],
 		"preferredVictoryType": "Domination",
@@ -219,8 +219,8 @@
 		"uniques": ["Cannot build [Settler] units", "[Military] units gain the [Pyrrhic Victory] promotion","[+25]% Production when constructing [Military] units [in capital]","Free [Great General] appears <upon discovering [Bronze Working] technology>","Free [Great General] appears <upon discovering [Steel] technology>"],
 		"cities": ["Ambracia","Phoenike","Passaron"]
 	},
-	{
-		"name": "Scythia", /* DA Ancient-Civilizations
+					{
+		"name": "Scythia",
 		"leaderName": "Ateas",
 		"adjective": ["Scythian"],
 		"startBias": ["Plains"],
@@ -252,7 +252,6 @@
 		"uniques": ["[+1 Food] from every [Horses]","Starts with [Archery]"],
 		"cities": ["Gelonus","Solokha","Aimonov","Tanais","Neapolis","Kalermes","Maikop","Tyras","Kul Oba","Olbia","Kerch","Mologeni","Bosporus","Chersonesos","Syebi","Phanogoria","Aorsi","Massagetae","Qabala"]
 	},
-    
 /* ALTRI GIOCABILI */ 
 {
 		"name": "The Hittites", /* DA Ancient-Civilizations
