@@ -186,40 +186,7 @@
     },
 
 	/* "CONFEDERAZIONI BARBARE GIOCABILI */ 
-    {
-		"name": "Scythia", /* DA Ancient-Civilizations
-		"leaderName": "Ateas",
-		"adjective": ["Scythian"],
-		"startBias": ["Plains"],
-		"preferredVictoryType": "Domination",
-		
-		"startIntroPart1": "We fall down before you, great and wise Ateas, the most powerful king of Scythia, the fatherland of horsemen! The Scythians were an ancient Iranic people of horse-riding, nomadic pastors who, throughout classical antiquity, dominated the Pontic-Caspian steppe. Around 676 BCE, the Scythians allied with the Mannaens and attacked mighty Assyria. In 512 BCE, when King Darius the Great of Persia attacked the Scythians, he allegedly penetrated into their land after crossing the Danube. Scythians succeeded in frustrating the designs of the Persian army by letting it march through the entire country without an engagement. With this great legacy behind you, you united the Scythian tribes, creating an entity powerful enough to threaten the Gree-Macedonian overlords of the Balkans.",
-		"startIntroPart2": "King Atheas, the world is new once again, and there is so much more glory to be won than the paltry, ambitionless raids your people once carried out! Will you reunite all horsemen under one flag? Will you lead the raids deep into the lands of your many opponents? Can you build a civilization that will stand the test of time?",
-		
-		"declaringWar": "I am afraid your reign is over!",
-		"attacked": "We will sunk you in your own blood.",
-		"defeated":  "I must rest.",
-		"introduction":  "Welcome to the steppes. I am Ateas, the king of the Scythian people.",
-		
-		"neutralHello": "Greeting",
-		"neutralLetsHearIt": ["Yes.","Let's discuss."],
-		"neutralNo": ["No way.","Never!"],
-		"neutralYes": ["Very good.","Of course, yes.","I accept."],
-		"hateHello": "Go on!",
-		"hateLetsHearIt": ["Speak!"],
-		"hateNo": ["I can't accept!","You need to try harder."],
-		"hateYes": ["Let it be.","This offer is too good to reject."],
-		
-		"afterPeace": "I hope you've learned something from our last dispute.",
-		"tradeRequest": "Do you like my offer?",
-
-		"outerColor": [	184, 154, 55],
-		"innerColor": [	84, 9, 9],
-		"uniqueName": "People of the Steppe",
-		"uniques": ["[+1 Food] from every [Horses]","Starts with [Archery]"],
-		"cities": ["Gelonus","Solokha","Aimonov","Tanais","Neapolis","Kalermes","Maikop","Tyras","Kul Oba","Olbia","Kerch","Mologeni","Bosporus","Chersonesos","Syebi","Phanogoria","Aorsi","Massagetae","Qabala"]
-	},
-
+    
 /* ALTRI GIOCABILI */ 
 {
 		"name": "The Hittites", /* DA Ancient-Civilizations
