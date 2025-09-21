@@ -172,9 +172,8 @@
                  ]
 		"attackSound": "metalhit"
 	},
-	/* DA Brave-New-World 
-	{
-		"name": "Great Galleass", /* Se l’unità speciale non ha un’immagine assegnata, come in questo caso, il gioco utilizzerà la sprite dell’unità che sostituisce.
+		{
+		"name": "Great Galleass", /* DA Brave-New-World
 		"replaces": "Galleass",
 		"unitType": "Ranged Water",
 		"uniqueTo": "Venice",
@@ -197,9 +196,8 @@
 		"uniques": ["Great Person - [Gold]","Can undertake a trade mission with City-State, giving a large sum of gold and [90] Influence",
 			"Can instantly construct a [Customs house] improvement <by consuming this unit>","Double movement in [Coast]","Unbuildable","Uncapturable"]
 	},
-/* DA Medieval-Civilizations
 	{
-		"name": "Pavise Crossbowman",
+		"name": "Pavise Crossbowman", /* DA Medieval-Civilizations
 		"unitType": "Archery",
 		"uniqueTo": "Republic of Genoa",
 		"replaces": "Crossbowman",
@@ -215,7 +213,7 @@
 		"attackSound": "arrow"
 	},
 		{
-		"name": "Ribault",
+		"name": "Ribault", /* DA Medieval-Civilizations
 		"unitType": "Archery",
 		"replaces": "Trebuchet",
 		"uniqueTo": "Republic of Genoa",
