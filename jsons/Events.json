@@ -1,28 +1,108 @@
 [
+
  	{
-		    "name": "Barbari_no_classica",
+		    "name": "Menhir degli antenati",
+		    "text": "I barbari venerano solo i loro antenati, guardano solo al passato gli stolti!",
+		    "choices": [
+			    {"text": "Il culto degli antenati è importante ma non possiamo limitare il progresso e non pensare ai nostri discendenti!",
+			     "uniques": [ "Gain a free [Menhir degli antenati] [in all cities]"] } ]
+	
+	},
+  	{
+		    "name": "NO_scienza_barbari",
 		    "text": "La conoscenza è potere: chi non la domina è destinato a sparire!",
 		    "choices": [
-			    {"text": "Le opportunità arrivano raramente. Quando piove oro, mettete fuori il secchio, non il cucchiaio!",
+			    {"text": "Noi faremo di tutto per progredire e così plasmeremo il futuro!",
 			     "uniques": [ "[-100]% [Science] [in all cities] <for [1000] turns>" <hidden from users>"] } ]
 	
 	},
-]
-
-
-{
-  "events": [
     {
-      "name": "Epirus_education_penalty",
-      "text": "A radical reform reduces investment in sciences across Epirus.",
-      "choices": [
-        {
-          "text": "Apply the reform",
-          "uniques": [
-            "[-100]% Science <in all cities>"
-          ]
-        }
-      ]
+        "name": "dona_tecnologia2",
+        "text": "I barbari hanno scoperto una nuova tecnologia!",
+        "choices": [
+            {"text": "Anche la roccia screpolata trattiene l’acqua della pioggia",
+             "uniques": ["[1] free random researchable Tech(s) from the [Ancient era] <hidden from users>"] }
+        ]
+    },
+    {
+        "name": "dona_tecnologia3",
+        "text": "I barbari hanno scoperto una nuova tecnologia!",
+        "choices": [
+            {"text": "Anche la lucertola si scalda al sole nel momento giusto",
+             "uniques": ["[1] free random researchable Tech(s) from the [Ancient era] <hidden from users>"] }
+        ]
+    },
+    {
+        "name": "dona_tecnologia4",
+        "text": "I barbari hanno scoperto una nuova tecnologia!",
+        "choices": [
+            {"text": "Anche il mulino fermo macina al vento giusto",
+             "uniques": ["[1] free random researchable Tech(s) from the [Ancient era] <hidden from users>"] }
+        ]
+    },
+    {
+        "name": "dona_tecnologia5",
+        "text": "I barbari hanno scoperto una nuova tecnologia!",
+        "choices": [
+            {"text": "Anche il corvo tace all’alba giusta",
+             "uniques": ["[1] free random researchable Tech(s) from the [Ancient era] <hidden from users>"] }
+        ]
+    },
+    {
+        "name": "dona_tecnologia6",
+        "text": "I barbari hanno scoperto una nuova tecnologia!",
+        "choices": [
+            {"text": "Anche un ruscello impetuoso scorre regolare dopo la tempesta",
+             "uniques": ["[1] free random researchable Tech(s) from the [Ancient era] <hidden from users>"] }
+        ]
+    },
+    {
+        "name": "dona_tecnologia7",
+        "text": "I barbari hanno scoperto una nuova tecnologia!",
+        "choices": [
+            {"text": "Anche il vento irrequieto porta il seme dove serve",
+             "uniques": ["[1] free random researchable Tech(s) from the [Ancient era] <hidden from users>"] }
+        ]
+    },
+    {
+        "name": "dona_tecnologia8",
+        "text": "I barbari hanno scoperto una nuova tecnologia!",
+        "choices": [
+            {"text": "Anche la luna piena illumina la tana del topo",
+             "uniques": ["[1] free random researchable Tech(s) from the [Ancient era] <hidden from users>"] }
+        ]
+    },
+    {
+        "name": "dona_tecnologia9",
+        "text": "I barbari hanno scoperto una nuova tecnologia!",
+        "choices": [
+            {"text": "Anche la tempesta dura un giorno soltanto",
+             "uniques": ["[1] free random researchable Tech(s) from the [Ancient era] <hidden from users>"] }
+        ]
+    },
+    {
+        "name": "dona_tecnologia10",
+        "text": "I barbari hanno scoperto una nuova tecnologia!",
+        "choices": [
+            {"text": "Anche la pietra più dura si scheggia con il colpo giusto",
+             "uniques": ["[1] free random researchable Tech(s) from the [Ancient era] <hidden from users>"] }
+        ]
+    },
+    {
+        "name": "dona_tecnologia11",
+        "text": "I barbari hanno scoperto una nuova tecnologia!",
+        "choices": [
+            {"text": "Anche il pastore più distratto trova il gregge all’alba",
+             "uniques": ["[1] free random researchable Tech(s) from the [Ancient era] <hidden from users>"] }
+        ]
+    },
+    {
+        "name": "dona_tecnologia12",
+        "text": "I barbari hanno scoperto una nuova tecnologia!",
+        "choices": [
+            {"text": "Anche il grano cresce sotto il sole più ostinato",
+             "uniques": ["[1] free random researchable Tech(s) from the [Ancient era] <hidden from users>"] }
+        ]
     }
-  ]
-}
+
+ ]
