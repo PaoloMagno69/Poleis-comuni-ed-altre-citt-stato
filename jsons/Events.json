@@ -1,0 +1,28 @@
+[
+ 	{
+		    "name": "Barbari_no_classica",
+		    "text": "La conoscenza è potere: chi non la domina è destinato a sparire!",
+		    "choices": [
+			    {"text": "Le opportunità arrivano raramente. Quando piove oro, mettete fuori il secchio, non il cucchiaio!",
+			     "uniques": [ "[-100]% [Science] [in all cities] <for [1000] turns>" <hidden from users>"] } ]
+	
+	},
+]
+
+
+{
+  "events": [
+    {
+      "name": "Epirus_education_penalty",
+      "text": "A radical reform reduces investment in sciences across Epirus.",
+      "choices": [
+        {
+          "text": "Apply the reform",
+          "uniques": [
+            "[-100]% Science <in all cities>"
+          ]
+        }
+      ]
+    }
+  ]
+}
