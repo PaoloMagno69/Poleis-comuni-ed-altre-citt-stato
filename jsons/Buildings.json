@@ -17,7 +17,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"percentStatBonus": {"Gold": 20, "Food": 10},
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "Doubles Gold given to enemy if city is captured", "[-10]% maintenance cost for buildings [in this city]"],
+		"uniques": ["Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", "[+25]% Great Person generation [in this city]", "Doubles Gold given to enemy if city is captured", "[-10]% maintenance cost for buildings [in this city]"],
 		"requiredTech": "Masonry"
 	},
 	{
