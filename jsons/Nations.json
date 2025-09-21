@@ -8,8 +8,8 @@
 		"preferredVictoryType": "Neutral",
 		"style": "Mediterranean",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "INVENTARE QUALCOSA",
+		"startIntroPart2": "INVENTARE QUALCOSA",
 
 		"declaringWar": "It's time you exited the picture.",
 		"attacked": "Ha! You idiot.",
@@ -25,7 +25,7 @@
 		"innerColor": [37, 27, 21],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Magna Graecia",
-  "personality": "Syracussy", 
+        "personality": "Syracussy", 
 		"uniques": ["Cannot annex cities", "[+1 Culture] from every [Scientist]", "[+2 Science] from every [Engineer]", "Gain a free [Architectural Marvel] [in a random city] <upon gaining a [Great Engineer] unit>"],
 	        "cities": ["Syracuse",  "Tauromenion","Akrai",
 			"Tyndaris", "Aitna","Ankon", "Kephaloidion", "Chios", "Delos", "Thasos", "Abydos", "Olynthos", "Serfios", "Smyrna", "Imbros",
@@ -95,8 +95,8 @@
 		"preferredVictoryType": "Diplomatic",
 		"style": "Mediterranean",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "ATENE",
+		"startIntroPart2": "ATENE 2",
 
 		"declaringWar": "And thus always to tyrants.",
 		"attacked": "Mmmm, very unwise.",
