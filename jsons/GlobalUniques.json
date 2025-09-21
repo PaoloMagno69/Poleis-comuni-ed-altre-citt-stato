@@ -1,9 +1,7 @@
 {
 	"name": "Global uniques",
 	"uniques": [
-// =====================================
-// ATTIVA EVENTI
-// =====================================
+
 "Triggers a [Menhir degli antenati] event <for [Epirus] Civilizations> <upon turn end> <after turn number [0]> <before turn number [1]>",
 "Triggers a [NO_scienza_barbari] event <for [Epirus] Civilizations> <upon turn end> <after turn number [1]> <before turn number [2]>",
 
