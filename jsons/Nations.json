@@ -1,7 +1,7 @@
 [
 	/* "CITTà STATO GIOCABILI */
     {
-		"name": "Syracuse",
+		"name": "Syracuse", /* DA GREEK SPLIT */
 		"leaderName": "Dionysus II",
 		"adjective": ["Sicilliote"],
 		"startBias": ["Coast"],
@@ -32,11 +32,163 @@
 			"Patras","Lamia","Nafplion","Apolyton", "Troizen"],
         "spyNames": ["Jeson", "Hiline", "Aloix", "Platon", "Kassandros", "Andros", "Desdemona", "Antheas", "Aeneas", "Loindiraos", "Dada da du du da do do mo ne bam ba bah"]
     }, 
+	{
+		"name": "Republic of Genoa", /* DA Medieval-Civilizations
+		"leaderName": "Simone Boccanegra",
+		"adjective": ["Genoese"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Diplomatic",
+		
+		"startIntroPart1": "Live long and prosper, Simone Boccanegra, Doge of mighty Genoa! Your reign was marked by an intense cliud of intrigue and subterfuge. Genoa, one of the contending powers for domination of the Mediterranean, was ruled by an aristocratic elite. Once elected Doge, you disposed of the established upper class in a revolutionary upheaval that would forever change Genoa's political landscape. Entrenched in a long war with Venice, that would eventually be lost, you fought off would-be assassins and rivals for five long years before being forced to resign. But your successors were less tenacious as you, and soon enough you came back to power. Your rule would last another seven years, before a poisoning attempt was finally successful.",
+		"startIntroPart2": "Revolutionari Doge, your people are once again surrounded by enemies plotting Genoa's demise. Will you see through the ploys of your many rivals, and once again establish Genoa as a force to be reckoned with? Will you seize control of the seas, and establish dominance over the trade routes of this new world? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "I think we might have conflicting interests, actually - I am certain!",
+		"attacked": "I hope you studied that thoroughly, because there will be no mercy.",
+		"defeated": "I must leave... Farewell.",
+		"introduction": "You stand in front of Simone Boccanera, the doge of Republic of Genoa. Would you mind a cup of wine? Or two?",
+		
+		"neutralHello": "Greetings.",
+		"neutralLetsHearIt": ["Yes.","Speak."],
+		"neutralNo": ["No.","That's unacceptable."],
+		"neutralYes": ["I can't refuse.","I gladly accept."],
+		"hateHello": "Don't waste my time!",
+		"hateLetsHearIt": ["What's your offer?"],
+		"hateNo": ["..."],
+		"hateYes": ["We must accept."],
+		
+		"afterPeace": "Hopefully that little war did not impact our economic relations much.",
+		"tradeRequest": "What is your proposal?",
+
+		"outerColor": [255, 255, 255],
+		"innerColor": [255, 0, 0],
+		"uniqueName": "The Spark of the Renaissance",
+		"uniques": ["[+15]% [Gold] [in all cities connected to capital]","[+15]% [Science] <during the [Medieval era]>"],
+		"cities": ["Genoa","Ajaccio","Costanza","Albenga","Monaco","Savona","San Remo","Laiazzo","Giaffa","Basta","Porto-Vecchio","Sassari","Alghero","Nuoro","Olbia","Bonifacio"]
+	},
+{
+		"name": "Venice", /* DA Brave-New-World 
+		"leaderName": "Enrico Dandolo",
+		"adjective": ["Venetian"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": "Greetings, most astute Doge Enrico Dandolo of Venice, master of statecraft and shrewd negotiator. Although you rose to power late in life, old age did little to slow your cunning or ambition, as you deftly managed the bustling commercial center of Venice during a time of great instability. In aligning yourself with the Fourth Crusade, you carefully gained a strategic advantage and used the Crusaders to reacquire lost territory for Venice. Your role in guiding the Crusaders during the sacking of Constantinople led to an even greater expansion of your power, and secured your legacy throughout history.",
+		"startIntroPart2": "Most insightful and cunning Doge, Venice once again requires the service of a skilled leader, one who can bring the republic back to the forefront of world affairs. Can you establish your nation through careful trade, or will you work to conquer your enemies through diplomacy? Can you build a civilization that will stand the test of time?",
+		"declaringWar": "When you will be gone, Sir, there will be more for me!",
+		"attacked": "You have revealed your purposes too early, my friend!",
+		"defeated": "A wrong calculation, on my part.",
+		"introduction": "Welcome to Venice. I am Doge Enrico Dandolo.",
+		"neutralHello": "Greetings.",
+		"hateHello": "You! What do you want?",
+		"tradeRequest": "This offer won't be valid for a lot of time, think about it.",
+		"outerColor": [105,34,172],
+		"innerColor": [255,254,231],
+		"uniqueName": "Serenissima",
+		"uniques": ["[+100]% [Gold] [in capital]","Receive free [Merchant of Venice] when you discover [Optics]","Cannot build [Settler] units"],
+		"cities": ["Venice"]
+	},
+{
+		"name": "Athens", /* DA GREEK SPLIT */
+		"leaderName": "Pericles",
+		"adjective": ["Attic"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Diplomatic",
+		"style": "Mediterranean",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "And thus always to tyrants.",
+		"attacked": "Mmmm, very unwise.",
+		"defeated": "Beautiful Athens... you've plunged humanity into a dark age... \nBad End.",
+		"introduction": "I greet you on behalf of Athens as her elected representive; behold, the bastion of enlightenment and mother city of the Ionian Greeks.",
+
+		"neutralHello": "Yes..?",
+		"hateHello": "Come to give up your throne, tyrant?",
+
+		"tradeRequest": "Trust us, this agreement will benefit all of us the most, I'm sure I don't have to bore you with the specifics.",
+
+		"outerColor": [250, 250, 254],
+		"innerColor": [40, 183, 245],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Attic Hegemony",
+  "personality": "Athenian", 
+		"uniques": ["Cannot build [Settler] units", "[-50]% City-State Influence degradation", "City-State Influence recovers at twice the normal rate", "Militaristic City-States grant units [2] times as fast when you are at war with a common nation", "[+2 Science, +3 Culture] per [2] social policies adopted", "[+1 Culture] from all [Science] buildings", "Can spend Gold to annex or puppet a City-State that has been your ally for [15] turns <after adopting [Meritocracy]>"],
+		"uniqueText": "City state influence recovers at twice the speed and degrades half as fast. \n+3 [Science] and +3 [Culture] for every other social policy adopted. \n+1 [Culture] from all [Science] buildings. \nCan annex allied CS with [Gold] after 15 turns of alliance have passed and Representation is adopted (TBR). \nCannot build settlers.",
+	        "cities": ["Athens", "Miletos","Phocaea", "Samos",
+			"Chalkis","Naxos", "Ephesus", "Chios", "Delos", "Thasos", "Abydos", "Olynthos", "Serfios", "Smyrna", "Imbros",
+			"Patras","Lamia","Nafplion","Apolyton", "Troizen"],
+        "spyNames": ["Jeson", "Hiline", "Aloix", "Platon", "Kassandros", "Andros", "Desdemona", "Antheas", "Aeneas", "Loindiraos", "Dada da du du da do do mo ne bam ba bah"]
+    },
+{
+		"name": "Sparta", /* DA GREEK SPLIT */
+		"leaderName": "Leonidas",
+		"adjective": ["Doric"],
+		"startBias": ["Plains"],
+  "personality": "Spartan", 
+		"preferredVictoryType": "Domination",
+		"style": "Mediterranean",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "Laconia's fields require fresh helots, and her markets healthy slaves! \nThe weak should fear the strong; now natural order will be enforced.",
+		"attacked": "Sparta shall never submit to foreign cravens! Apollo smiles upon us, barbarian. You will not be walking away from this one.",
+		"defeated": "No... our society was infallible, indestructable... at least we will die with it like true Spartans.",
+		"introduction": "You know where this is.",
+
+		"neutralHello": "What, barbarian? Speak.",
+		"hateHello": "I would have settled our differences on the fields of battle, were we not currently preoccupied declaring war on our peasant class. \nWhat you may call madness, we call Sparda.",
+
+		"tradeRequest": "This is our offer. \nWe shall await your reply by the edge of a comically large hole.",
+
+		"outerColor": [185, 55, 30],
+		"innerColor": [205, 200, 25],
+		"favoredReligion": "Shinto",
+		"uniqueName": "Kick the Helot",
+		"uniques": ["Cannot build [Settler] units","Free [Warrior] appears <upon constructing [Production] [in capital]> <with [33]% chance> <before the [Classical era]>", "Free [Elite Hoplites] appears <upon constructing [Production] [in capital]> <with [33]% chance> <starting from the [Classical era]> <before the [Medieval era]>", "Free [Pikeman] appears <upon constructing [Production] [in capital]> <with [33]% chance> <starting from the [Medieval era]> <before the [Renaissance era]>", "Free [Musketman] appears <upon constructing [Production] [in capital]> <with [33]% chance> <starting from the [Renaissance era]> <before the [Industrial era]>", "Free [Rifleman] appears <upon constructing [Production] [in capital]> <with [33]% chance> <starting from the [Industrial era]> <before the [Modern era]>", "Free [Infantry] appears <upon constructing [Production] [in capital]> <with [33]% chance> <starting from the [Modern era]>", "[+1] population [in capital] <upon conquering a city>", "Free [Worker] appears <upon conquering a city>", "Free [Warrior] appears <upon declaring war with a major Civilization> <before the [Classical era]>", "Free [Elite Hoplites] appears <upon declaring war with a major Civilization> <starting from the [Classical era]> <before the [Medieval era]>", "Free [Pikeman] appears <upon declaring war with a major Civilization> <starting from the [Medieval era]> <before the [Renaissance era]>",  "Free [Musketman] appears <upon declaring war with a major Civilization> <starting from the [Renaissance era]> <before the [Industrial era]>", "Free [Rifleman] appears <upon declaring war with a major Civilization> <starting from the [Industrial era]> <before the [Modern era]>", "Free [Infantry] appears <upon declaring war with a major Civilization> <starting from the [Modern era]>", "[-20]% Unhappiness from [Population] [in all cities with a garrison]", "[+50]% Unhappiness from [Specialists] [in capital]", "All newly-trained [Gunpowder] units [in capital] receive the [Agoge] promotion", "All newly-trained [Sword] units [in capital] receive the [Agoge] promotion", "[+50]% Production when constructing [Military] units [in capital]"],
+		"uniqueText": "+50% [Production] of military units in the capital. \nGain 1 population in the capital and a worker upon conquering a city. Get a free infantry unit when declaring war, and occasionally when complete production buildings in the capital. \nAll Melee units receive the Agoge Promotion \nCannot build settlers.",
+	        "cities": ["Sparta", "Messene","Tegea", "Olympia", "Elis", "Laconium"],
+                "spyNames": ["Schnider", "The Rolling Corpse of Ayn Rand"]
+    },
+	{
+		"name": "Thebes", /* DA GREEK SPLIT */
+		"leaderName": "Epaminondas",
+		"adjective": ["Aeolic"],
+		"startBias": ["Grassland"],
+  "personality": "Thebian", 
+		"preferredVictoryType": "Diplomatic",
+		"style": "Mediterranean",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "I think it's best we deal with you now, lest you become a bigger issue.",
+		"attacked": "...That was really stupid.",
+		"defeated": "I leave behind no sons, and I do not fear death. But even the most blessed of men are one day doomed to watch their mothers die before them. \nAs Thebes burns before me I must ask, what blessing are my own victories if they could not preseve her legacy?.",
+		"introduction": "Greetings. I have been appointed to speak for Thebes, Boeotia, and all its people. May our relationship be a prosperous one.",
+
+		"neutralHello": "Something you wish to tell me?",
+		"hateHello": "You shouldn't let old slights distract you from our mutual intrests. \nNothing washes away bad blood like Boeotian wine.",
+
+		"tradeRequest": "I think this arrangement is in both our interests, eh?",
+
+		"outerColor": [182, 151, 37],
+		"innerColor": [52, 17, 114],
+		"favoredReligion": "Zoroastrianism",
+		"uniqueName": "Boeotian League",
+		"uniques": ["Cannot build [Settler] units", "Allied City-States provide [Culture] equal to [+25]% of what they produce for themselves <when not at war>", "Allied City-States provide [Gold] equal to [+25]% of what they produce for themselves <when not at war>", "Allied City-States provide [Production] equal to [50]% of what they produce for themselves <when at war>", "Militaristic City-States grant units [5] times as fast when you are at war with a common nation", "Gain [60] Influence with a [Great General] gift to a City-State", "[Great General] is earned [20]% faster", "Can spend Gold to annex or puppet a City-State that has been your ally for [10] turns. <after adopting [Patronage]>", "[+2 Faith] per [3] social policies adopted"],
+		"uniqueText": "City state allies grant 1/4th of their [Gold] and [Culture] output when at peace, and half their [Production] output when at war.\n Great Generals automatically start at 3 turn Golden Age upon spawning, are earned at twice the rate and earn 60 influence when gifted. \nCan annex allied CS with [Gold] after 10 turns of alliance have passed and Patronage is adopted (TBR). Every third policy adopted yields +2 [Faith] per turn.\nCannot build settlers.",
+	        "cities": ["Thebes", "Plataea","Coronea", "Orchomenus",
+			"Thespiae","Chaeronea", "Tanagra", "Chalcis", "Erythrae", "Alalcomenae", "Medeon", "Larissa", "Minyae", "Oedipae", "Copae", "Enodae",
+			"Abremes","Makatoun","Myltilene","Itonis", "Lebadea"],
+        "spyNames": ["Jason", "Narcissus", "Heracles", "Oedipus", "Niobe", "Andros", "Sappho", "Antheas", "Soter", "Loindiraos", "Enodia"]
+    },
 	
 	// City-States sorted by cityStateType
 	//Speciali
 	{
-		"name": "Corinth",
+		"name": "Corinth", /* DA GREEK SPLIT */
 		"adjective": ["Corinthian"],
 		"cityStateType": "Corinthian-type",
   "style": "Mediterranean",
