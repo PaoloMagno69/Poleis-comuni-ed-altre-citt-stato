@@ -1,4 +1,5 @@
 [
+	/*
 	/* DA GREEK SPLIT */
 {
 		"name": "Corinth",
@@ -809,4 +810,5 @@ Teotihuacán (Teotihuacán, Valle del Messico)** – città-stato precolombiana,
 		"uniques": ["Can only heal by pillaging", "Excluded from map editor",
 			"[Water] units gain the [Unable to pillage tiles] promotion"]
 	}
+	*/
  ]
