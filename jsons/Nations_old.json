@@ -225,7 +225,7 @@ Teotihuacán (Teotihuacán, Valle del Messico)** – città-stato precolombiana,
 	
 /* "CONFEDERAZIONI BARBARE GIOCABILI */ 
 	{
-		"name": "Epirus", /* DA Ancient-Civilizations
+		"name": "Epirus", /* DA Ancient-Civilizations */
 		"leaderName": "Pyrrhus",
 		"adjective": ["Epirote"],
 		"preferredVictoryType": "Domination",
