@@ -1,375 +1,6 @@
 [
-	/*
-	/* DA GREEK SPLIT */
-{
-		"name": "Corinth",
-		"adjective": ["Corinthian"],
-		"cityStateType": "Corinthian-type",
-  "style": "Mediterranean",
-  "leaderName": "Cypselus",
-		"declaringWar": "We warned you. We made this colony and we can unmake it too.",
-		"attacked": "Sh-Shit - SPARTAAAA! \nHEEELP!",
-		"defeated": "Oh, our beautiful polis, ohh, woe is Corinth. You'll at least finish my canal project, won't you?",
-		"outerColor": [0, 0, 0],
-  "innerColor": [250, 235, 240],
-  "uniques": ["[+1 Culture] from all [All] buildings", "[+1 Happiness, +1 Gold] from all [All] buildings <during a Golden Age>", "[+40]% Production when constructing [Naval] units [in capital]"],
-		"cities": ["Corinth", "Kotyora", "Zorinth"]
-	},
-/*{
-		"name": "Syracuse",
-		"leaderName": "Dionysus II",
-		"adjective": ["Sicilliote"],
-		"startBias": ["Coast"],
-		"preferredVictoryType": "Neutral",
-		"style": "Mediterranean",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-
-		"declaringWar": "It's time you exited the picture.",
-		"attacked": "Ha! You idiot.",
-		"defeated": "The sword of Damocles finally falls... To be honest, I never thought I'd see the day. \nMay your reign be short, and your death slow.",
-		"introduction": "I greet you on behalf of Athens as her elected representive; behold, the bastion of enlightenment and mother city of the Ionian Greeks.",
-
-		"neutralHello": "Yes..?",
-		"hateHello": "Come to give up your throne, tyrant?",
-
-		"tradeRequest": "Trust us, this agreement will benefit all of us the most, I'm sure I don't have to bore you with the specifics.",
-
-		"outerColor": [124, 56, 204],
-		"innerColor": [37, 27, 21],
-		"favoredReligion": "Christianity",
-		"uniqueName": "Magna Graecia",
-  "personality": "Syracussy", 
-		"uniques": ["Cannot annex cities", "[+1 Culture] from every [Scientist]", "[+2 Science] from every [Engineer]", "Gain a free [Architectural Marvel] [in a random city] <upon gaining a [Great Engineer] unit>"],
-	        "cities": ["Syracuse",  "Tauromenion","Akrai",
-			"Tyndaris", "Aitna","Ankon", "Kephaloidion", "Chios", "Delos", "Thasos", "Abydos", "Olynthos", "Serfios", "Smyrna", "Imbros",
-			"Patras","Lamia","Nafplion","Apolyton", "Troizen"],
-        "spyNames": ["Jeson", "Hiline", "Aloix", "Platon", "Kassandros", "Andros", "Desdemona", "Antheas", "Aeneas", "Loindiraos", "Dada da du du da do do mo ne bam ba bah"]
-    },*/
-	
-	/* "CITTà STATO GIOCABILI */
-	/* 
-## 🇪🇺 Europa
-Atene (Athēnai nella Grecia Classica)
-Sparta (Spártē nella Grecia Classica)
-Corinto (Korinthos nella Grecia Classica)
-Tebe (Thēbai nella Grecia Classica)
-Siracusa (Syrákousai nella Magna Grecia)
-Agrigento (Akragas nella Magna Grecia)
-Venezia (Repubblica di Venezia)** – repubblica marinara, grande potenza medievale.
-Genova (Repubblica di Genova)** – rivale di Venezia, centro finanziario e marittimo.
-Firenze (Repubblica di Firenze)** – cuore del Rinascimento.
-## 🌍 Asia
-Gerico (Yeriḥo, Palestina storica) – una delle più antiche città-stato del mondo.
-Ur (Ur, Mesopotamia)** – città-stato sumera.
-Uruk (Uruk, Mesopotamia)** – città di Gilgamesh, leggendaria potenza sumerica.
-Tiro (Ṣūr, Fenicia)** – città marinara, fondatrice di Cartagine.
-## 🌍 Africa
-Axum (Axum, Etiopia/Eritrea)** – antica città-stato e regno commerciale nel Corno d’Africa.
-## 🌎 Americhe
-Teotihuacán (Teotihuacán, Valle del Messico)** – città-stato precolombiana, epoca classica mesoamericana.
-
-*/
-{
-		"name": "Republic of Genoa", /* DA Medieval-Civilizations
-		"leaderName": "Simone Boccanegra",
-		"adjective": ["Genoese"],
-		"startBias": ["Coast"],
-		"preferredVictoryType": "Diplomatic",
-		
-		"startIntroPart1": "Live long and prosper, Simone Boccanegra, Doge of mighty Genoa! Your reign was marked by an intense cliud of intrigue and subterfuge. Genoa, one of the contending powers for domination of the Mediterranean, was ruled by an aristocratic elite. Once elected Doge, you disposed of the established upper class in a revolutionary upheaval that would forever change Genoa's political landscape. Entrenched in a long war with Venice, that would eventually be lost, you fought off would-be assassins and rivals for five long years before being forced to resign. But your successors were less tenacious as you, and soon enough you came back to power. Your rule would last another seven years, before a poisoning attempt was finally successful.",
-		"startIntroPart2": "Revolutionari Doge, your people are once again surrounded by enemies plotting Genoa's demise. Will you see through the ploys of your many rivals, and once again establish Genoa as a force to be reckoned with? Will you seize control of the seas, and establish dominance over the trade routes of this new world? Can you build a civilization that will stand the test of time?",
-		
-		"declaringWar": "I think we might have conflicting interests, actually - I am certain!",
-		"attacked": "I hope you studied that thoroughly, because there will be no mercy.",
-		"defeated": "I must leave... Farewell.",
-		"introduction": "You stand in front of Simone Boccanera, the doge of Republic of Genoa. Would you mind a cup of wine? Or two?",
-		
-		"neutralHello": "Greetings.",
-		"neutralLetsHearIt": ["Yes.","Speak."],
-		"neutralNo": ["No.","That's unacceptable."],
-		"neutralYes": ["I can't refuse.","I gladly accept."],
-		"hateHello": "Don't waste my time!",
-		"hateLetsHearIt": ["What's your offer?"],
-		"hateNo": ["..."],
-		"hateYes": ["We must accept."],
-		
-		"afterPeace": "Hopefully that little war did not impact our economic relations much.",
-		"tradeRequest": "What is your proposal?",
-
-		"outerColor": [255, 255, 255],
-		"innerColor": [255, 0, 0],
-		"uniqueName": "The Spark of the Renaissance",
-		"uniques": ["[+15]% [Gold] [in all cities connected to capital]","[+15]% [Science] <during the [Medieval era]>"],
-		"cities": ["Genoa","Ajaccio","Costanza","Albenga","Monaco","Savona","San Remo","Laiazzo","Giaffa","Basta","Porto-Vecchio","Sassari","Alghero","Nuoro","Olbia","Bonifacio"]
-	},
-{
-		"name": "Venice", /* DA Brave-New-World 
-		"leaderName": "Enrico Dandolo",
-		"adjective": ["Venetian"],
-		"startBias": ["Coast"],
-		"preferredVictoryType": "Diplomatic",
-
-		"startIntroPart1": "Greetings, most astute Doge Enrico Dandolo of Venice, master of statecraft and shrewd negotiator. Although you rose to power late in life, old age did little to slow your cunning or ambition, as you deftly managed the bustling commercial center of Venice during a time of great instability. In aligning yourself with the Fourth Crusade, you carefully gained a strategic advantage and used the Crusaders to reacquire lost territory for Venice. Your role in guiding the Crusaders during the sacking of Constantinople led to an even greater expansion of your power, and secured your legacy throughout history.",
-		"startIntroPart2": "Most insightful and cunning Doge, Venice once again requires the service of a skilled leader, one who can bring the republic back to the forefront of world affairs. Can you establish your nation through careful trade, or will you work to conquer your enemies through diplomacy? Can you build a civilization that will stand the test of time?",
-		"declaringWar": "When you will be gone, Sir, there will be more for me!",
-		"attacked": "You have revealed your purposes too early, my friend!",
-		"defeated": "A wrong calculation, on my part.",
-		"introduction": "Welcome to Venice. I am Doge Enrico Dandolo.",
-		"neutralHello": "Greetings.",
-		"hateHello": "You! What do you want?",
-		"tradeRequest": "This offer won't be valid for a lot of time, think about it.",
-		"outerColor": [105,34,172],
-		"innerColor": [255,254,231],
-		"uniqueName": "Serenissima",
-		"uniques": ["[+100]% [Gold] [in capital]","Receive free [Merchant of Venice] when you discover [Optics]","Cannot build [Settler] units"],
-		"cities": ["Venice"]
-	},
-{
-		"name": "Athens", /* DA GREEK SPLIT */
-		"leaderName": "Pericles",
-		"adjective": ["Attic"],
-		"startBias": ["Coast"],
-		"preferredVictoryType": "Diplomatic",
-		"style": "Mediterranean",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-
-		"declaringWar": "And thus always to tyrants.",
-		"attacked": "Mmmm, very unwise.",
-		"defeated": "Beautiful Athens... you've plunged humanity into a dark age... \nBad End.",
-		"introduction": "I greet you on behalf of Athens as her elected representive; behold, the bastion of enlightenment and mother city of the Ionian Greeks.",
-
-		"neutralHello": "Yes..?",
-		"hateHello": "Come to give up your throne, tyrant?",
-
-		"tradeRequest": "Trust us, this agreement will benefit all of us the most, I'm sure I don't have to bore you with the specifics.",
-
-		"outerColor": [250, 250, 254],
-		"innerColor": [40, 183, 245],
-		"favoredReligion": "Christianity",
-		"uniqueName": "Attic Hegemony",
-  "personality": "Athenian", 
-		"uniques": ["Cannot build [Settler] units", "[-50]% City-State Influence degradation", "City-State Influence recovers at twice the normal rate", "Militaristic City-States grant units [2] times as fast when you are at war with a common nation", "[+2 Science, +3 Culture] per [2] social policies adopted", "[+1 Culture] from all [Science] buildings", "Can spend Gold to annex or puppet a City-State that has been your ally for [15] turns <after adopting [Meritocracy]>"],
-		"uniqueText": "City state influence recovers at twice the speed and degrades half as fast. \n+3 [Science] and +3 [Culture] for every other social policy adopted. \n+1 [Culture] from all [Science] buildings. \nCan annex allied CS with [Gold] after 15 turns of alliance have passed and Representation is adopted (TBR). \nCannot build settlers.",
-	        "cities": ["Athens", "Miletos","Phocaea", "Samos",
-			"Chalkis","Naxos", "Ephesus", "Chios", "Delos", "Thasos", "Abydos", "Olynthos", "Serfios", "Smyrna", "Imbros",
-			"Patras","Lamia","Nafplion","Apolyton", "Troizen"],
-        "spyNames": ["Jeson", "Hiline", "Aloix", "Platon", "Kassandros", "Andros", "Desdemona", "Antheas", "Aeneas", "Loindiraos", "Dada da du du da do do mo ne bam ba bah"]
-    },
-{
-		"name": "Sparta", /* DA GREEK SPLIT */
-		"leaderName": "Leonidas",
-		"adjective": ["Doric"],
-		"startBias": ["Plains"],
-  "personality": "Spartan", 
-		"preferredVictoryType": "Domination",
-		"style": "Mediterranean",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-
-		"declaringWar": "Laconia's fields require fresh helots, and her markets healthy slaves! \nThe weak should fear the strong; now natural order will be enforced.",
-		"attacked": "Sparta shall never submit to foreign cravens! Apollo smiles upon us, barbarian. You will not be walking away from this one.",
-		"defeated": "No... our society was infallible, indestructable... at least we will die with it like true Spartans.",
-		"introduction": "You know where this is.",
-
-		"neutralHello": "What, barbarian? Speak.",
-		"hateHello": "I would have settled our differences on the fields of battle, were we not currently preoccupied declaring war on our peasant class. \nWhat you may call madness, we call Sparda.",
-
-		"tradeRequest": "This is our offer. \nWe shall await your reply by the edge of a comically large hole.",
-
-		"outerColor": [185, 55, 30],
-		"innerColor": [205, 200, 25],
-		"favoredReligion": "Shinto",
-		"uniqueName": "Kick the Helot",
-		"uniques": ["Cannot build [Settler] units","Free [Warrior] appears <upon constructing [Production] [in capital]> <with [33]% chance> <before the [Classical era]>", "Free [Elite Hoplites] appears <upon constructing [Production] [in capital]> <with [33]% chance> <starting from the [Classical era]> <before the [Medieval era]>", "Free [Pikeman] appears <upon constructing [Production] [in capital]> <with [33]% chance> <starting from the [Medieval era]> <before the [Renaissance era]>", "Free [Musketman] appears <upon constructing [Production] [in capital]> <with [33]% chance> <starting from the [Renaissance era]> <before the [Industrial era]>", "Free [Rifleman] appears <upon constructing [Production] [in capital]> <with [33]% chance> <starting from the [Industrial era]> <before the [Modern era]>", "Free [Infantry] appears <upon constructing [Production] [in capital]> <with [33]% chance> <starting from the [Modern era]>", "[+1] population [in capital] <upon conquering a city>", "Free [Worker] appears <upon conquering a city>", "Free [Warrior] appears <upon declaring war with a major Civilization> <before the [Classical era]>", "Free [Elite Hoplites] appears <upon declaring war with a major Civilization> <starting from the [Classical era]> <before the [Medieval era]>", "Free [Pikeman] appears <upon declaring war with a major Civilization> <starting from the [Medieval era]> <before the [Renaissance era]>",  "Free [Musketman] appears <upon declaring war with a major Civilization> <starting from the [Renaissance era]> <before the [Industrial era]>", "Free [Rifleman] appears <upon declaring war with a major Civilization> <starting from the [Industrial era]> <before the [Modern era]>", "Free [Infantry] appears <upon declaring war with a major Civilization> <starting from the [Modern era]>", "[-20]% Unhappiness from [Population] [in all cities with a garrison]", "[+50]% Unhappiness from [Specialists] [in capital]", "All newly-trained [Gunpowder] units [in capital] receive the [Agoge] promotion", "All newly-trained [Sword] units [in capital] receive the [Agoge] promotion", "[+50]% Production when constructing [Military] units [in capital]"],
-		"uniqueText": "+50% [Production] of military units in the capital. \nGain 1 population in the capital and a worker upon conquering a city. Get a free infantry unit when declaring war, and occasionally when complete production buildings in the capital. \nAll Melee units receive the Agoge Promotion \nCannot build settlers.",
-	        "cities": ["Sparta", "Messene","Tegea", "Olympia", "Elis", "Laconium"],
-                "spyNames": ["Schnider", "The Rolling Corpse of Ayn Rand"]
-    },
-	{
-		"name": "Thebes", /* DA GREEK SPLIT */
-		"leaderName": "Epaminondas",
-		"adjective": ["Aeolic"],
-		"startBias": ["Grassland"],
-  "personality": "Thebian", 
-		"preferredVictoryType": "Diplomatic",
-		"style": "Mediterranean",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-
-		"declaringWar": "I think it's best we deal with you now, lest you become a bigger issue.",
-		"attacked": "...That was really stupid.",
-		"defeated": "I leave behind no sons, and I do not fear death. But even the most blessed of men are one day doomed to watch their mothers die before them. \nAs Thebes burns before me I must ask, what blessing are my own victories if they could not preseve her legacy?.",
-		"introduction": "Greetings. I have been appointed to speak for Thebes, Boeotia, and all its people. May our relationship be a prosperous one.",
-
-		"neutralHello": "Something you wish to tell me?",
-		"hateHello": "You shouldn't let old slights distract you from our mutual intrests. \nNothing washes away bad blood like Boeotian wine.",
-
-		"tradeRequest": "I think this arrangement is in both our interests, eh?",
-
-		"outerColor": [182, 151, 37],
-		"innerColor": [52, 17, 114],
-		"favoredReligion": "Zoroastrianism",
-		"uniqueName": "Boeotian League",
-		"uniques": ["Cannot build [Settler] units", "Allied City-States provide [Culture] equal to [+25]% of what they produce for themselves <when not at war>", "Allied City-States provide [Gold] equal to [+25]% of what they produce for themselves <when not at war>", "Allied City-States provide [Production] equal to [50]% of what they produce for themselves <when at war>", "Militaristic City-States grant units [5] times as fast when you are at war with a common nation", "Gain [60] Influence with a [Great General] gift to a City-State", "[Great General] is earned [20]% faster", "Can spend Gold to annex or puppet a City-State that has been your ally for [10] turns. <after adopting [Patronage]>", "[+2 Faith] per [3] social policies adopted"],
-		"uniqueText": "City state allies grant 1/4th of their [Gold] and [Culture] output when at peace, and half their [Production] output when at war.\n Great Generals automatically start at 3 turn Golden Age upon spawning, are earned at twice the rate and earn 60 influence when gifted. \nCan annex allied CS with [Gold] after 10 turns of alliance have passed and Patronage is adopted (TBR). Every third policy adopted yields +2 [Faith] per turn.\nCannot build settlers.",
-	        "cities": ["Thebes", "Plataea","Coronea", "Orchomenus",
-			"Thespiae","Chaeronea", "Tanagra", "Chalcis", "Erythrae", "Alalcomenae", "Medeon", "Larissa", "Minyae", "Oedipae", "Copae", "Enodae",
-			"Abremes","Makatoun","Myltilene","Itonis", "Lebadea"],
-        "spyNames": ["Jason", "Narcissus", "Heracles", "Oedipus", "Niobe", "Andros", "Sappho", "Antheas", "Soter", "Loindiraos", "Enodia"]
-    },
-	
-/* "CONFEDERAZIONI BARBARE GIOCABILI */ 
-	{
-		"name": "Epirus", /* DA Ancient-Civilizations
-		"leaderName": "Pyrrhus",
-		"adjective": ["Epirote"],
-		"preferredVictoryType": "Domination",
-		
-		"startIntroPart1": "TBD",
-		"startIntroPart2": "TBD",
-		
-		"declaringWar": "There can be only one king. Prepare for battle!",
-		"attacked": "I think my emissary must have been late, I already declared war on you!",
-		"defeated":  "You were a worthy opponent. The gods will welcome me!",
-		"introduction":  "Welcome to Epirus, friend. I am king Pyrrhus. Are you another expenda... I mean Ally... or perhaps a next target of my army?",
-		
-		"neutralHello": "Greeting",
-		"neutralLetsHearIt": ["Yes.","Let's discuss."],
-		"neutralNo": ["No way.","Never!"],
-		"neutralYes": ["Very good.","Of course, yes.","I accept."],
-		"hateHello": "Go on!",
-		"hateLetsHearIt": ["Speak!"],
-		"hateNo": ["I can't accept!","You need to try harder."],
-		"hateYes": ["Let it be.","This offer is too good to reject."],
-		
-		"afterPeace": "Hail, great lord. This was indeed a good fight.",
-		"tradeRequest": "That should do.",
-
-		"innerColor": [	232, 170, 158],
-		"outerColor": [	94, 50, 0],
-		"uniqueName": "Pyrrhic Victory",
-		"uniqueText": "Can't train Settlers. All military units have + 25% more strength when attacking cities, but suffer -25% penalty when defending against cities. +25% [Production] when constructing military units in capital. Gains a free [Great General] upon researching Bronze Working and Steel",
-		"uniques": [ "uniques": ["[-100]% Science <in all cities>", "Cannot build [Settler] units", 
-			"[Military] units gain the [Pyrrhic Victory] promotion",
-			"[+25]% Production when constructing [Military] units [in capital]",
-			"Free [Great General] appears <upon discovering [Bronze Working] technology>",
-			"Free [Great General] appears <upon discovering [Steel] technology>"],
-		"startingTechs": ["Agriculture", "Pottery", "Animal Husbandry", "Archery", "Mining", "Sailing", "Bronze Working"],
-			"cities": ["Ambracia","Phoenike","Passaron"]
-	},
-					{
-		"name": "Scythia", /* DA Ancient-Civilizations
-		"leaderName": "Ateas",
-		"adjective": ["Scythian"],
-		"startBias": ["Plains"],
-		"preferredVictoryType": "Domination",
-		
-		"startIntroPart1": "We fall down before you, great and wise Ateas, the most powerful king of Scythia, the fatherland of horsemen! The Scythians were an ancient Iranic people of horse-riding, nomadic pastors who, throughout classical antiquity, dominated the Pontic-Caspian steppe. Around 676 BCE, the Scythians allied with the Mannaens and attacked mighty Assyria. In 512 BCE, when King Darius the Great of Persia attacked the Scythians, he allegedly penetrated into their land after crossing the Danube. Scythians succeeded in frustrating the designs of the Persian army by letting it march through the entire country without an engagement. With this great legacy behind you, you united the Scythian tribes, creating an entity powerful enough to threaten the Gree-Macedonian overlords of the Balkans.",
-		"startIntroPart2": "King Atheas, the world is new once again, and there is so much more glory to be won than the paltry, ambitionless raids your people once carried out! Will you reunite all horsemen under one flag? Will you lead the raids deep into the lands of your many opponents? Can you build a civilization that will stand the test of time?",
-		
-		"declaringWar": "I am afraid your reign is over!",
-		"attacked": "We will sunk you in your own blood.",
-		"defeated":  "I must rest.",
-		"introduction":  "Welcome to the steppes. I am Ateas, the king of the Scythian people.",
-		
-		"neutralHello": "Greeting",
-		"neutralLetsHearIt": ["Yes.","Let's discuss."],
-		"neutralNo": ["No way.","Never!"],
-		"neutralYes": ["Very good.","Of course, yes.","I accept."],
-		"hateHello": "Go on!",
-		"hateLetsHearIt": ["Speak!"],
-		"hateNo": ["I can't accept!","You need to try harder."],
-		"hateYes": ["Let it be.","This offer is too good to reject."],
-		
-		"afterPeace": "I hope you've learned something from our last dispute.",
-		"tradeRequest": "Do you like my offer?",
-
-		"outerColor": [	184, 154, 55],
-		"innerColor": [	84, 9, 9],
-		"uniqueName": "People of the Steppe",
-		"uniques": ["[+1 Food] from every [Horses]","Starts with [Archery]"],
-		"cities": ["Gelonus","Solokha","Aimonov","Tanais","Neapolis","Kalermes","Maikop","Tyras","Kul Oba","Olbia","Kerch","Mologeni","Bosporus","Chersonesos","Syebi","Phanogoria","Aorsi","Massagetae","Qabala"]
-	},
-
-/* ALTRI GIOCABILI */ 
-{
-		"name": "The Hittites", /* DA Ancient-Civilizations
-		"leaderName": "Mursilis II",
-		"adjective": ["Hittite"],
-		"startBias": ["Hill"],
-		"preferredVictoryType": "Domination",
-		
-		"startIntroPart1": "We bow before thee, King Mursili II, one of the most powerful rulers of the Hittite Empire! You had proven to be more than a match for your successful father Suppiluliuma I, in your military deeds and diplomacy. Compared to the other great kingdoms of the Middle East, little is known of Hatti, yet its empire was one of the great powers of Mesopotamia, rivaling Babylon and Egypt in military strenght and influence. The first Hittites probably came from somewhere in the Caucasus or modern Russia, but settled in central Turkey and later in Syria, areas whose plentiful natural resources, particularly metals, would prove crucial to the power of Hatti. Early Hittite kings focused on consolidating their power in the region, but soon became more and more ambitious, opting to strike out and execute audacious raids against even mighty Babylon: it ended with great success, and the Hittites undermined and destroyed the ruling Amorite dynasty.",
-		"startIntroPart2": "Great Mursili II, the time has come to prepare your sword and spirit. The new world values not only bravery, but also wisdom. Will you show that you lack none? Will you crush your enemies under the chariot and submit your rivals under the treaty? Can you build a civilization that will stand the test of time?",
-		
-		"declaringWar": "Prepare to be torn apart!",
-		"attacked": "We would attack you anyway. You are just hastening your defeat",
-		"defeated":  "You were a worthy opponent, but my allies will eventually avenge me.",
-		"introduction":  "I am the mighty Mursilis. Don't get in my way and we shall live in peace.",
-		
-		"neutralHello": "Hail.",
-		"neutralLetsHearIt": ["Yes.","Go on."],
-		"neutralNo": ["Do not test my patience!","Never!"],
-		"neutralYes": ["Very good.","Of course, yes.","We accept."],
-		"hateHello": "Don't waste much of my time!",
-		"hateLetsHearIt": ["Speak!"],
-		"hateNo": ["You can't be serious!","No one would agree to that. Ever."],
-		"hateYes": ["Fine.","You can't simply refuse such offer."],
-		
-		"afterPeace": "You should pray for this peace to last ages!",
-		"tradeRequest": "What about this?",
-
-		"outerColor": [	172, 142, 97],
-		"innerColor": [	71, 6, 23],
-		"uniqueName": "Iron Pioneers",
-		"uniqueText": "Iron and Horses tiles yield additional 1 [Gold] and 1 [Production]. Receive +10% [Production] bonus when constructing military units.",
-		"uniques": ["[+10]% Production when constructing [Military] units [in all cities]","[+1 Gold] from every [Horses]","[+1 Production] from every [Horses]","[+1 Gold] from every [Iron]","[+1 Production] from every [Iron]"],
-		"cities": ["Hattusa","Nesa","Kussara","Samuha","Tarhuntassa","Kadesh","Lusna","Alalah","Halab","Tunip","Kadesh",
-			"Zalpa","Hakpish","Nerik","Shallapsa","Arinna","Adaniya","Apasha","Waliwanda","Tapikka","Tuwanuwa",
-			"Ura","Milid","Urshu","Arwada","Sanahuitta","Dimashku","Millawanda","Gaziura","Ugarit"]
-	},
-{
-		"name": "Macedonia", /* DA GREEK SPLIT */
-		"leaderName": "Alexander",
-		"adjective": ["Macedonian"],
-		"startBias": ["Plains"],
-		"preferredVictoryType": "Domination",
-  "personality": "Macedonian", 
-	        "style": "Mediterranean",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-
-		"declaringWar": "You are in my way, you must be destroyed.",
-		"attacked": "As a matter of fact I too grow weary of peace.",
-		"defeated": "You have somehow become my undoing! What kind of beast are you?",
-		"introduction": "Hello stranger! I am Alexandros, son of kings and grandson of the gods!",
-
-		"neutralHello": "Welcome to beautiful Alexandria!",
-		"hateHello": "What, wretch?!",
-
-		"tradeRequest": "My friend, does this seem reasonable to you?",
-
-		"outerColor": [105, 15, 200],
-		"innerColor": [235, 215, 60],
-		"favoredReligion": "Christianity",
-		"uniqueName": "We need to take India right fucking now",
-		"uniques": ["[+2] Movement <in [Enemy Land] tiles> <for [Land] units>", "[+1 Culture] per [2] population [in annexed cities]", "[+2 Culture] per [2] population [in annexed cities] <during a Golden Age>"],
-		 "uniqueText": "+2 Movement for all land units in enemy territory. \n+1 [Culture] for every 2 population in annexed cities, doubled during Golden Ages.",
-	        "cities": ["Pella", "Pydna", "Aegae", "Alexandria", "Therma", "Pergamon", "Ambracia", "Alexandria II", "Alexandria III", "Methoni", "Larissa", 
-			"Alexandria IV", "Herakleia","Alexandria V","Alexandria VI", "Pherae",
-			"Alexandria VII","Orchomenos", "Alexandria VIII", "Alexandria IX", "Sicyon", "Alexandria X", "Ambracia", "Alexandria XI", "Alexandria XII", "Dodona", "Alexandria XIII", "Paros", "Alexandria XV", "Alexandria XVI", "Alexandria XVII", "Alexandria XVIII", "Alexandria XIX", "Hellespont Phrygia", "Alexandria XX", "Alexandria LVII", "Alexandria DCCCLXXXVIII", "Skopje"],
-        "spyNames": ["Jason", "Helena", "Alexa", "Cletus", "Kassandra", "Andres", "Alexander", "Anthea", "Alexandria XIV", "Coolius Weezer"]
-    },
-	
-// City-States sorted by cityStateType
-//Cultured 9
+	// City-States sorted by cityStateType
+//Cultured 
   {
     "name": "Cuma",
     "adjective": ["Cumani"],
@@ -473,7 +104,7 @@ Teotihuacán (Teotihuacán, Valle del Messico)** – città-stato precolombiana,
     "innerColor": [216, 191, 216],
     "cities": ["Efeso (Ephesus)"]
 },
-  //Marittime 7
+  //Marittime 
  {
     "name": "Bruges",
     "adjective": ["Brugese"],
@@ -558,7 +189,7 @@ Teotihuacán (Teotihuacán, Valle del Messico)** – città-stato precolombiana,
     "innerColor": [175, 238, 238],
     "cities": ["Kilwa Kisiwani"]
   },
-   //* Mercantile 12
+   //* Mercantile 
 {
     "name": "Harappa",
     "adjective": ["Harappana"],
@@ -698,7 +329,7 @@ Teotihuacán (Teotihuacán, Valle del Messico)** – città-stato precolombiana,
     "cities": ["San Marino"]
 },
 
- //* Militaristic 5
+ //* Militaristic 
   {
     "name": "Taranto",
     "adjective": ["Tarentina"],
@@ -756,7 +387,7 @@ Teotihuacán (Teotihuacán, Valle del Messico)** – città-stato precolombiana,
     "innerColor": [244, 164, 96],
     "cities": ["Monte Albán"]
   },
-//* Religious 4
+//* Religious 
      {
     "name": "Nippur",
     "adjective": ["Nippurita"],
@@ -801,14 +432,4 @@ Teotihuacán (Teotihuacán, Valle del Messico)** – città-stato precolombiana,
     "innerColor": [255, 228, 225],
     "cities": ["Gerusalemme"]
   },
-
-	//Barbarian
-	{
-		"name": "Barbarians",
-		"outerColor": [0,0,0],
-        "innerColor": [185,12,12],
-		"uniques": ["Can only heal by pillaging", "Excluded from map editor",
-			"[Water] units gain the [Unable to pillage tiles] promotion"]
-	}
-	*/
  ]
