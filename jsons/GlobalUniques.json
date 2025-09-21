@@ -4,13 +4,19 @@
 // =====================================
 // ATTIVA EVENTI
 // =====================================
-        "Triggers a [O fortuna] event <for [Major] Civilizations> <upon turn end> <after turn number [9]> <before turn number [10]>",
-		"Triggers a [The Guest Star] event <for [Major] Civilizations> <upon turn end> <starting from the [Medieval era]> <before the [Renaissance era]> <if [Stele della profezia dell'ospite] is constructed>",
-"Triggers a [Canale Mohenjo-Daro] event <for [Major] Civilizations> <upon turn end> <with [2]% chance> <after turn number [10]> <before the [Classical era]> <if [Stele profezia dell'acqua] is constructed>",
-"Triggers a [Piramide di Djoser] event <for [Major] Civilizations> <upon turn end> <with [2]% chance> <after turn number [30]> <before the [Classical era]> <if [Stele profezia dell'architetto] is constructed>",
-"Triggers a [Angkor Wat] event <for [Major] Civilizations> <upon turn end> <with [2]% chance> <starting from the [Medieval era]> <before the [Renaissance era]> <if [Stele profezia del grande tempio] is constructed>",
-"Triggers a [Cappella Sistina] event <for [Major] Civilizations> <upon turn end> <with [2]% chance> <starting from the [Renaissance era]> <before the [Industrial era]> <if [Stele profezia del dito di dio] is constructed>",
+"Triggers a [NO_scienza_barbari] event <for [Epirus] Civilizations> <upon turn end> <after turn number [1]> <before turn number [1000]>",
 
-    
+"Triggers a [dona_tecnologia2] event <for [Epirus] Civilizations> <upon turn end> <with [20]% chance> <after turn number [5]> <before the [Classical era]> <if [Menhir degli antenati] is constructed>",
+"Triggers a [dona_tecnologia3] event <for [Epirus] Civilizations> <upon turn end> <with [20]% chance> <after turn number [10]> <before the [Classical era]> <if [Menhir degli antenati] is constructed>",
+"Triggers a [dona_tecnologia4] event <for [Epirus] Civilizations> <upon turn end> <with [20]% chance> <after turn number [15]> <before the [Classical era]> <if [Menhir degli antenati] is constructed>",
+"Triggers a [dona_tecnologia5] event <for [Epirus] Civilizations> <upon turn end> <with [20]% chance> <after turn number [20]> <before the [Classical era]> <if [Menhir degli antenati] is constructed>",
+"Triggers a [dona_tecnologia6] event <for [Epirus] Civilizations> <upon turn end> <with [20]% chance> <after turn number [25]> <before the [Classical era]> <if [Menhir degli antenati] is constructed>",
+"Triggers a [dona_tecnologia7] event <for [Epirus] Civilizations> <upon turn end> <with [20]% chance> <after turn number [30]> <before the [Classical era]> <if [Menhir degli antenati] is constructed>",
+"Triggers a [dona_tecnologia8] event <for [Epirus] Civilizations> <upon turn end> <with [20]% chance> <after turn number [35]> <before the [Classical era]> <if [Menhir degli antenati] is constructed>",
+"Triggers a [dona_tecnologia9] event <for [Epirus] Civilizations> <upon turn end> <with [20]% chance> <after turn number [40]> <before the [Classical era]> <if [Menhir degli antenati] is constructed>",
+"Triggers a [dona_tecnologia10] event <for [Epirus] Civilizations> <upon turn end> <with [20]% chance> <after turn number [45]> <before the [Classical era]> <if [Menhir degli antenati] is constructed>",
+"Triggers a [dona_tecnologia11] event <for [Epirus] Civilizations> <upon turn end> <with [20]% chance> <after turn number [50]> <before the [Classical era]> <if [Menhir degli antenati] is constructed>",
+"Triggers a [dona_tecnologia12] event <for [Epirus] Civilizations> <upon turn end> <with [20]% chance> <after turn number [55]> <before the [Classical era]> <if [Menhir degli antenati] is constructed>"
+
 	]
 }
