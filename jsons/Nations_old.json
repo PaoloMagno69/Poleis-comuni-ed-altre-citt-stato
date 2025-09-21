@@ -14,7 +14,7 @@
   "uniques": ["[+1 Culture] from all [All] buildings", "[+1 Happiness, +1 Gold] from all [All] buildings <during a Golden Age>", "[+40]% Production when constructing [Naval] units [in capital]"],
 		"cities": ["Corinth", "Kotyora", "Zorinth"]
 	},
-/*{
+{
 		"name": "Syracuse",
 		"leaderName": "Dionysus II",
 		"adjective": ["Sicilliote"],
@@ -45,7 +45,7 @@
 			"Tyndaris", "Aitna","Ankon", "Kephaloidion", "Chios", "Delos", "Thasos", "Abydos", "Olynthos", "Serfios", "Smyrna", "Imbros",
 			"Patras","Lamia","Nafplion","Apolyton", "Troizen"],
         "spyNames": ["Jeson", "Hiline", "Aloix", "Platon", "Kassandros", "Andros", "Desdemona", "Antheas", "Aeneas", "Loindiraos", "Dada da du du da do do mo ne bam ba bah"]
-    },*/
+    },
 	
 	/* "CITTà STATO GIOCABILI */
 	/* 
