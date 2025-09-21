@@ -13,7 +13,7 @@
 		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+15]% Strength <when adjacent to a [Hoplite] unit>"],
 		"attackSound": "metalhit"
 	},
-	  {
+{
 		"name": "Sacred Band",
 		"unitType": "Sword",
 		"replaces": "Spearman",
@@ -128,7 +128,7 @@
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
                 "promotions": ["Drill I", "Ignore terrain cost"],
-                "uniques": ["Withdraws before melee combat (with 66% chance)", "Can move immediately once bought", "[+100]% to Flank Attack bonuses"],
+                "uniques": ["May withdraw before melee ([66]%)", "Can move immediately once bought", "[+100]% to Flank Attack bonuses"],
 		"attackSound": "arrow",
 "civilopediaText": [ 
                          { 
