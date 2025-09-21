@@ -33,9 +33,9 @@
         "spyNames": ["Jeson", "Hiline", "Aloix", "Platon", "Kassandros", "Andros", "Desdemona", "Antheas", "Aeneas", "Loindiraos", "Dada da du du da do do mo ne bam ba bah"]
     }, 
 	{
-		"name": "Republic of Genoa", /* DA Medieval-Civilizations
+		"name": "Genova", /* DA Medieval-Civilizations
 		"leaderName": "Simone Boccanegra",
-		"adjective": ["Genoese"],
+		"adjective": ["Genovese"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Diplomatic",
 		
