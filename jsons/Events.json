@@ -13,7 +13,7 @@
 		    "text": "La conoscenza è potere: chi non la domina è destinato a sparire!",
 		    "choices": [
 			    {"text": "Noi faremo di tutto per progredire e così plasmeremo il futuro!",
-			     "uniques": [ "[-100]% [Science] [in all cities] <hidden from users>"] } ]
+			     "uniques": [ "[-100]% [Science] [in all cities] <for [1000] turns> <hidden from users>"] } ]
 	
 	},
     {
