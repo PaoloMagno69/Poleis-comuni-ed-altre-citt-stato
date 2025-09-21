@@ -1,7 +1,6 @@
 [
-	/* DA GREEK SPLIT */
 	{
-		"name": "Hoplite",
+		"name": "Hoplite", /* DA GREEK SPLIT */
 		"unitType": "Sword",
 		"replaces": "Spearman",
 		"uniqueTo": "Macedonia",
@@ -228,5 +227,5 @@
 		"uniques": ["[-50]% XP gained from combat","[-1] Sight","[-33]% Strength <vs cities> <when attacking>","[+2] Movement <when adjacent to a [Military] unit>","No defensive terrain bonus","[2] additional attacks per turn"],
 		"promotions": ["Logistics"],
 		"attackSound": "shot"
-	},
+	}
 	  ]
