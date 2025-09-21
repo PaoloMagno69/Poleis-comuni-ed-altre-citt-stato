@@ -92,7 +92,7 @@
 		"strength": 10,
 		"cost": 45,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles", "Transfer Movement to [Epibatai]", "[+50]% Strength when stacked with [Epibatai]"],
+		"uniques": ["Cannot enter ocean tiles", "Transfer Movement to [Epibatai]", "+50% Strength (when stacked with a Epibatai unit)"],
                 "promotions": ["Boarding Party I", "Boarding Party II"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
@@ -128,7 +128,7 @@
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
                 "promotions": ["Drill I", "Ignore terrain cost"],
-                "uniques": ["May withdraw before melee ([66]%)", "Can move immediately once bought", "[+100]% to Flank Attack bonuses"],
+                "uniques": ["Withdraws before melee combat (with 66% chance)", "Can move immediately once bought", "[+100]% to Flank Attack bonuses"],
 		"attackSound": "arrow",
 "civilopediaText": [ 
                          { 
