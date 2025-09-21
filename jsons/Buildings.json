@@ -1,4 +1,10 @@
 [
+	{
+		"name": "Menhir degli antenati",
+		"cost": 80,
+	    "uniques": ["Unbuildable"],
+		"isNationalWonder": true,
+	},
 	/* DA GREEK SPLIT */
 {
 		"name": "Cadmea",
