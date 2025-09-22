@@ -18,4 +18,11 @@
                 "replacementTextForUniques": "+20% Strength & +25% XP from combat. Healing effects are slightly reduced."
 
         },
+	{
+        "name": "Altitude Training", /* DA KILIMANJARO */
+        "uniques": [
+            "Double movement in [Hill]",
+            "[+10]% Strength <when fighting in [Hill] tiles>"
+        ]
+    },
  ]
