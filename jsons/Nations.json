@@ -123,8 +123,7 @@
 		"leaderName": "Leonidas",
 		"adjective": ["Doric"],
 		"startBias": ["Plains"],
-        "personality": "Leonidas", 
-		"preferredVictoryType": "Domination",
+        "preferredVictoryType": "Domination",
 		"style": "Mediterranean",
 
 		"startIntroPart1": "",
@@ -154,8 +153,7 @@
 		"leaderName": "Epaminondas",
 		"adjective": ["Aeolic"],
 		"startBias": ["Grassland"],
-        "personality": "Epaminondas", 
-		"preferredVictoryType": "Diplomatic",
+        "preferredVictoryType": "Diplomatic",
 		"style": "Mediterranean",
 
 		"startIntroPart1": "",
@@ -293,8 +291,7 @@
 		"adjective": ["Macedonian"],
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Domination",
-  "personality": "Alexander", 
-	        "style": "Mediterranean",
+          "style": "Mediterranean",
 
 		"startIntroPart1": "",
 		"startIntroPart2": "",
