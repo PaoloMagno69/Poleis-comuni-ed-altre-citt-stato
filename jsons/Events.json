@@ -21,7 +21,7 @@
         "text": "I barbari hanno scoperto una nuova tecnologia!",
         "choices": [
             {"text": "Anche la roccia screpolata trattiene l’acqua della pioggia",
-             "uniques": ["[1] free random researchable Tech(s) from the [Ancient era] <hidden from users>"] }
+             "uniques": ["[1] free random researchable Tech(s) from the [Ancient era] <if [Menhir degli antenati] is constructed> <hidden from users>"] }
         ]
     },
     {
@@ -29,7 +29,7 @@
         "text": "I barbari hanno scoperto una nuova tecnologia!",
         "choices": [
             {"text": "Anche la lucertola si scalda al sole nel momento giusto",
-             "uniques": ["[1] free random researchable Tech(s) from the [Ancient era] <hidden from users>"] }
+             "uniques": ["[1] free random researchable Tech(s) from the [Ancient era] <if [Menhir degli antenati] is constructed> <hidden from users>"] }
         ]
     },
     {
@@ -37,7 +37,7 @@
         "text": "I barbari hanno scoperto una nuova tecnologia!",
         "choices": [
             {"text": "Anche il mulino fermo macina al vento giusto",
-             "uniques": ["[1] free random researchable Tech(s) from the [Ancient era] <hidden from users>"] }
+             "uniques": ["[1] free random researchable Tech(s) from the [Ancient era] <if [Menhir degli antenati] is constructed> <hidden from users>"] }
         ]
     },
     {
@@ -45,7 +45,7 @@
         "text": "I barbari hanno scoperto una nuova tecnologia!",
         "choices": [
             {"text": "Anche il corvo tace all’alba giusta",
-             "uniques": ["[1] free random researchable Tech(s) from the [Ancient era] <hidden from users>"] }
+             "uniques": ["[1] free random researchable Tech(s) from the [Ancient era] <if [Menhir degli antenati] is constructed> <hidden from users>"] }
         ]
     },
     {
@@ -53,7 +53,7 @@
         "text": "I barbari hanno scoperto una nuova tecnologia!",
         "choices": [
             {"text": "Anche un ruscello impetuoso scorre regolare dopo la tempesta",
-             "uniques": ["[1] free random researchable Tech(s) from the [Ancient era] <hidden from users>"] }
+             "uniques": ["[1] free random researchable Tech(s) from the [Ancient era] <if [Menhir degli antenati] is constructed> <hidden from users>"] }
         ]
     },
     {
@@ -61,7 +61,7 @@
         "text": "I barbari hanno scoperto una nuova tecnologia!",
         "choices": [
             {"text": "Anche il vento irrequieto porta il seme dove serve",
-             "uniques": ["[1] free random researchable Tech(s) from the [Ancient era] <hidden from users>"] }
+             "uniques": ["[1] free random researchable Tech(s) from the [Ancient era] <if [Menhir degli antenati] is constructed> <hidden from users>"] }
         ]
     },
     {
@@ -69,7 +69,7 @@
         "text": "I barbari hanno scoperto una nuova tecnologia!",
         "choices": [
             {"text": "Anche la luna piena illumina la tana del topo",
-             "uniques": ["[1] free random researchable Tech(s) from the [Ancient era] <hidden from users>"] }
+             "uniques": ["[1] free random researchable Tech(s) from the [Ancient era] <if [Menhir degli antenati] is constructed> <hidden from users>"] }
         ]
     },
     {
@@ -77,7 +77,7 @@
         "text": "I barbari hanno scoperto una nuova tecnologia!",
         "choices": [
             {"text": "Anche la tempesta dura un giorno soltanto",
-             "uniques": ["[1] free random researchable Tech(s) from the [Ancient era] <hidden from users>"] }
+             "uniques": ["[1] free random researchable Tech(s) from the [Ancient era] <if [Menhir degli antenati] is constructed> <hidden from users>"] }
         ]
     },
     {
@@ -85,7 +85,7 @@
         "text": "I barbari hanno scoperto una nuova tecnologia!",
         "choices": [
             {"text": "Anche la pietra più dura si scheggia con il colpo giusto",
-             "uniques": ["[1] free random researchable Tech(s) from the [Ancient era] <hidden from users>"] }
+             "uniques": ["[1] free random researchable Tech(s) from the [Ancient era] <if [Menhir degli antenati] is constructed> <hidden from users>"] }
         ]
     },
     {
@@ -93,7 +93,7 @@
         "text": "I barbari hanno scoperto una nuova tecnologia!",
         "choices": [
             {"text": "Anche il pastore più distratto trova il gregge all’alba",
-             "uniques": ["[1] free random researchable Tech(s) from the [Ancient era] <hidden from users>"] }
+             "uniques": ["[1] free random researchable Tech(s) from the [Ancient era] <if [Menhir degli antenati] is constructed> <hidden from users>"] }
         ]
     },
     {
@@ -101,7 +101,7 @@
         "text": "I barbari hanno scoperto una nuova tecnologia!",
         "choices": [
             {"text": "Anche il grano cresce sotto il sole più ostinato",
-             "uniques": ["[1] free random researchable Tech(s) from the [Ancient era] <hidden from users>"] }
+             "uniques": ["[1] free random researchable Tech(s) from the [Ancient era] <if [Menhir degli antenati] is constructed> <hidden from users>"] }
         ]
     }
 
