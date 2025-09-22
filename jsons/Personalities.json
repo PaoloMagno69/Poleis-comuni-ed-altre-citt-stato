@@ -1,7 +1,7 @@
 [
   /* DA GREEK SPLIT */
 {
-		"name": "Athenian",
+		"name": "Pericles",
 		"preferredVictoryType": "Diplomatic",
 	        "food": 4,
 	        "production": 4,
@@ -28,7 +28,7 @@
 	"uniques": ["Will not build [Settler]"],
 	},
 {
-		"name": "Spartan",
+		"name": "Leonidas",
 		"preferredVictoryType": "Domination",
 	        "food": 6,
 	        "production": 6,
@@ -52,7 +52,7 @@
 	"uniques": ["Will not build [Settler]", "Will not build [Archery]"]
 	},
 {
-		"name": "Thebian",
+		"name": "Epaminondas",
 		"preferredVictoryType": "Diplomatic",
 	        "food": 7,
 	        "production": 5,
