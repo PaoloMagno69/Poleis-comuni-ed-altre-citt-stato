@@ -1,5 +1,5 @@
 [
-	   {
+	 /*  {
 		"name": "Syracuse",
 		"leaderName": "Dionysus II",
 		"adjective": ["Sicilliote"],
@@ -85,7 +85,7 @@
 		"uniqueName": "Serenissima",
 		"uniques": ["[+100]% [Gold] [in capital]","Receive free [Merchant of Venice] when you discover [Optics]","Cannot build [Settler] units"],
 		"cities": ["Venice"]
-	},
+	},*/
 {
 		"name": "Athens",
 		"leaderName": "Pericles",
