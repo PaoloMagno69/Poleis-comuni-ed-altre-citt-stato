@@ -1,7 +1,6 @@
 [
-	/* "CITTà STATO GIOCABILI */
-    {
-		"name": "Syracuse", /* DA GREEK SPLIT */
+	   {
+		"name": "Syracuse",
 		"leaderName": "Dionysus II",
 		"adjective": ["Sicilliote"],
 		"startBias": ["Coast"],
@@ -33,7 +32,7 @@
         "spyNames": ["Jeson", "Hiline", "Aloix", "Platon", "Kassandros", "Andros", "Desdemona", "Antheas", "Aeneas", "Loindiraos", "Dada da du du da do do mo ne bam ba bah"]
     }, 
 	{
-		"name": "Republic of Genoa", /* DA Medieval-Civilizations
+		"name": "Republic of Genoa",
 		"leaderName": "Simone Boccanegra",
 		"adjective": ["Genoese"],
 		"startBias": ["Coast"],
