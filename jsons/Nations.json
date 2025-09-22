@@ -30,7 +30,7 @@
 			"Tyndaris", "Aitna","Ankon", "Kephaloidion", "Chios", "Delos", "Thasos", "Abydos", "Olynthos", "Serfios", "Smyrna", "Imbros",
 			"Patras","Lamia","Nafplion","Apolyton", "Troizen"],
         "spyNames": ["Jeson", "Hiline", "Aloix", "Platon", "Kassandros", "Andros", "Desdemona", "Antheas", "Aeneas", "Loindiraos", "Dada da du du da do do mo ne bam ba bah"]
-    }, 
+    }, */
 	{
 		"name": "Republic of Genoa",
 		"leaderName": "Simone Boccanegra",
@@ -85,7 +85,7 @@
 		"uniqueName": "Serenissima",
 		"uniques": ["[+100]% [Gold] [in capital]","Receive free [Merchant of Venice] when you discover [Optics]","Cannot build [Settler] units"],
 		"cities": ["Venice"]
-	},*/
+	},
 {
 		"name": "Athens",
 		"leaderName": "Pericles",
