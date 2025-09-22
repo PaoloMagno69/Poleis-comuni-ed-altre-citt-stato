@@ -25,4 +25,8 @@
             "[+10]% Strength <when fighting in [Hill] tiles>"
         ]
     },
+	{
+        "name": "Pyrrhic Victory",
+        "uniques": ["[+25]% Strength <vs cities> <when attacking>","[-25]% Strength <vs cities> <when defending>"],
+	},
  ]
