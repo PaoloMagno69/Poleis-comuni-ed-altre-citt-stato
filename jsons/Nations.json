@@ -65,7 +65,7 @@
 		"cities": ["Genoa","Ajaccio","Costanza","Albenga","Monaco","Savona","San Remo","Laiazzo","Giaffa","Basta","Porto-Vecchio","Sassari","Alghero","Nuoro","Olbia","Bonifacio"]
 	},
 	{
-		"name": "Venice", /* DA Brave-New-World 
+		"name": "Venice",
 		"leaderName": "Enrico Dandolo",
 		"adjective": ["Venetian"],
 		"startBias": ["Coast"],
@@ -87,7 +87,7 @@
 		"cities": ["Venice"]
 	},
 {
-		"name": "Athens", /* DA GREEK SPLIT */
+		"name": "Athens",
 		"leaderName": "Pericles",
 		"adjective": ["Attic"],
 		"startBias": ["Coast"],
@@ -119,7 +119,7 @@
         "spyNames": ["Jeson", "Hiline", "Aloix", "Platon", "Kassandros", "Andros", "Desdemona", "Antheas", "Aeneas", "Loindiraos", "Dada da du du da do do mo ne bam ba bah"]
     },
 {
-		"name": "Sparta", /* DA GREEK SPLIT */
+		"name": "Sparta",
 		"leaderName": "Leonidas",
 		"adjective": ["Doric"],
 		"startBias": ["Plains"],
@@ -149,7 +149,7 @@
                 "spyNames": ["Schnider", "The Rolling Corpse of Ayn Rand"]
     },
 	{
-		"name": "Thebes", /* DA GREEK SPLIT */
+		"name": "Thebes",
 		"leaderName": "Epaminondas",
 		"adjective": ["Aeolic"],
 		"startBias": ["Grassland"],
@@ -250,7 +250,7 @@
 	},
 /* ALTRI GIOCABILI */ 
 {
-		"name": "The Hittites", /* DA Ancient-Civilizations
+		"name": "The Hittites",
 		"leaderName": "Mursilis II",
 		"adjective": ["Hittite"],
 		"startBias": ["Hill"],
@@ -286,7 +286,7 @@
 			"Ura","Milid","Urshu","Arwada","Sanahuitta","Dimashku","Millawanda","Gaziura","Ugarit"]
 	},
 {
-		"name": "Macedonia", /* DA GREEK SPLIT */
+		"name": "Macedonia",
 		"leaderName": "Alexander",
 		"adjective": ["Macedonian"],
 		"startBias": ["Plains"],
@@ -321,7 +321,7 @@
 	// City-States sorted by cityStateType
 	//Speciali
 	{
-		"name": "Corinth", /* DA GREEK SPLIT */
+		"name": "Corinth",
 		"adjective": ["Corinthian"],
 		"cityStateType": "Corinthian-type",
   "style": "Mediterranean",
