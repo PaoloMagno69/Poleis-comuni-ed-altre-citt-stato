@@ -3,7 +3,7 @@
 	"uniques": [
 
 "Triggers a [Menhir degli antenati] event <for [Major] Civilizations> <upon turn end> <after turn number [0]> <before turn number [1]>",
-"Triggers a [NO_scienza_barbari] event <for [Epirus] Civilizations> <upon turn end> <after turn number [1]> <before turn number [2]>",
+"Triggers a [NO_scienza_barbari] event <for [Major] Civilizations> <upon turn end> <after turn number [1]> <before turn number [2]>",
 
 "Triggers a [dona_tecnologia2] event <for [Epirus] Civilizations> <upon turn end> <with [20]% chance> <after turn number [5]> <before the [Classical era]> <if [Menhir degli antenati] is constructed>",
 "Triggers a [dona_tecnologia3] event <for [Epirus] Civilizations> <upon turn end> <with [20]% chance> <after turn number [10]> <before the [Classical era]> <if [Menhir degli antenati] is constructed>",
