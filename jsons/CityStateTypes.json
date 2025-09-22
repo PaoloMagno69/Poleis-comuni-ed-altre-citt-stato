@@ -69,13 +69,25 @@
        {  
           "name": "Corinthian-type",  
           "friendBonusUniques": [  
-"[+1 Culture] towards any buildings that already exist in the Capital]",  
+ "[+4 Culture] [in capital] <before the [Medieval era]>",
+ "[+7 Culture] [in capital] <starting from the [Medieval era]> <before the [Renaissance era]>",
+ "[+11 Culture] [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
+ "[+15 Culture] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
+ "[+19 Culture] [in capital] <starting from the [Modern era]>", 
 "[+4 Gold] [in all coastal cities] <before the [Medieval era]>",  
 "[+6 Gold] [in all coastal cities] <starting from the [Medieval era]> <before the [Industrial era]>",  
 "[+10 Gold] [in all coastal cities] <starting from the [Industrial era]>"],  
           "allyBonusUniques": [ 
-"[+2 Culture] towards any buildings that already exist in the Capital]",  
- "[+1 Happiness] towards any buildings that already exist in the Capital]",  
+  "[+8 Culture] [in capital] <before the [Medieval era]>",
+  "[+14 Culture] [in capital] <starting from the [Medieval era]> <before the [Renaissance era]>",
+  "[+22 Culture] [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
+  "[+30 Culture] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
+  "[+38 Culture] [in capital] <starting from the [Modern era]>",
+  "[+4 Happiness] [in capital] <before the [Medieval era]>",
+  "[+7 Happiness] [in capital] <starting from the [Medieval era]> <before the [Renaissance era]>",
+  "[+11 Happiness] [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
+  "[+15 Happiness] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
+  "[+19 Happiness] [in capital] <starting from the [Modern era]>"  
 "[+16 Gold] [in all coastal cities] <starting from the [Industrial era]>",  
 "[+7 Gold] [in all coastal cities] <before the [Medieval era]>",  
 "[+10 Gold] [in all coastal cities] <starting from the [Medieval era]> <before the [Industrial era]>",  
