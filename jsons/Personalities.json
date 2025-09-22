@@ -77,7 +77,7 @@
 	"uniques": ["Will not build [Settler]"]
 	},
 	{
-		"name": "Macedonian",
+		"name": "Alexander",
 		"preferredVictoryType": "Domination",
 	        "food": 4,
 	        "production": 5,
