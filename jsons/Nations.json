@@ -26,7 +26,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Magna Graecia",
         "personality": "Syracussy", 
-		"uniques": ["Cannot annex cities", "[+1 Culture] from every [Scientist]", "[+2 Science] from every [Engineer]", "Gain a free [Architectural Marvel] [in a random city] <upon gaining a [Great Engineer] unit>"],
+		"uniques": ["Cannot annex cities", "[+1 Culture] from every [Scientist]", "[+2 Science] from every [Engineer]", "Gain a free [Claw of Archimedes] [in a random city] <upon gaining a [Great Engineer] unit>"],
 	        "cities": ["Syracuse",  "Tauromenion","Akrai",
 			"Tyndaris", "Aitna","Ankon", "Kephaloidion", "Chios", "Delos", "Thasos", "Abydos", "Olynthos", "Serfios", "Smyrna", "Imbros",
 			"Patras","Lamia","Nafplion","Apolyton", "Troizen"],
