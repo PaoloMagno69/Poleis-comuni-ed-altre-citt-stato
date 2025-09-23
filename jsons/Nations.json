@@ -373,7 +373,7 @@
     "innerColor": [102, 153, 51],
     "uniqueName": "Guerrieri delle Foreste",
     "uniques": [
-        "[+50]% Strength <for [Warrior] units> [in forest tiles]",
+        "[+20]% Strength <for [Warrior] units>",
         "Gain a free [Barracks] [in all cities]",
         "[-25]% maintenance costs <for [Mounted] units>"
     ],
@@ -406,7 +406,7 @@
     "innerColor": [204, 153, 102],
     "uniqueName": "Furia Langobarda",
     "uniques": [
-        "[+25]% Strength <for [Warrior] units>",
+        "[+50]% Strength <for [Warrior] units>",
         "Gain a free [Barracks] [in capital]",
 		"Gain a free [Walls] [in capital]",
         "[-20]% maintenance costs <for [Mounted] units>"
@@ -440,7 +440,7 @@
     "innerColor": [153, 102, 51],
     "uniqueName": "Cavalleria delle Foreste",
     "uniques": [
-        "[+20]% Strength <for [Horseman] units> [in forest tiles]",
+        "[+20]% Strength <for [Horseman] units>",
         "Gain a free [Barracks] [in capital]",
         "[-25]% maintenance costs <for [Melee] units>"
     ],
@@ -508,7 +508,7 @@
     "uniques": [
         "[+25]% Strength <for [Warrior] units>",
         "Gain a free [Temple] [in capital]",
-        "[-20]% maintenance costs <for [Culture] buildings>"
+        "[-20]% maintenance costs <for buildings>"
     ],
 
     "cities": ["Sappo","Beroe","Abdera","Thasos"],
