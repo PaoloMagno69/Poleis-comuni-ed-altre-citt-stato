@@ -342,8 +342,7 @@
     "uniqueName": "Tocco di Midas",
     "uniques": [
         "[+50 Gold] [in capital] <for [1000] turns>",
-        "Gain a free [Temple] [in capital]",
-        "[-33]% maintenance costs <for [Culture] buildings>"
+        "Gain a free [Temple] [in capital]"
     ],
 
     "cities": ["Gordium","Sangala","Trocmi","Midaeum"],
@@ -374,7 +373,7 @@
     "innerColor": [102, 153, 51],
     "uniqueName": "Guerrieri delle Foreste",
     "uniques": [
-        "[+20]% Strength <for [Melee] units> [in forest tiles]",
+        "[+50]% Strength <for [Warrior] units> [in forest tiles]",
         "Gain a free [Barracks] [in all cities]",
         "[-25]% maintenance costs <for [Mounted] units>"
     ],
@@ -407,7 +406,7 @@
     "innerColor": [204, 153, 102],
     "uniqueName": "Furia Langobarda",
     "uniques": [
-        "[+15]% Strength <for [Melee] units>",
+        "[+25]% Strength <for [Warrior] units>",
         "Gain a free [Barracks] [in capital]",
 		"Gain a free [Walls] [in capital]",
         "[-20]% maintenance costs <for [Mounted] units>"
@@ -441,7 +440,7 @@
     "innerColor": [153, 102, 51],
     "uniqueName": "Cavalleria delle Foreste",
     "uniques": [
-        "[+20]% Strength <for [Mounted] units> [in forest tiles]",
+        "[+20]% Strength <for [Horseman] units> [in forest tiles]",
         "Gain a free [Barracks] [in capital]",
         "[-25]% maintenance costs <for [Melee] units>"
     ],
@@ -474,7 +473,7 @@
     "innerColor": [153, 102, 51],
     "uniqueName": "Cavalieri Nomadi",
     "uniques": [
-        "[+25]% Strength <for [Mounted] units>",
+        "[+25]% Strength <for [Horseman] units>",
         "Gain a free [Stable] [in capital]",
         "[-15]% maintenance costs <for [Mounted] units>"
     ],
@@ -507,7 +506,7 @@
     "innerColor": [204, 102, 102],
     "uniqueName": "Guerrieri Traci",
     "uniques": [
-        "[+15]% Strength <for [Melee] units>",
+        "[+25]% Strength <for [Warrior] units>",
         "Gain a free [Temple] [in capital]",
         "[-20]% maintenance costs <for [Culture] buildings>"
     ],
@@ -540,7 +539,7 @@
     "innerColor": [153, 153, 102],
     "uniqueName": "Cavalleria Mauri",
     "uniques": [
-        "[+20]% Strength <for [Mounted] units>",
+        "[+20]% Strength <for [Horseman] units>",
         "Gain a free [Stable] [in capital]",
         "[-25]% maintenance costs <for [Mounted] units>"
     ],
@@ -573,7 +572,7 @@
     "innerColor": [255, 204, 102],
     "uniqueName": "Cavalieri Numidi",
     "uniques": [
-        "[+25]% Strength <for [Mounted] units>",
+        "[+25]% Strength <for [Horseman] units>",
         "Gain a free [Stable] [in capital]",
         "[-15]% maintenance costs <for [Mounted] units>"
     ],
