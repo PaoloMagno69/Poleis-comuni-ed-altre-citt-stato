@@ -194,38 +194,5 @@
 		"movement": 2,
 		"uniques": ["Great Person - [Gold]","Can undertake a trade mission with City-State, giving a large sum of gold and [90] Influence",
 			"Can instantly construct a [Customs house] improvement <by consuming this unit>","Double movement in [Coast]","Unbuildable","Uncapturable"]
-	},
-	{
-		"name": "Pavise Crossbowman", /* DA Medieval-Civilizations
-		"unitType": "Archery",
-		"uniqueTo": "Republic of Genoa",
-		"replaces": "Crossbowman",
-		"movement": 2,
-		"strength": 16,
-		"rangedStrength": 20,
-		"cost": 150,
-		"requiredTech": "Machinery",
-		"upgradesTo": "Gatling Gun",
-		"obsoleteTech": "Industrialization",
-		"promotions": ["Quick Study","Cover I"],
-		"uniques": ["Defense bonus when embarked"]
-		"attackSound": "arrow"
-	},
-		{
-		"name": "Ribault", /* DA Medieval-Civilizations
-		"unitType": "Archery",
-		"replaces": "Trebuchet",
-		"uniqueTo": "Republic of Genoa",
-		"movement": 2,
-		"strength": 9,
-		"range": 2,
-		"rangedStrength": 9,
-		"cost": 120,
-		"requiredTech": "Physics",
-		"obsoleteTech": "Industrialization",
-		"upgradesTo": "Gatling Gun",
-		"uniques": ["[-50]% XP gained from combat","[-1] Sight","[-33]% Strength <vs cities> <when attacking>","[+2] Movement <when adjacent to a [Military] unit>","No defensive terrain bonus","[2] additional attacks per turn"],
-		"promotions": ["Logistics"],
-		"attackSound": "shot"
-	},
-]
+	}
+	]
