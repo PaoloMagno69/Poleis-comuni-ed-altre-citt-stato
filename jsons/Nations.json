@@ -506,7 +506,7 @@
     "innerColor": [204, 102, 102],
     "uniqueName": "Guerrieri Traci",
     "uniques": [
-        "[+15]% [Strength] <for [Melee] units>",
+        "[+15]% Strength <for [Melee] units>",
         "Gain a free [Temple] [in capital]",
         "[-20]% maintenance costs <for [Culture] buildings>"
     ],
