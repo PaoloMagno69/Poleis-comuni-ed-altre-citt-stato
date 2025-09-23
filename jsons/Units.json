@@ -186,13 +186,4 @@
 		"uniques": ["Cannot enter ocean tiles"],
 		"attackSound": "arrow"
 	},
-	{
-		"name": "Merchant of Venice",
-		"uniqueTo": "Venice",
-		"replaces": "Great Merchant",
-		"unitType": "Civilian",
-		"movement": 2,
-		"uniques": ["Great Person - [Gold]","Can undertake a trade mission with City-State, giving a large sum of gold and [90] Influence",
-			"Can instantly construct a [Customs house] improvement <by consuming this unit>","Double movement in [Coast]","Unbuildable","Uncapturable"]
-	}
-	]
+		]
