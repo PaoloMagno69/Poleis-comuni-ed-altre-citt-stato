@@ -341,7 +341,7 @@
     "innerColor": [153, 102, 51],
     "uniqueName": "Tocco di Midas",
     "uniques": [
-        "[+100]% [Gold] from [Luxury] resources",
+        "[+100 Gold] for any buildings that already exist in the Capital",
         "Gain a free [Temple] [in capital]",
         "[-33]% maintenance costs <for [Culture] buildings>"
     ],
