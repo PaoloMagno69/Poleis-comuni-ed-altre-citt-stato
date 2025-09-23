@@ -88,8 +88,8 @@
 		"requiredTech": "Bronze Working"
 	},
 {
-		"name": "Claw of Archimedes",
-		"uniqueTo": "Syracuse",
+		"name": "Artiglio di Archimede",
+		"uniqueTo": "Siracusa",
 		"cost": 150,
 		"culture": 2,
   "cityHealth": 50,
