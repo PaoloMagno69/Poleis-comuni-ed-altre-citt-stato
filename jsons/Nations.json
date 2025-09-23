@@ -308,7 +308,7 @@
     "innerColor": [204, 153, 51],
     "uniqueName": "Fortezze Dace",
     "uniques": [
-        "Gain a free [Fortress] [in all cities]", 
+        "Gain a free [Barracks] [in all cities]", 
         "[-50]% maintenance costs <for [Melee] units>",
         "[+25]% [Production] [in cities near hills]"
     ],
@@ -341,7 +341,7 @@
     "innerColor": [153, 102, 51],
     "uniqueName": "Tocco di Midas",
     "uniques": [
-        "[+100 Gold] for any buildings that already exist in the Capital",
+        "[+50 Gold] [in capital] <for [1000] turns>",
         "Gain a free [Temple] [in capital]",
         "[-33]% maintenance costs <for [Culture] buildings>"
     ],
