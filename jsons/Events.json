@@ -23,16 +23,7 @@
         }
     ]
 }, 
-
-  	{
-		    "name": "NO_scienza_barbari",
-		    "text": "La conoscenza è potere: chi non la domina è destinato a sparire!",
-		    "choices": [
-			    {"text": "Noi faremo di tutto per progredire e così plasmeremo il futuro!",
-			     "uniques": [ "[-100]% [Science] [in all cities] <for [Epirus] Civilizations> <for [1000] turns> <hidden from users>"] } ]
-	
-	}, 
-	{
+{
     "name": "NO_scienza_barbari",
     "text": "La conoscenza è potere: chi non la domina è destinato a sparire!",
     "choices": [
