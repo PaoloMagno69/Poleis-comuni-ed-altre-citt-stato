@@ -1,13 +1,29 @@
 [
 
  	{
-		    "name": "Menhir degli antenati",
-		    "text": "I barbari venerano solo i loro antenati, guardano solo al passato gli stolti!",
-		    "choices": [
-			    {"text": "Il culto degli antenati è importante ma non possiamo limitare il progresso e non pensare ai nostri discendenti!",
-			     "uniques": [ "Gain a free [Menhir degli antenati] [in capital] <for [Epirus] Civilizations> <hidden from users>"] } ]
-	
-	},
+    "name": "Menhir degli antenati",
+    "text": "I barbari venerano solo i loro antenati, guardano solo al passato gli stolti!",
+    "choices": [
+        {
+            "text": "Il culto degli antenati è importante ma non possiamo limitare il progresso e non pensare ai nostri discendenti!",
+            "uniques": [
+                "Gain a free [Menhir degli antenati] [in capital] <for [Epirus] Civilizations> <hidden from users>",
+                "Gain a free [Menhir degli antenati] [in capital] <for [Scythia] Civilizations> <hidden from users>",
+                "Gain a free [Menhir degli antenati] [in capital] <for [Daci] Civilizations> <hidden from users>",
+                "Gain a free [Menhir degli antenati] [in capital] <for [Frigi] Civilizations> <hidden from users>",
+                "Gain a free [Menhir degli antenati] [in capital] <for [Marcomanni] Civilizations> <hidden from users>",
+                "Gain a free [Menhir degli antenati] [in capital] <for [Langobardi] Civilizations> <hidden from users>",
+                "Gain a free [Menhir degli antenati] [in capital] <for [Alemanni] Civilizations> <hidden from users>",
+                "Gain a free [Menhir degli antenati] [in capital] <for [Sarmati] Civilizations> <hidden from users>",
+                "Gain a free [Menhir degli antenati] [in capital] <for [Traci] Civilizations> <hidden from users>",
+                "Gain a free [Menhir degli antenati] [in capital] <for [Mauri] Civilizations> <hidden from users>",
+                "Gain a free [Menhir degli antenati] [in capital] <for [Numidi] Civilizations> <hidden from users>",
+                "Gain a free [Menhir degli antenati] [in capital] <for [Goti] Civilizations> <hidden from users>"
+            ]
+        }
+    ]
+}, 
+
   	{
 		    "name": "NO_scienza_barbari",
 		    "text": "La conoscenza è potere: chi non la domina è destinato a sparire!",
@@ -15,16 +31,31 @@
 			    {"text": "Noi faremo di tutto per progredire e così plasmeremo il futuro!",
 			     "uniques": [ "[-100]% [Science] [in all cities] <for [Epirus] Civilizations> <for [1000] turns> <hidden from users>"] } ]
 	
-	},
-    {
-        "name": "dona_tecnologia2",
-        "text": "I barbari hanno scoperto una nuova tecnologia!",
-        "choices": [
-            {"text": "Anche la roccia screpolata trattiene l’acqua della pioggia",
-             "uniques": ["[1] free random researchable Tech(s) from the [Ancient era] <if [Menhir degli antenati] is constructed> <hidden from users>"] }
-        ]
-    },
-    {
+	}, 
+	{
+    "name": "NO_scienza_barbari",
+    "text": "La conoscenza è potere: chi non la domina è destinato a sparire!",
+    "choices": [
+        {
+            "text": "Noi faremo di tutto per progredire e così plasmeremo il futuro!",
+            "uniques": [
+                "[-100]% [Science] [in all cities] <for [Epirus] Civilizations> <for [1000] turns> <hidden from users>",
+                "[-100]% [Science] [in all cities] <for [Scythia] Civilizations> <for [1000] turns> <hidden from users>",
+                "[-100]% [Science] [in all cities] <for [Daci] Civilizations> <for [1000] turns> <hidden from users>",
+                "[-100]% [Science] [in all cities] <for [Frigi] Civilizations> <for [1000] turns> <hidden from users>",
+                "[-100]% [Science] [in all cities] <for [Marcomanni] Civilizations> <for [1000] turns> <hidden from users>",
+                "[-100]% [Science] [in all cities] <for [Langobardi] Civilizations> <for [1000] turns> <hidden from users>",
+                "[-100]% [Science] [in all cities] <for [Alemanni] Civilizations> <for [1000] turns> <hidden from users>",
+                "[-100]% [Science] [in all cities] <for [Sarmati] Civilizations> <for [1000] turns> <hidden from users>",
+                "[-100]% [Science] [in all cities] <for [Traci] Civilizations> <for [1000] turns> <hidden from users>",
+                "[-100]% [Science] [in all cities] <for [Mauri] Civilizations> <for [1000] turns> <hidden from users>",
+                "[-100]% [Science] [in all cities] <for [Numidi] Civilizations> <for [1000] turns> <hidden from users>",
+                "[-100]% [Science] [in all cities] <for [Goti] Civilizations> <for [1000] turns> <hidden from users>"
+            ]
+        }
+    ]
+}, 
+  {
         "name": "dona_tecnologia3",
         "text": "I barbari hanno scoperto una nuova tecnologia!",
         "choices": [
