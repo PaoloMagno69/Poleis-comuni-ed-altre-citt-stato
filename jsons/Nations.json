@@ -507,8 +507,8 @@
     "uniqueName": "Guerrieri Traci",
     "uniques": [
         "[+25]% Strength <for [Warrior] units>",
-        "Gain a free [Temple] [in capital]",
-        "[-20]% maintenance costs <for buildings>"
+		"[+10]% Strength <for [Horseman] units>",
+        "Gain a free [Temple] [in capital]"        
     ],
 
     "cities": ["Sappo","Beroe","Abdera","Thasos"],
