@@ -172,7 +172,7 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Great Galleass", /* DA Brave-New-World
+		"name": "Great Galleass",
 		"replaces": "Galleass",
 		"unitType": "Ranged Water",
 		"uniqueTo": "Venice",
@@ -196,7 +196,7 @@
 			"Can instantly construct a [Customs house] improvement <by consuming this unit>","Double movement in [Coast]","Unbuildable","Uncapturable"]
 	},
 	{
-		"name": "Pavise Crossbowman", /* DA Medieval-Civilizations
+		"name": "Pavise Crossbowman",
 		"unitType": "Archery",
 		"uniqueTo": "Republic of Genoa",
 		"replaces": "Crossbowman",
@@ -212,7 +212,7 @@
 		"attackSound": "arrow"
 	},
 		{
-		"name": "Ribault", /* DA Medieval-Civilizations
+		"name": "Ribault",
 		"unitType": "Archery",
 		"replaces": "Trebuchet",
 		"uniqueTo": "Republic of Genoa",
@@ -227,5 +227,5 @@
 		"uniques": ["[-50]% XP gained from combat","[-1] Sight","[-33]% Strength <vs cities> <when attacking>","[+2] Movement <when adjacent to a [Military] unit>","No defensive terrain bonus","[2] additional attacks per turn"],
 		"promotions": ["Logistics"],
 		"attackSound": "shot"
-	},
+	}
 		]
