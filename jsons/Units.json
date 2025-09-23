@@ -172,7 +172,7 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Great Galleass", /* DA Brave-New-World
+		"name": "Great Galleass",
 		"replaces": "Galleass",
 		"unitType": "Ranged Water",
 		"uniqueTo": "Venice",
