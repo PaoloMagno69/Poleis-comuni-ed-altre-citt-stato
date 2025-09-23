@@ -46,6 +46,14 @@
         }
     ]
 }, 
+   {
+        "name": "dona_tecnologia2",
+        "text": "I barbari hanno scoperto una nuova tecnologia!",
+        "choices": [
+            {"text": "Anche la roccia screpolata trattiene l’acqua della pioggia",
+             "uniques": ["[1] free random researchable Tech(s) from the [Ancient era] <if [Menhir degli antenati] is constructed> <hidden from users>"] }
+        ]
+    },
   {
         "name": "dona_tecnologia3",
         "text": "I barbari hanno scoperto una nuova tecnologia!",
