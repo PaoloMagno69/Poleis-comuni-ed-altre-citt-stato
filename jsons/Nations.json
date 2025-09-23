@@ -284,6 +284,337 @@
 		"uniques": ["[+1 Food] from every [Horses]","Starts with [Archery]"],
 		"cities": ["Gelonus","Solokha","Aimonov","Tanais","Neapolis","Kalermes","Maikop","Tyras","Kul Oba","Olbia","Kerch","Mologeni","Bosporus","Chersonesos","Syebi","Phanogoria","Aorsi","Massagetae","Qabala"]
 	},
+	{
+    "name": "Daci",
+    "leaderName": "Decebalo",
+    "adjective": ["Daco"],
+    "startBias": ["Hills", "Forest"],
+    "preferredVictoryType": "Domination",
+
+    "startIntroPart1": "Le valli e le colline della Dacia sono la nostra casa, dove le foreste nascondono i nostri villaggi e le nostre miniere di oro ci rendono potenti.",
+    "startIntroPart2": "Condottiero, saprai difendere la nostra terra dai Romani e dagli stranieri, rafforzare le nostre fortezze e guidare i Daci alla gloria?",
+
+    "declaringWar": "I nostri nemici tremeranno davanti alla forza della Dacia!",
+    "attacked": "Il nostro popolo non si piegherà così facilmente.",
+    "defeated": "La Dacia è caduta, ma le nostre leggende vivranno per sempre.",
+    "denounced": "Questa è un'offesa che non dimenticheremo!",
+    "introduction": "Io sono Decebalo, re dei Daci, benvenuto nelle nostre terre.",
+
+    "neutralHello": "Salute, viaggiatore.",
+    "hateHello": "Cosa cercate qui?",
+    "tradeRequest": "Offriamo oro e cavalli in cambio di ciò che desideriamo.",
+
+    "outerColor": [102, 51, 0],
+    "innerColor": [204, 153, 51],
+    "uniqueName": "Fortezze Dace",
+    "uniques": [
+        "Gain a free [Fortress] [in all cities]", 
+        "[-50]% maintenance costs <for [Melee] units>",
+        "[+25]% [Production] [in cities near hills]"
+    ],
+
+    "cities": ["Sarmizegetusa","Apulum","Napoca","Potaissa","Buridava"],
+
+    "spyNames": ["Burebista","Decebalus","Cotiso","Duras","Comosicus"]
+},
+	{
+    "name": "Frigi",
+    "leaderName": "Midas",
+    "adjective": ["Frigio"],
+    "startBias": ["Hills", "Forest"],
+    "preferredVictoryType": "Cultural",
+
+    "startIntroPart1": "Le colline della Frigia sono patria di sapienti e artigiani; le nostre città risplendono per le arti e la cultura.",
+    "startIntroPart2": "Come re Midas, saprai guidare il popolo verso ricchezza e gloria, proteggendo le nostre tradizioni e il sapere?",
+
+    "declaringWar": "I nostri nemici cadranno davanti alla potenza della Frigia!",
+    "attacked": "Difenderemo le nostre terre con ogni mezzo.",
+    "defeated": "La Frigia cade, ma la sua leggenda sopravvive.",
+    "denounced": "Questo affronto non resterà impunito!",
+    "introduction": "Io sono Midas, re dei Frigi, benvenuto nella nostra terra.",
+
+    "neutralHello": "Salute viaggiatore.",
+    "hateHello": "Non siete benvenuti qui.",
+    "tradeRequest": "Scambiamo ricchezze e sapienza con chi lo merita.",
+
+    "outerColor": [255, 204, 102],
+    "innerColor": [153, 102, 51],
+    "uniqueName": "Tocco di Midas",
+    "uniques": [
+        "[+100]% [Gold] from [Luxury] resources",
+        "Gain a free [Temple] [in capital]",
+        "[-33]% maintenance costs <for [Culture] buildings>"
+    ],
+
+    "cities": ["Gordium","Sangala","Trocmi","Midaeum"],
+
+    "spyNames": ["Midas","Gordios","Ancyra","Tarku"]
+},
+	{
+    "name": "Marcomanni",
+    "leaderName": "Marbod",
+    "adjective": ["Marcomanno"],
+    "startBias": ["Forest", "Hills"],
+    "preferredVictoryType": "Domination",
+
+    "startIntroPart1": "Popolo guerriero stanziato tra le foreste germaniche, i Marcomanni sono abili cavalieri e valorosi guerrieri.",
+    "startIntroPart2": "Condottiero, guiderai il tuo popolo contro Roma e i barbari vicini, proteggendo la nostra libertà e le nostre terre?",
+
+    "declaringWar": "Che i nemici tremino davanti ai Marcomanni!",
+    "attacked": "Difenderemo la nostra foresta fino all'ultimo respiro.",
+    "defeated": "I Marcomanni cadono, ma il nostro spirito rimane.",
+    "denounced": "Questa è un'offesa al nostro popolo!",
+    "introduction": "Io sono Marbod, re dei Marcomanni, benvenuto nelle nostre foreste.",
+
+    "neutralHello": "Saluti.",
+    "hateHello": "Sparite dalle nostre terre!",
+    "tradeRequest": "Offriamo cavalli e legno per ciò che ci serve.",
+
+    "outerColor": [51, 102, 0],
+    "innerColor": [102, 153, 51],
+    "uniqueName": "Guerrieri delle Foreste",
+    "uniques": [
+        "[+20]% [Strength] <for [Melee] units> [in forest tiles]",
+        "Gain a free [Barracks] [in all cities]",
+        "[-25]% maintenance costs <for [Mounted] units>"
+    ],
+
+    "cities": ["Markomannia","Boiodurum","Reginoburgum"],
+
+    "spyNames": ["Marbod","Vibilius","Catualda"]
+},
+	{
+    "name": "Langobardi",
+    "leaderName": "Alboino",
+    "adjective": ["Langobardo"],
+    "startBias": ["Hills", "Forest"],
+    "preferredVictoryType": "Domination",
+
+    "startIntroPart1": "Popolo germanico errante, i Langobardi sono abili guerrieri che hanno attraversato l'Europa alla ricerca di nuove terre.",
+    "startIntroPart2": "Condottiero, guiderai il popolo alla conquista di nuove regioni, proteggendo le nostre tradizioni guerriere?",
+
+    "declaringWar": "Che le nostre spade parlino!",
+    "attacked": "Non ci piegheremo facilmente.",
+    "defeated": "I Langobardi cadono, ma il nostro spirito vive.",
+    "denounced": "Questo affronto non resterà impunito!",
+    "introduction": "Io sono Alboino, re dei Langobardi, benvenuto nel nostro mondo.",
+
+    "neutralHello": "Saluti viaggiatore.",
+    "hateHello": "Non sei il benvenuto.",
+    "tradeRequest": "Accettiamo solo scambi giusti per il nostro popolo.",
+
+    "outerColor": [153, 102, 51],
+    "innerColor": [204, 153, 102],
+    "uniqueName": "Furia Langobarda",
+    "uniques": [
+        "[+15]% [Strength] <for [Melee] units>",
+        "Gain a free [Fortress] [in capital]",
+        "[-20]% maintenance costs <for [Mounted] units>"
+    ],
+
+    "cities": ["Ravenna","Pavia","Verona","Mediolanum"],
+
+    "spyNames": ["Alboino","Audoin","Ratchis","Grimoald"]
+},
+	{
+    "name": "Alemanni",
+    "leaderName": "Chrocus",
+    "adjective": ["Alemanno"],
+    "startBias": ["Forest", "Hills"],
+    "preferredVictoryType": "Domination",
+
+    "startIntroPart1": "Gli Alemanni, popolo germanico delle foreste, sono abili guerrieri e formidabili cavalieri.",
+    "startIntroPart2": "Condottiero, saprai difendere le nostre terre e guidare gli Alemanni alla supremazia sulle tribù vicine?",
+
+    "declaringWar": "Che i nostri nemici cadano!",
+    "attacked": "Difenderemo la foresta fino all'ultimo respiro.",
+    "defeated": "Gli Alemanni cadono, ma il nostro spirito non si spegne.",
+    "denounced": "Questa offesa non resterà impunita!",
+    "introduction": "Io sono Chrocus, capo degli Alemanni, benvenuto nella nostra foresta.",
+
+    "neutralHello": "Saluti straniero.",
+    "hateHello": "Non sei gradito qui.",
+    "tradeRequest": "Scambiamo beni solo se onesto.",
+
+    "outerColor": [102, 51, 0],
+    "innerColor": [153, 102, 51],
+    "uniqueName": "Cavalleria delle Foreste",
+    "uniques": [
+        "[+20]% [Strength] <for [Mounted] units> [in forest tiles]",
+        "Gain a free [Barracks] [in capital]",
+        "[-25]% maintenance costs <for [Melee] units>"
+    ],
+
+    "cities": ["Alemannia","Vindonissa","Burgundion"],
+
+    "spyNames": ["Chrocus","Alemann","Salian","Vandilo"]
+},
+	{
+    "name": "Sarmati",
+    "leaderName": "Roxolano",
+    "adjective": ["Sarmata"],
+    "startBias": ["Plains"],
+    "preferredVictoryType": "Domination",
+
+    "startIntroPart1": "Popolo di cavalieri nomadi delle steppe, i Sarmati dominano le pianure con la loro mobilità e abilità nel combattimento a cavallo.",
+    "startIntroPart2": "Condottiero, guiderai le tue orde di cavalieri e difenderai le nostre steppe da ogni invasore?",
+
+    "declaringWar": "Che le nostre frecce cadano veloci sui nemici!",
+    "attacked": "Non ci piegheremo, le steppe sono nostre!",
+    "defeated": "I Sarmati cadono, ma la nostra leggenda cavalca ancora.",
+    "denounced": "Questa offesa sarà vendicata!",
+    "introduction": "Io sono Roxolano, capo dei Sarmati, benvenuto sulle nostre steppe.",
+
+    "neutralHello": "Saluti viaggiatore.",
+    "hateHello": "Allontanati dalle nostre terre.",
+    "tradeRequest": "Offriamo cavalli e pellicce per ciò che ci serve.",
+
+    "outerColor": [204, 153, 102],
+    "innerColor": [153, 102, 51],
+    "uniqueName": "Cavalieri Nomadi",
+    "uniques": [
+        "[+25]% [Strength] <for [Mounted] units>",
+        "Gain a free [Stable] [in capital]",
+        "[-15]% maintenance costs <for [Mounted] units>"
+    ],
+
+    "cities": ["Olbia","Tanais","Basilea","Iazyges"],
+
+    "spyNames": ["Roxolano","Iazyges","Alani","Roxolani"]
+},
+	{
+    "name": "Traci",
+    "leaderName": "Seute",
+    "adjective": ["Tracio"],
+    "startBias": ["Hills", "Forest"],
+    "preferredVictoryType": "Cultural",
+
+    "startIntroPart1": "Popolo dei monti e delle foreste balcaniche, i Traci sono noti per i loro guerrieri e le loro ricche tradizioni culturali.",
+    "startIntroPart2": "Condottiero, saprai proteggere le nostre città, le nostre tradizioni e guidare i Traci verso la gloria?",
+
+    "declaringWar": "Che i nostri nemici cadano sotto le spade tracie!",
+    "attacked": "Non lasceremo violare le nostre terre.",
+    "defeated": "I Traci cadono, ma la nostra cultura vivrà.",
+    "denounced": "Questa offesa non resterà senza conseguenze!",
+    "introduction": "Io sono Seute, re dei Traci, benvenuto nelle nostre terre.",
+
+    "neutralHello": "Salute viaggiatore.",
+    "hateHello": "Non sei gradito qui.",
+    "tradeRequest": "Offriamo vino e cavalli per ciò che ci serve.",
+
+    "outerColor": [153, 51, 51],
+    "innerColor": [204, 102, 102],
+    "uniqueName": "Guerrieri Traci",
+    "uniques": [
+        "[+15]% [Strength] <for [Melee] units>",
+        "Gain a free [Temple] [in capital]",
+        "[-20]% maintenance costs <for [Culture] buildings>"
+    ],
+
+    "cities": ["Sappo","Beroe","Abdera","Thasos"],
+
+    "spyNames": ["Seute","Bessi","Odrysi","Maedi"]
+},
+	{
+    "name": "Mauri",
+    "leaderName": "Massinissa",
+    "adjective": ["Mauro"],
+    "startBias": ["Desert", "Coast"],
+    "preferredVictoryType": "Domination",
+
+    "startIntroPart1": "Popolo del Nord Africa, i Mauri dominano le coste e le savane, abili cavalieri e commercianti delle vie del Mediterraneo.",
+    "startIntroPart2": "Condottiero, saprai proteggere le nostre città, rafforzare le nostre carovane e guidare i Mauri verso la potenza?",
+
+    "declaringWar": "I nostri nemici conosceranno il nostro potere!",
+    "attacked": "Difenderemo le nostre terre e le nostre ricchezze.",
+    "defeated": "I Mauri cadono, ma la nostra eredità resiste.",
+    "denounced": "Questa è un'offesa che non dimenticheremo!",
+    "introduction": "Io sono Massinissa, re dei Mauri, benvenuto nella nostra terra.",
+
+    "neutralHello": "Salute viaggiatore.",
+    "hateHello": "Sparisci dalle nostre città.",
+    "tradeRequest": "Offriamo cavalli e oro per ciò che desideriamo.",
+
+    "outerColor": [102, 102, 51],
+    "innerColor": [153, 153, 102],
+    "uniqueName": "Cavalleria Mauri",
+    "uniques": [
+        "[+20]% [Strength] <for [Mounted] units>",
+        "Gain a free [Stable] [in capital]",
+        "[-25]% maintenance costs <for [Mounted] units>"
+    ],
+
+    "cities": ["Carthago Nova","Tingi","Lixus","Volubilis"],
+
+    "spyNames": ["Massinissa","Hannibal","Syphax"]
+},
+	{
+    "name": "Numidi",
+    "leaderName": "Masinissa",
+    "adjective": ["Numida"],
+    "startBias": ["Desert", "Hills"],
+    "preferredVictoryType": "Domination",
+
+    "startIntroPart1": "I Numidi sono abili cavalieri e guerrieri del Nord Africa, noti per la loro velocità e conoscenza del deserto.",
+    "startIntroPart2": "Condottiero, guiderai i nostri cavalieri, proteggendo le carovane e dominando le pianure aride?",
+
+    "declaringWar": "Che i nostri cavalli travolgano i nemici!",
+    "attacked": "Non ci piegheremo alle invasioni.",
+    "defeated": "I Numidi cadono, ma le nostre tradizioni vivranno.",
+    "denounced": "Questa offesa non resterà impunita!",
+    "introduction": "Io sono Masinissa, capo dei Numidi, benvenuto sulle nostre terre.",
+
+    "neutralHello": "Salve straniero.",
+    "hateHello": "Allontanati dalle nostre terre.",
+    "tradeRequest": "Scambiamo cavalli e spezie con chi è leale.",
+
+    "outerColor": [204, 153, 51],
+    "innerColor": [255, 204, 102],
+    "uniqueName": "Cavalieri Numidi",
+    "uniques": [
+        "[+25]% [Strength] <for [Mounted] units>",
+        "Gain a free [Stable] [in capital]",
+        "[-15]% maintenance costs <for [Mounted] units>"
+    ],
+
+    "cities": ["Cirta","Hippo Regius","Thugga","Siga"],
+
+    "spyNames": ["Masinissa","Syphax","Narbus"]
+},
+	{
+    "name": "Goti",
+    "leaderName": "Alarico I",
+    "adjective": ["Gota"],
+    "startBias": ["Hills", "Forest"],
+    "preferredVictoryType": "Domination",
+
+    "startIntroPart1": "Popolo germanico migrante, i Goti hanno attraversato l’Europa saccheggiando e conquistando territori, famosi per la loro forza militare.",
+    "startIntroPart2": "Condottiero, saprai guidare i tuoi guerrieri contro imperi e tribù, e lasciare un segno indelebile nella storia?",
+
+    "declaringWar": "Che le nostre spade e frecce cadano sui nemici!",
+    "attacked": "Difenderemo le nostre terre fino all'ultimo respiro.",
+    "defeated": "I Goti cadono, ma la loro leggenda non morirà.",
+    "denounced": "Questa offesa sarà vendicata!",
+    "introduction": "Io sono Alarico I, re dei Goti, benvenuto nelle nostre terre.",
+
+    "neutralHello": "Salve viaggiatore.",
+    "hateHello": "Non sei il benvenuto.",
+    "tradeRequest": "Scambiamo oro e armi solo se giusto.",
+
+    "outerColor": [102, 102, 153],
+    "innerColor": [153, 153, 204],
+    "uniqueName": "Guerrieri Goti",
+    "uniques": [
+        "[+20]% [Strength] <for [Melee] units>",
+        "Gain a free [Barracks] [in capital]",
+        "[-20]% maintenance costs <for [Melee] units>"
+    ],
+
+    "cities": ["Thrace","Ravenna","Pannonia","Trier"],
+
+    "spyNames": ["Alarico","Athanaric","Fritigern","Eutharic"]
+},
+
 /* ALTRI GIOCABILI */ 
 {
 		"name": "The Hittites",
