@@ -408,7 +408,8 @@
     "uniqueName": "Furia Langobarda",
     "uniques": [
         "[+15]% Strength <for [Melee] units>",
-        "Gain a free [Fortress] [in capital]",
+        "Gain a free [Barracks] [in capital]",
+		"Gain a free [Walls] [in capital]",
         "[-20]% maintenance costs <for [Mounted] units>"
     ],
 
