@@ -180,7 +180,44 @@
 			"Abremes","Makatoun","Myltilene","Itonis", "Lebadea"],
         "spyNames": ["Jason", "Narcissus", "Heracles", "Oedipus", "Niobe", "Andros", "Sappho", "Antheas", "Soter", "Loindiraos", "Enodia"]
     },
+	{
+    "name": "Siracusa",
+    "leaderName": "Dionisio II",
+    "adjective": ["Siracusano"],
+    "startBias": ["Coast"],
+    "preferredVictoryType": "Cultural",
+    "personality": "Dionysus",
 
+    "startIntroPart1": "Grande tiranno di Siracusa, signore delle coste e delle isole, la tua città è da sempre crocevia di culture: greci, fenici e popoli del Mediterraneo si incontrano sotto le tue mura. Nei secoli passati Siracusa ha saputo distinguersi per l'ingegno dei suoi cittadini e la forza della sua flotta.",
+    "startIntroPart2": "Condottiero, saprai proteggere gli interessi della città, coltivare le arti e la scienza — così come Archimede fece un tempo — e guidare Siracusa verso un'età di splendore?",
+
+    "declaringWar": "Ostacoli e pretese: il tuo sangue scorrerà come riscatto per la nostra terra!",
+    "attacked": "La pace è finita; le nostre mura sapranno rispondere.",
+    "defeated": "Siracusa è caduta... ma il ricordo della nostra gloria non svanirà facilmente.",
+    "denounced": "Questa accusa è un affronto al nostro onore; pagherete il tributo della vendetta.",
+    "introduction": "Sono Dionisio, figlio della terra di Siracusa, benvenuto nella mia città.",
+
+    "neutralHello": "Salute, straniero.",
+    "hateHello": "Cosa vuoi?",
+    "tradeRequest": "Amico mio, questa proposta è giusta per entrambe le parti?",
+
+    "outerColor": [255, 255, 255],
+    "innerColor": [65, 141, 254],
+    "uniqueName": "Tirannide Siracusana",
+    "uniques": [
+        "[-50]% City-State Influence degradation", "Gain a free [Harbor] [in all coastal cities]", 
+        "[-66]% maintenance costs <for [Water] units>",
+    ],
+    "cities": [
+        "Siracusa","Ortigia","Akrai","Akragas","Enna","Taormina","Catania","Cefalù","Noto","Gela","Modica",
+        "Pantalica","Megara Hyblaea","Casmenae","Camarina","Selinunte","Segesta","Panormus","Messana","Zancle",
+        "Lipari","Morgantina","Imera","Herakleion","Lentini","Hybla"
+    ],
+    "spyNames": [
+        "Giasone","Elena","Aristide","Demetrio","Euridice","Pitagora",
+        "Claudio","Teocle","Nicias","Lisandro"
+    ]
+},
 	/* "CONFEDERAZIONI BARBARE GIOCABILI */ 
 	{
 		"name": "Epirus",
