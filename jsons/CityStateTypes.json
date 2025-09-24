@@ -175,11 +175,11 @@
   {
     "name": "Sumerian-Ur-type",
     "friendBonusUniques": [
-      "[+3 Production] [in capital] <before the [Medieval era]>",
-      "[+6 Production] [in capital] <starting from the [Medieval era]> <before the [Renaissance era]>",
-      "[+10 Production] [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
-      "[+14 Production] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
-      "[+18 Production] [in capital] <starting from the [Modern era]>",
+      "[+3]% Production [in capital] <before the [Medieval era]>",
+      "[+6]% Production [in capital] <starting from the [Medieval era]> <before the [Renaissance era]>",
+      "[+10]% Production [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
+      "[+14]% Production [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
+      "[+18]% Production [in capital] <starting from the [Modern era]>",
       "[+1 Food] from [Desert]"
     ],
     "allyBonusUniques": [
@@ -249,8 +249,8 @@
     ],
     "allyBonusUniques": [
       "[+6 Gold] [from Trade routes] <starting from the [Medieval era]>",
-      "[+10% Production] [for All cities on Highland tiles] <before the [Industrial era]>",
-      "[+15% Production] [for All cities on Highland tiles] <starting from the [Industrial era]>",
+      "[+10]% Production [in all cities] <before the [Industrial era]>",
+      "[+15]% Production [in all cities] <starting from the [Industrial era]>",
       "[+4 Faith] [in capital] <starting from the [Renaissance era]>"
     ],
     "color": [180, 150, 110]
@@ -267,11 +267,11 @@
       "[+2 Food] [in capital]"            
     ],
     "allyBonusUniques": [
-      "[+6 Production] [in capital] <before the [Medieval era]>",
-      "[+12 Production] [in capital] <starting from the [Medieval era]> <before the [Renaissance era]>",
-      "[+20 Production] [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
-      "[+28 Production] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
-      "[+36 Production] [in capital] <starting from the [Modern era]>",
+      "[+6]% Production [in all cities] [in capital] <before the [Medieval era]>",
+      "[+12]% Production [in all cities] [in capital] <starting from the [Medieval era]> <before the [Renaissance era]>",
+      "[+20]% Production [in all cities] [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
+      "[+28]% Production [in all cities] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
+      "[+36]% Production [in all cities] [in capital] <starting from the [Modern era]>",
       "[+2 Food] [in capital]",
       "[+1 Food] [in all cities]"
     ],
