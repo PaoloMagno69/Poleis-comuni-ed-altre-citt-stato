@@ -714,8 +714,8 @@
     "innerColor": [255, 245, 220],
     "uniques": [
       "[+1 Culture] from all [All] buildings",
-      "[+10% Production] when building [Wonder] in capital",
-      "[+25% Gold] from [Luxury resources] in cities with a [Harbor]"
+      "[+10]% Production when constructing [All] wonders [in all cities]",
+      "[+10 Gold] [in capital]"
     ],
     "cities": ["Akragas", "Gela", "Selinunte"]
   },
@@ -733,8 +733,8 @@
     "innerColor": [255, 240, 210],
     "uniques": [
       "[+1 Science] from all [All] buildings",
-      "[+2 Gold] from [Market] buildings",
-      "[+25% Culture] from [Great Works] in capital"
+      "[+10 Gold] [in capital]",
+      "[+10 Culture] [in capital]"
     ],
     "cities": ["Firenze", "Prato", "Pisa"]
   },
@@ -752,7 +752,7 @@
     "innerColor": [250, 235, 210],
     "uniques": [
       "[+1 Faith] from all [All] buildings",
-      "[+15% Production] when building [Defensive] buildings in capital",
+      "[+10]% Production when constructing [All] buildings [in capital] <before discovering [Gunpowder]>",
       "[+1 Gold] from [Trade routes] that touch this city-state"
     ],
     "cities": ["Gerico", "Tell es-Sultan"]
@@ -770,7 +770,7 @@
     "outerColor": [100, 60, 30],
     "innerColor": [240, 220, 190],
     "uniques": [
-      "[+1 Production] from all [All] buildings",
+      "[+10]% Production when constructing [All] buildings [in capital] <before discovering [Gunpowder]>",
       "[+10% Food] from [Irrigated] tiles in cities with a [Granary]",
       "[+1 Culture] from [All] temples"
     ],
