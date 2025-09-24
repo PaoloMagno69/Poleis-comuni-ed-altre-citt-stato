@@ -770,9 +770,9 @@
     "outerColor": [100, 60, 30],
     "innerColor": [240, 220, 190],
     "uniques": [
-      "[+10]% Production when constructing [All] buildings [in capital] <before discovering [Gunpowder]>",
-      "[+5 Food] from [Grain]",
-      "[+1 Culture] from [All] buildings [in capital] <before discovering [Gunpowder]>"
+      "[+10]% Production [in capital]>",
+      "[+5 Food] [in capital]",
+      "[+1 Culture] [in capital]>"
     ],
     "cities": ["Ur", "Eridu"]
   },
@@ -789,9 +789,9 @@
     "outerColor": [110, 70, 40],
     "innerColor": [255, 245, 230],
     "uniques": [
-      "[+1 Culture] from [All] buildings [in capital]",
-      "[+15]% Strength for [Melee] units",
-      "[+1 Science] from [All] libraries"
+      "[+5 Culture] [in capital]",
+      "[+15]% Strength for [warrior] units",
+      "[+1 Science] [in capital]"
     ],
     "cities": ["Uruk", "Eanna"]
   },
@@ -846,9 +846,8 @@
     "outerColor": [150, 90, 30],
     "innerColor": [255, 245, 200],
     "uniques": [
-      "[+1 Culture] from all [All] buildings",
-      "Starts with [Monument] [in capital]",
-      "[+5 Food] from [River tiles]"
+      "[+7 Culture] [in capital]",
+      "[+5 Food] from [in capital]"
     ],
     "cities": ["Teotihuacán"]
   },
