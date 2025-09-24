@@ -87,7 +87,7 @@
   "[+7 Happiness] [in capital] <starting from the [Medieval era]> <before the [Renaissance era]>",
   "[+11 Happiness] [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
   "[+15 Happiness] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
-  "[+19 Happiness] [in capital] <starting from the [Modern era]>"  
+  "[+19 Happiness] [in capital] <starting from the [Modern era]>",
 "[+16 Gold] [in all coastal cities] <starting from the [Industrial era]>",  
 "[+7 Gold] [in all coastal cities] <before the [Medieval era]>",  
 "[+10 Gold] [in all coastal cities] <starting from the [Medieval era]> <before the [Industrial era]>",  
@@ -166,7 +166,7 @@
       "[+26 Faith] [in capital] <starting from the [Modern era]>",
       "[+3 Gold] [from Trade routes] <before the [Medieval era]>",
       "[+6 Gold] [from Trade routes] <starting from the [Medieval era]> <before the [Industrial era]>",
-      "[+12 Gold] [from Trade routes] <starting from the [Industrial era]>"
+      "[+12 Gold] [from Trade routes] <starting from the [Industrial era]>",
       "[+2 Food] from [Oasis]"
     ],
     "color": [200, 170, 140]
@@ -264,8 +264,7 @@
       "[+10 Culture] [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
       "[+14 Culture] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
       "[+18 Culture] [in capital] <starting from the [Modern era]>",
-      "[+2 Food] [in capital]",
-            
+      "[+2 Food] [in capital]"            
     ],
     "allyBonusUniques": [
       "[+6 Production] [in capital] <before the [Medieval era]>",
