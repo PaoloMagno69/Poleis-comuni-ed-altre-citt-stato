@@ -701,6 +701,157 @@
   "uniques": ["[+1 Culture] from all [All] buildings", "[+1 Happiness, +1 Gold] from all [All] buildings <during a Golden Age>", "[+40]% Production when constructing [Naval] units [in capital]"],
 		"cities": ["Corinth", "Kotyora", "Zorinth"]
 	},
+{
+    "name": "Agrigento (Akragas)",
+    "adjective": ["Agrigentini"],
+    "cityStateType": "Akragas-type",
+    "style": "Mediterranean",
+    "leaderName": "Terone",
+    "declaringWar": "Akragas non tollera saccheggi nei suoi uliveti!",
+    "attacked": "Abbiamo un'intera valle di templi da difendere, tutti alle mura!",
+    "defeated": "Akragas è caduta... le colline però ricordano il suo splendore.",
+    "outerColor": [120, 80, 40],
+    "innerColor": [255, 245, 220],
+    "uniques": [
+      "[+1 Culture] from all [All] buildings",
+      "[+10% Production] when building [Wonder] in capital",
+      "[+25% Gold] from [Luxury resources] in cities with a [Harbor]"
+    ],
+    "cities": ["Akragas", "Gela", "Selinunte"]
+  },
+
+  {
+    "name": "Repubblica di Firenze",
+    "adjective": ["Fiorentino"],
+    "cityStateType": "Florentine-type",
+    "style": "Renaissance",
+    "leaderName": "Dante Priore Guelfo",
+    "declaringWar": "La Repubblica difende le sue botteghe e il commercio.",
+    "attacked": "Per la Repubblica! Proteggete il Ponte e le botteghe!",
+    "defeated": "Il governo di popolo vacilla, ma le idee sopravvivono.",
+    "outerColor": [80, 30, 30],
+    "innerColor": [255, 240, 210],
+    "uniques": [
+      "[+1 Science] from all [All] buildings",
+      "[+2 Gold] from [Market] buildings",
+      "[+25% Culture] from [Great Works] in capital"
+    ],
+    "cities": ["Firenze", "Prato", "Pisa"]
+  },
+
+  {
+    "name": "Gerico",
+    "adjective": ["Gerico"],
+    "cityStateType": "Levantine-type",
+    "style": "AncientLevant",
+    "leaderName": "Il Vecchio di Gerico",
+    "declaringWar": "Gerico respinge chi sfida le sue mura antiche.",
+    "attacked": "Non abbandoneremo Gerico: le antiche mura tengono!",
+    "defeated": "Le mura si sgretolano, ma la memoria di Gerico resta.",
+    "outerColor": [140, 90, 60],
+    "innerColor": [250, 235, 210],
+    "uniques": [
+      "[+1 Faith] from all [All] buildings",
+      "[+15% Production] when building [Defensive] buildings in capital",
+      "[+1 Gold] from [Trade routes] that touch this city-state"
+    ],
+    "cities": ["Gerico", "Tell es-Sultan"]
+  },
+
+  {
+    "name": "Ur",
+    "adjective": ["Urrita"],
+    "cityStateType": "Sumerian-Ur-type",
+    "style": "Mesopotamian",
+    "leaderName": "Lugal",
+    "declaringWar": "Ur difende i suoi canali e le sue ziggurat.",
+    "attacked": "Le ziggurat resistono! Richiediamo aiuto degli dei!",
+    "defeated": "Ur è silenziosa... ma i rotoli non sono perduti.",
+    "outerColor": [100, 60, 30],
+    "innerColor": [240, 220, 190],
+    "uniques": [
+      "[+1 Production] from all [All] buildings",
+      "[+10% Food] from [Irrigated] tiles in cities with a [Granary]",
+      "[+1 Culture] from [All] temples"
+    ],
+    "cities": ["Ur", "Eridu"]
+  },
+
+  {
+    "name": "Uruk",
+    "adjective": ["Urukiano"],
+    "cityStateType": "Sumerian-Uruk-type",
+    "style": "Mesopotamian",
+    "leaderName": "Gilgamesh",
+    "declaringWar": "Uruk difenderà la sua gloria e i suoi cantori.",
+    "attacked": "Per Gilgamesh! Difendete le mura di mattoni!",
+    "defeated": "Uruk piange, ma le storie degli eroi sopravvivono.",
+    "outerColor": [110, 70, 40],
+    "innerColor": [255, 245, 230],
+    "uniques": [
+      "[+1 Culture] from all [All] buildings",
+      "[+20% CombatStrength] for [Melee units] trained in capital",
+      "[+1 Science] from [All] libraries"
+    ],
+    "cities": ["Uruk", "Eanna"]
+  },
+
+  {
+    "name": "Tiro",
+    "adjective": ["Tiriano"],
+    "cityStateType": "Tiro-type",
+    "style": "Phoenician",
+    "leaderName": "Eshmunazar",
+    "declaringWar": "Tiro protegge le rotte e i cantieri navali.",
+    "attacked": "Le navi rientrano in porto: Tiro è sotto attacco!",
+    "defeated": "I cantieri tacciono, ma i marinai ricorderanno chi siamo.",
+    "outerColor": [20, 60, 120],
+    "innerColor": [240, 245, 255],
+    "uniques": [
+      "[+1 Gold] from all [Harbor] buildings",
+      "[+40% Production] when constructing [Naval] units in capital",
+      "[+1 Gold] from [All] trading posts on coastal tiles"
+    ],
+    "cities": ["Tiro", "Sidone", "Arwad"]
+  },
+
+  {
+    "name": "Axum",
+    "adjective": ["Axumita"],
+    "cityStateType": "Axumite-type",
+    "style": "HornAfrican",
+    "leaderName": "Ezana",
+    "declaringWar": "Axum custodisce le vie carovaniere e le reliquie sacre.",
+    "attacked": "Le stele raccontano: Axum non cederà i suoi tesori!",
+    "defeated": "Le stele restano; la fiamma vacilla ma la storia durerà.",
+    "outerColor": [80, 50, 20],
+    "innerColor": [255, 250, 235],
+    "uniques": [
+      "[+1 Faith] from all [All] buildings",
+      "[+1 Gold] from [Trade routes] originating from this city-state",
+      "[+10% Production] for [All] cities on [Highland] tiles"
+    ],
+    "cities": ["Axum", "Adulis"]
+  },
+
+  {
+    "name": "Teotihuacan",
+    "adjective": ["Teotihuacano"],
+    "cityStateType": "Mesoamerican-type",
+    "style": "Mesoamerican",
+    "leaderName": "Signore della Città",
+    "declaringWar": "Teotihuacán difende i suoi templi e le piazze sacre.",
+    "attacked": "I sacerdoti suonano gli ottoni: la città è assediata!",
+    "defeated": "Le piramidi restano, ma la città trema.",
+    "outerColor": [150, 90, 30],
+    "innerColor": [255, 245, 200],
+    "uniques": [
+      "[+1 Culture] from all [All] buildings",
+      "[+15% Production] when building [Monument] or [Religious] buildings in capital",
+      "[+1 Food] from [All] farms on [River tiles]"
+    ],
+    "cities": ["Teotihuacán"]
+  },
 //Cultured 
   {
     "name": "Cuma",
