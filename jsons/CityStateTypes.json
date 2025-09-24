@@ -93,5 +93,184 @@
 "[+10 Gold] [in all coastal cities] <starting from the [Medieval era]> <before the [Industrial era]>",  
 "Provides a unique luxury"],  
           "color": [255, 210, 230]  
-      }
+      },
+  {
+    "name": "Akragas-type",
+    "friendBonusUniques": [
+      "[+3 Culture] [in capital] <before the [Medieval era]>",
+      "[+6 Culture] [in capital] <starting from the [Medieval era]> <before the [Renaissance era]>",
+      "[+10 Culture] [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
+      "[+14 Culture] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
+      "[+18 Culture] [in capital] <starting from the [Modern era]>",
+      "[+3 Gold] [in all coastal cities] <before the [Medieval era]>",
+      "[+5 Gold] [in all coastal cities] <starting from the [Medieval era]> <before the [Industrial era]>",
+      "[+9 Gold] [in all coastal cities] <starting from the [Industrial era]>"
+    ],
+    "allyBonusUniques": [
+      "[+6 Culture] [in capital] <before the [Medieval era]>",
+      "[+10 Culture] [in capital] <starting from the [Medieval era]> <before the [Renaissance era]>",
+      "[+16 Culture] [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
+      "[+22 Culture] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
+      "[+28 Culture] [in capital] <starting from the [Modern era]>",
+      "[+4 Happiness] [in capital] <before the [Medieval era]>",
+      "[+7 Happiness] [in capital] <starting from the [Medieval era]> <before the [Renaissance era]>",
+      "[+12 Happiness] [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
+      "[+16 Happiness] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
+      "[+20 Happiness] [in capital] <starting from the [Modern era]>",
+      "[+12 Gold] [in all coastal cities] <starting from the [Industrial era]>"
+    ],
+    "color": [200, 160, 120]
+  },
+
+  {
+    "name": "Florentine-type",
+    "friendBonusUniques": [
+      "[+3 Science] [in capital] <before the [Medieval era]>",
+      "[+6 Science] [in capital] <starting from the [Medieval era]> <before the [Renaissance era]>",
+      "[+10 Science] [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
+      "[+14 Science] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
+      "[+18 Science] [in capital] <starting from the [Modern era]>",
+      "[+2 Gold] [from Market] <before the [Medieval era]>",
+      "[+4 Gold] [from Market] <starting from the [Medieval era]> <before the [Industrial era]>",
+      "[+8 Gold] [from Market] <starting from the [Industrial era]>"
+    ],
+    "allyBonusUniques": [
+      "[+6 Culture] [in capital] <before the [Medieval era]>",
+      "[+12 Culture] [in capital] <starting from the [Medieval era]> <before the [Renaissance era]>",
+      "[+20 Culture] [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
+      "[+28 Culture] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
+      "[+36 Culture] [in capital] <starting from the [Modern era]>",
+      "[+4 Gold] [in all cities] <before the [Medieval era]>",
+      "[+8 Gold] [in all cities] <starting from the [Medieval era]> <before the [Industrial era]>",
+      "[+14 Gold] [in all cities] <starting from the [Industrial era]>",
+      "Provides a unique luxury"
+    ],
+    "color": [220, 200, 180]
+  },
+
+  {
+    "name": "Levantine-type",
+    "friendBonusUniques": [
+      "[+2 Faith] [in capital] <before the [Medieval era]>",
+      "[+4 Faith] [in capital] <starting from the [Medieval era]> <before the [Renaissance era]>",
+      "[+7 Faith] [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
+      "[+10 Faith] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
+      "[+14 Faith] [in capital] <starting from the [Modern era]>",
+      "[+10% Food] [on Oasis tiles] <before the [Medieval era]>"
+    ],
+    "allyBonusUniques": [
+      "[+5 Faith] [in capital] <before the [Medieval era]>",
+      "[+9 Faith] [in capital] <starting from the [Medieval era]> <before the [Renaissance era]>",
+      "[+14 Faith] [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
+      "[+20 Faith] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
+      "[+26 Faith] [in capital] <starting from the [Modern era]>",
+      "[+3 Gold] [from Trade routes] <before the [Medieval era]>",
+      "[+6 Gold] [from Trade routes] <starting from the [Medieval era]> <before the [Industrial era]>",
+      "[+12 Gold] [from Trade routes] <starting from the [Industrial era]>"
+    ],
+    "color": [200, 170, 140]
+  },
+
+  {
+    "name": "Sumerian-Ur-type",
+    "friendBonusUniques": [
+      "[+3 Production] [in capital] <before the [Medieval era]>",
+      "[+6 Production] [in capital] <starting from the [Medieval era]> <before the [Renaissance era]>",
+      "[+10 Production] [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
+      "[+14 Production] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
+      "[+18 Production] [in capital] <starting from the [Modern era]>",
+      "[+10% Food] [on Irrigated tiles] <before the [Medieval era]>"
+    ],
+    "allyBonusUniques": [
+      "[+6 Science] [in capital] <before the [Medieval era]>",
+      "[+12 Science] [in capital] <starting from the [Medieval era]> <before the [Renaissance era]>",
+      "[+20 Science] [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
+      "[+28 Science] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
+      "[+36 Science] [in capital] <starting from the [Modern era]>",
+      "[+8 Gold] [from Domestic Trade routes] <starting from the [Industrial era]>"
+    ],
+    "color": [210, 180, 150]
+  },
+
+  {
+    "name": "Sumerian-Uruk-type",
+    "friendBonusUniques": [
+      "[+3 Culture] [in capital] <before the [Medieval era]>",
+      "[+6 Culture] [in capital] <starting from the [Medieval era]> <before the [Renaissance era]>",
+      "[+10 Culture] [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
+      "[+14 Culture] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
+      "[+18 Culture] [in capital] <starting from the [Modern era]>",
+      "[+15% CombatStrength] [for Melee units] <when trained in capital> <before the [Medieval era]>"
+    ],
+    "allyBonusUniques": [
+      "[+6 Culture] [in capital] <before the [Medieval era]>",
+      "[+12 Culture] [in capital] <starting from the [Medieval era]> <before the [Renaissance era]>",
+      "[+20 Culture] [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
+      "[+28 Culture] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
+      "[+36 Culture] [in capital] <starting from the [Modern era]>",
+      "[+10 Science] [in capital] <starting from the [Renaissance era]>"
+    ],
+    "color": [230, 210, 190]
+  },
+
+  {
+    "name": "Tiro-type",
+    "friendBonusUniques": [
+      "[+3 Gold] [in capital] <before the [Medieval era]>",
+      "[+6 Gold] [in capital] <starting from the [Medieval era]> <before the [Renaissance era]>",
+      "[+10 Gold] [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
+      "[+14 Gold] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
+      "[+18 Gold] [in capital] <starting from the [Modern era]>",
+      "[+4 Gold] [from Harbor] <before the [Medieval era]>"
+    ],
+    "allyBonusUniques": [
+      "[+8 Gold] [in all coastal cities] <starting from the [Industrial era]>",
+      "[+5 Culture] [in capital] <before the [Medieval era]>",
+      "[+10 Culture] [in capital] <starting from the [Medieval era]> <before the [Renaissance era]>",
+      "[+16 Culture] [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
+      "[+24 Culture] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
+      "[+32 Culture] [in capital] <starting from the [Modern era]>"
+    ],
+    "color": [30, 90, 140]
+  },
+
+  {
+    "name": "Axumite-type",
+    "friendBonusUniques": [
+      "[+2 Faith] [in capital] <before the [Medieval era]>",
+      "[+5 Faith] [in capital] <starting from the [Medieval era]> <before the [Renaissance era]>",
+      "[+9 Faith] [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
+      "[+13 Faith] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
+      "[+18 Faith] [in capital] <starting from the [Modern era]>",
+      "[+1 Gold] [from Trade routes] <before the [Medieval era]>"
+    ],
+    "allyBonusUniques": [
+      "[+6 Gold] [from Trade routes] <starting from the [Medieval era]>",
+      "[+10% Production] [for All cities on Highland tiles] <before the [Industrial era]>",
+      "[+15% Production] [for All cities on Highland tiles] <starting from the [Industrial era]>",
+      "[+4 Faith] [in capital] <starting from the [Renaissance era]>"
+    ],
+    "color": [180, 150, 110]
+  },
+
+  {
+    "name": "Mesoamerican-type",
+    "friendBonusUniques": [
+      "[+3 Culture] [in capital] <before the [Medieval era]>",
+      "[+6 Culture] [in capital] <starting from the [Medieval era]> <before the [Renaissance era]>",
+      "[+10 Culture] [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
+      "[+14 Culture] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
+      "[+18 Culture] [in capital] <starting from the [Modern era]>",
+      "[+10% Food] [on River tiles] <before the [Medieval era]>"
+    ],
+    "allyBonusUniques": [
+      "[+6 Production] [in capital] <before the [Medieval era]>",
+      "[+12 Production] [in capital] <starting from the [Medieval era]> <before the [Renaissance era]>",
+      "[+20 Production] [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
+      "[+28 Production] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
+      "[+36 Production] [in capital] <starting from the [Modern era]>",
+      "[+1 Food] [from All farms] <starting from the [Medieval era]>"
+    ],
+    "color": [210, 160, 100]
+  }
 ]
