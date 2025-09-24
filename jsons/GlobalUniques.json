@@ -5,17 +5,17 @@
 "Triggers a [Menhir degli antenati] event <for [Major] Civilizations> <upon turn end> <after turn number [10]> <before turn number [11]>",
 "Triggers a [NO_scienza_barbari] event <for [Major] Civilizations> <upon turn end> <after turn number [11]> <before turn number [12]>",
 
-"Triggers a [dona_tecnologia2] event <for [Major] Civilizations> <upon turn end> <with [20]% chance> <after turn number [5]> <before the [Classical era]>",
-"Triggers a [dona_tecnologia3] event <for [Major] Civilizations> <upon turn end> <with [20]% chance> <after turn number [10]> <before the [Classical era]>",
-"Triggers a [dona_tecnologia4] event <for [Major] Civilizations> <upon turn end> <with [20]% chance> <after turn number [15]> <before the [Classical era]>",
-"Triggers a [dona_tecnologia5] event <for [Major] Civilizations> <upon turn end> <with [20]% chance> <after turn number [20]> <before the [Classical era]>",
-"Triggers a [dona_tecnologia6] event <for [Major] Civilizations> <upon turn end> <with [20]% chance> <after turn number [25]> <before the [Classical era]>",
-"Triggers a [dona_tecnologia7] event <for [Major] Civilizations> <upon turn end> <with [20]% chance> <after turn number [30]> <before the [Classical era]>",
-"Triggers a [dona_tecnologia8] event <for [Major] Civilizations> <upon turn end> <with [20]% chance> <after turn number [35]> <before the [Classical era]>",
-"Triggers a [dona_tecnologia9] event <for [Major] Civilizations> <upon turn end> <with [20]% chance> <after turn number [40]> <before the [Classical era]>",
-"Triggers a [dona_tecnologia10] event <for [Major] Civilizations> <upon turn end> <with [20]% chance> <after turn number [45]> <before the [Classical era]>",
-"Triggers a [dona_tecnologia11] event <for [Major] Civilizations> <upon turn end> <with [20]% chance> <after turn number [50]> <before the [Classical era]>",
-"Triggers a [dona_tecnologia12] event <for [Major] Civilizations> <upon turn end> <with [20]% chance> <after turn number [55]> <before the [Classical era]>"
+"Triggers a [dona_tecnologia2] event <for [Major] Civilizations> <upon turn end> <with [20]% chance> <after turn number [17]> <before the [Classical era]>",
+"Triggers a [dona_tecnologia3] event <for [Major] Civilizations> <upon turn end> <with [20]% chance> <after turn number [22]> <before the [Classical era]>",
+"Triggers a [dona_tecnologia4] event <for [Major] Civilizations> <upon turn end> <with [20]% chance> <after turn number [27]> <before the [Classical era]>",
+"Triggers a [dona_tecnologia5] event <for [Major] Civilizations> <upon turn end> <with [20]% chance> <after turn number [32]> <before the [Classical era]>",
+"Triggers a [dona_tecnologia6] event <for [Major] Civilizations> <upon turn end> <with [20]% chance> <after turn number [37]> <before the [Classical era]>",
+"Triggers a [dona_tecnologia7] event <for [Major] Civilizations> <upon turn end> <with [20]% chance> <after turn number [42]> <before the [Classical era]>",
+"Triggers a [dona_tecnologia8] event <for [Major] Civilizations> <upon turn end> <with [20]% chance> <after turn number [47]> <before the [Classical era]>",
+"Triggers a [dona_tecnologia9] event <for [Major] Civilizations> <upon turn end> <with [20]% chance> <after turn number [52]> <before the [Classical era]>",
+"Triggers a [dona_tecnologia10] event <for [Major] Civilizations> <upon turn end> <with [20]% chance> <after turn number [57]> <before the [Classical era]>",
+"Triggers a [dona_tecnologia11] event <for [Major] Civilizations> <upon turn end> <with [20]% chance> <after turn number [62]> <before the [Classical era]>",
+"Triggers a [dona_tecnologia12] event <for [Major] Civilizations> <upon turn end> <with [20]% chance> <after turn number [67]> <before the [Classical era]>"
 
 	]
 }
