@@ -156,7 +156,7 @@
       "[+7 Faith] [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
       "[+10 Faith] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
       "[+14 Faith] [in capital] <starting from the [Modern era]>",
-      "[+10% Food] [on Oasis tiles] <before the [Medieval era]>"
+      "[+2 Food] from [Oasis]"
     ],
     "allyBonusUniques": [
       "[+5 Faith] [in capital] <before the [Medieval era]>",
@@ -167,6 +167,7 @@
       "[+3 Gold] [from Trade routes] <before the [Medieval era]>",
       "[+6 Gold] [from Trade routes] <starting from the [Medieval era]> <before the [Industrial era]>",
       "[+12 Gold] [from Trade routes] <starting from the [Industrial era]>"
+      "[+2 Food] from [Oasis]"
     ],
     "color": [200, 170, 140]
   },
@@ -179,7 +180,7 @@
       "[+10 Production] [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
       "[+14 Production] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
       "[+18 Production] [in capital] <starting from the [Modern era]>",
-      "[+10% Food] [on Irrigated tiles] <before the [Medieval era]>"
+      "[+1 Food] from [Desert]"
     ],
     "allyBonusUniques": [
       "[+6 Science] [in capital] <before the [Medieval era]>",
@@ -187,7 +188,8 @@
       "[+20 Science] [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
       "[+28 Science] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
       "[+36 Science] [in capital] <starting from the [Modern era]>",
-      "[+8 Gold] [from Domestic Trade routes] <starting from the [Industrial era]>"
+      "[+8 Gold] [from Domestic Trade routes] <starting from the [Industrial era]>",
+      "[+2 Food] from [Desert]"
     ],
     "color": [210, 180, 150]
   },
@@ -200,7 +202,7 @@
       "[+10 Culture] [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
       "[+14 Culture] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
       "[+18 Culture] [in capital] <starting from the [Modern era]>",
-      "[+15% CombatStrength] [for Melee units] <when trained in capital> <before the [Medieval era]>"
+      "[+15]% Strength for [Melee] units"
     ],
     "allyBonusUniques": [
       "[+6 Culture] [in capital] <before the [Medieval era]>",
@@ -208,7 +210,8 @@
       "[+20 Culture] [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
       "[+28 Culture] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
       "[+36 Culture] [in capital] <starting from the [Modern era]>",
-      "[+10 Science] [in capital] <starting from the [Renaissance era]>"
+      "[+10 Science] [in capital] <starting from the [Renaissance era]>",
+        "[+15]% Strength for [Melee] units"
     ],
     "color": [230, 210, 190]
   },
@@ -261,7 +264,8 @@
       "[+10 Culture] [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
       "[+14 Culture] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
       "[+18 Culture] [in capital] <starting from the [Modern era]>",
-      "[+10% Food] [on River tiles] <before the [Medieval era]>"
+      "[+2 Food] [in capital]",
+            
     ],
     "allyBonusUniques": [
       "[+6 Production] [in capital] <before the [Medieval era]>",
@@ -269,7 +273,8 @@
       "[+20 Production] [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
       "[+28 Production] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
       "[+36 Production] [in capital] <starting from the [Modern era]>",
-      "[+1 Food] [from All farms] <starting from the [Medieval era]>"
+      "[+2 Food] [in capital]",
+      "[+1 Food] [in all cities]"
     ],
     "color": [210, 160, 100]
   }
