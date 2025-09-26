@@ -175,11 +175,7 @@
   {
     "name": "Sumerian-Ur-type",
     "friendBonusUniques": [
-      "[+1 Production] [in capital] <before the [Medieval era]>",
-      "[+3 Production] [in capital] <starting from the [Medieval era]> <before the [Renaissance era]>",
-      "[+5 Production] [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
-      "[+7 Production] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
-      "[+10 Production][in capital] <starting from the [Modern era]>",
+      "[+5]% Production when constructing [All] wonders [in capital]",
       "[+1 Food] from [Desert] tiles"
     ],
     "allyBonusUniques": [
@@ -189,6 +185,7 @@
       "[+28 Science] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
       "[+36 Science] [in capital] <starting from the [Modern era]>",
       "[+8 Gold] [from Domestic Trade routes] <starting from the [Industrial era]>",
+      "[+7]% Production when constructing [All] wonders [in capital]",
       "[+2 Food] from [Desert] tiles"
     ],
     "color": [210, 180, 150]
@@ -202,7 +199,7 @@
       "[+10 Culture] [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
       "[+14 Culture] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
       "[+18 Culture] [in capital] <starting from the [Modern era]>",
-      "[+15]% Strength for [Melee] units"
+      "[+5]% Strength <when fighting units from a Civilization with more Cities than you>"
     ],
     "allyBonusUniques": [
       "[+6 Culture] [in capital] <before the [Medieval era]>",
@@ -211,7 +208,7 @@
       "[+28 Culture] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
       "[+36 Culture] [in capital] <starting from the [Modern era]>",
       "[+10 Science] [in capital] <starting from the [Renaissance era]>",
-        "[+15]% Strength for [Melee] units"
+      "[+7]% Strength <when fighting units from a Civilization with more Cities than you>"
     ],
     "color": [230, 210, 190]
   },
