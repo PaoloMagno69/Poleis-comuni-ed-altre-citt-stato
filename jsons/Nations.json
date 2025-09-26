@@ -770,9 +770,9 @@
     "outerColor": [100, 60, 30],
     "innerColor": [240, 220, 190],
     "uniques": [
-      "[+10]% Production [in capital]>",
+      "[+10]% Production [in capital]",
       "[+5 Food] [in capital]",
-      "[+1 Culture] [in capital]>"
+      "[+1 Culture] [in capital]"
     ],
     "cities": ["Ur", "Eridu"]
   },
@@ -790,7 +790,7 @@
     "innerColor": [255, 245, 230],
     "uniques": [
       "[+5 Culture] [in capital]",
-      "[+15]% Strength for [warrior] units",
+     "[+20]% Strength <for [Military] units> <when fighting units from a Civilization with more Cities than you>",
       "[+1 Science] [in capital]"
     ],
     "cities": ["Uruk", "Eanna"]
@@ -847,7 +847,7 @@
     "innerColor": [255, 245, 200],
     "uniques": [
       "[+7 Culture] [in capital]",
-      "[+5 Food] from [in capital]"
+      "[+5 Food] [in capital]"
     ],
     "cities": ["Teotihuacán"]
   },
