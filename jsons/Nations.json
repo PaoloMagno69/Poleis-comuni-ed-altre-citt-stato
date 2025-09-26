@@ -770,7 +770,7 @@
     "outerColor": [100, 60, 30],
     "innerColor": [240, 220, 190],
     "uniques": [
-      "[+10]% Production [in capital]",
+      "[+5 Production] [in capital]",
       "[+5 Food] [in capital]",
       "[+1 Culture] [in capital]"
     ],
