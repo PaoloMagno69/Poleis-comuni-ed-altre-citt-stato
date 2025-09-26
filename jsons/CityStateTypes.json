@@ -156,7 +156,7 @@
       "[+7 Faith] [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
       "[+10 Faith] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
       "[+14 Faith] [in capital] <starting from the [Modern era]>",
-      "[+2 Food] from [Oasis]"
+      "[+2 Food] from [Oasis] tiles"
     ],
     "allyBonusUniques": [
       "[+5 Faith] [in capital] <before the [Medieval era]>",
@@ -189,7 +189,7 @@
       "[+28 Science] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
       "[+36 Science] [in capital] <starting from the [Modern era]>",
       "[+8 Gold] [from Domestic Trade routes] <starting from the [Industrial era]>",
-      "[+2 Food] from [Desert]"
+      "[+2 Food] from [Desert] tiles"
     ],
     "color": [210, 180, 150]
   },
@@ -249,8 +249,7 @@
     ],
     "allyBonusUniques": [
       "[+6 Gold] [from Trade routes] <starting from the [Medieval era]>",
-      "[+1 Production] [in all cities] <before the [Industrial era]>",
-      "[+3 Production] [in all cities] <starting from the [Industrial era]>",
+      "[+10]% Production when constructing [All] wonders [in all cities]",
       "[+4 Faith] [in capital] <starting from the [Renaissance era]>"
     ],
     "color": [180, 150, 110]
@@ -267,11 +266,7 @@
       "[+2 Food] [in capital]"            
     ],
     "allyBonusUniques": [
-      "[+1 Production] [in all cities] [in capital] <before the [Medieval era]>",
-      "[+2 Production] [in all cities] [in capital] <starting from the [Medieval era]> <before the [Renaissance era]>",
-      "[+3 Production] [in all cities] [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
-      "[+4 Production] [in all cities] [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
-      "[+5 Production] [in all cities] [in capital] <starting from the [Modern era]>",
+      "[+10]% Production when constructing [All] wonders [in all cities]",
       "[+2 Food] [in capital]",
       "[+1 Food] [in all cities]"
     ],
