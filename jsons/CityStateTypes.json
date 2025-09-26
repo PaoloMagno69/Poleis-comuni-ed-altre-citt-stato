@@ -167,7 +167,7 @@
       "[+3 Gold] [from Trade routes] <before the [Medieval era]>",
       "[+6 Gold] [from Trade routes] <starting from the [Medieval era]> <before the [Industrial era]>",
       "[+12 Gold] [from Trade routes] <starting from the [Industrial era]>",
-      "[+2 Food] from [Oasis]"
+      "[+2 Food] from [Oasis] tiles"
     ],
     "color": [200, 170, 140]
   },
@@ -180,7 +180,7 @@
       "[+10]% Production [in capital] <starting from the [Renaissance era]> <before the [Industrial era]>",
       "[+14]% Production [in capital] <starting from the [Industrial era]> <before the [Modern era]>",
       "[+18]% Production [in capital] <starting from the [Modern era]>",
-      "[+1 Food] from [Desert]"
+      "[+1 Food] from [Desert] tiles"
     ],
     "allyBonusUniques": [
       "[+6 Science] [in capital] <before the [Medieval era]>",
